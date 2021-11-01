@@ -17,6 +17,8 @@
 		3F413996269DEEAE0094800A /* FindDuplicates.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3F413995269DEEAE0094800A /* FindDuplicates.swift */; };
 		3F413999269DF4450094800A /* InvertTree.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3F413998269DF4450094800A /* InvertTree.swift */; };
 		3F81B53C269E97A4007C996F /* LongestPalindromicSubstring.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3F81B53B269E97A4007C996F /* LongestPalindromicSubstring.swift */; };
+		3FB5D428272EF5E9007EDB71 /* README.md in Resources */ = {isa = PBXBuildFile; fileRef = 3FB5D427272EF5E9007EDB71 /* README.md */; };
+		3FB5D42A272EF812007EDB71 /* MaximumSubarray.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3FB5D429272EF812007EDB71 /* MaximumSubarray.swift */; };
 		3FB9056E272AF26C002B9A13 /* NQueens.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3FB9056D272AF26B002B9A13 /* NQueens.swift */; };
 		3FB90570272AF284002B9A13 /* README.md in Resources */ = {isa = PBXBuildFile; fileRef = 3FB9056F272AF284002B9A13 /* README.md */; };
 		3FBA3682269C1E270082BED9 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3FBA3681269C1E270082BED9 /* AppDelegate.swift */; };
@@ -46,6 +48,8 @@
 		3F41399A269DF4B80094800A /* README.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
 		3F81B53A269E8C39007C996F /* README.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
 		3F81B53B269E97A4007C996F /* LongestPalindromicSubstring.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LongestPalindromicSubstring.swift; sourceTree = "<group>"; };
+		3FB5D427272EF5E9007EDB71 /* README.md */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
+		3FB5D429272EF812007EDB71 /* MaximumSubarray.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MaximumSubarray.swift; sourceTree = "<group>"; };
 		3FB9056D272AF26B002B9A13 /* NQueens.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NQueens.swift; sourceTree = "<group>"; };
 		3FB9056F272AF284002B9A13 /* README.md */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
 		3FBA367E269C1E270082BED9 /* leetcode.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = leetcode.app; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -128,6 +132,15 @@
 			path = "0005.最长回文子串还没做";
 			sourceTree = "<group>";
 		};
+		3FB5D426272EF556007EDB71 /* 0053.MaximumSubarray */ = {
+			isa = PBXGroup;
+			children = (
+				3FB5D429272EF812007EDB71 /* MaximumSubarray.swift */,
+				3FB5D427272EF5E9007EDB71 /* README.md */,
+			);
+			path = 0053.MaximumSubarray;
+			sourceTree = "<group>";
+		};
 		3FB9056C272AF237002B9A13 /* 0051.N-Queens */ = {
 			isa = PBXGroup;
 			children = (
@@ -160,6 +173,7 @@
 				3F81B539269E8C1C007C996F /* 0005.最长回文子串还没做 */,
 				3F3C8E1F26EE4B4B00E419C2 /* 0015.3Sum */,
 				3FB9056C272AF237002B9A13 /* 0051.N-Queens */,
+				3FB5D426272EF556007EDB71 /* 0053.MaximumSubarray */,
 				3F3C8E1A26EA088F00E419C2 /* 0094.Binary-Tree-Inorder-Traversal */,
 				3FBA369A269C270D0082BED9 /* 0160.Intersection-of-Two-Linked-Lists */,
 				3F3BE4B426E8B2CB00632503 /* 0206. Reverse Linked List */,
@@ -270,6 +284,7 @@
 				3FBA3697269C1E7D0082BED9 /* README.md in Resources */,
 				3F3C8E2126EE4B9600E419C2 /* README.md in Resources */,
 				3F3C8E1C26EA08A100E419C2 /* README.md in Resources */,
+				3FB5D428272EF5E9007EDB71 /* README.md in Resources */,
 				3FBA3689269C1E270082BED9 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -288,6 +303,7 @@
 				3F413999269DF4450094800A /* InvertTree.swift in Sources */,
 				3F3C8E1E26EA08CD00E419C2 /* 94. BinaryTreeInorderTraversal.swift in Sources */,
 				3F3BE4B826E8B31800632503 /* ReverseLinkedList.swift in Sources */,
+				3FB5D42A272EF812007EDB71 /* MaximumSubarray.swift in Sources */,
 				3F413996269DEEAE0094800A /* FindDuplicates.swift in Sources */,
 				3FB9056E272AF26C002B9A13 /* NQueens.swift in Sources */,
 				3F413992269DE66E0094800A /* RepeatNumber.swift in Sources */,
