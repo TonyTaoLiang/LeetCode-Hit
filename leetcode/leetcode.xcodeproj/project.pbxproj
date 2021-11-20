@@ -123,13 +123,13 @@
 			path = "0226.翻转二叉树";
 			sourceTree = "<group>";
 		};
-		3F81B539269E8C1C007C996F /* 0005.最长回文子串还没做 */ = {
+		3F81B539269E8C1C007C996F /* 0005.最长回文子串 */ = {
 			isa = PBXGroup;
 			children = (
 				3F81B53B269E97A4007C996F /* LongestPalindromicSubstring.swift */,
 				3F81B53A269E8C39007C996F /* README.md */,
 			);
-			path = "0005.最长回文子串还没做";
+			path = "0005.最长回文子串";
 			sourceTree = "<group>";
 		};
 		3FB5D426272EF556007EDB71 /* 0053.MaximumSubarray */ = {
@@ -170,7 +170,7 @@
 			isa = PBXGroup;
 			children = (
 				3FBA3695269C1E410082BED9 /* 0001.Two-Sum */,
-				3F81B539269E8C1C007C996F /* 0005.最长回文子串还没做 */,
+				3F81B539269E8C1C007C996F /* 0005.最长回文子串 */,
 				3F3C8E1F26EE4B4B00E419C2 /* 0015.3Sum */,
 				3FB9056C272AF237002B9A13 /* 0051.N-Queens */,
 				3FB5D426272EF556007EDB71 /* 0053.MaximumSubarray */,
