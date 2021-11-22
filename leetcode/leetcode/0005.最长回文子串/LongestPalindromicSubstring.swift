@@ -99,7 +99,41 @@ class LongestPalindromicSubstring {
         return String(cString: cs[rng.0...rng.1].map{$0} + [0])
     }
 
+    //中心扩散（中心分长度为1 or 2，奇 or 偶）
+    func longestPalindrome4(_ s: String) -> String {
 
+        guard s.count > 1 else {
+            return s
+        }
+
+        let sCharts = Array(s)
+        var start: Int = 0 , maxLen: Int = 0
+
+        for i in 0..<s.count {
+
+            maxPalindrome(sCharts, i, i, &start, &maxLen)
+            maxPalindrome(sCharts, i, i+1, &start, &maxLen)
+        }
+
+        return String(sCharts[start..<start+maxLen])
+    }
+
+    func maxPalindrome(_ sCharts: [Character], _ i: Int, _ j: Int, _ start: inout Int, _ maxLen: inout Int) {
+
+        var i = i, j = j
+
+        while i >= 0 && j < sCharts.count && sCharts[i] == sCharts[j]{
+
+            i -= 1
+            j += 1
+        }
+
+        if j - i - 1 > maxLen {
+            start = i + 1
+            maxLen = j - i - 1
+        }
+
+    }
 }
 public extension String {
   subscript(value: Int) -> Character {
