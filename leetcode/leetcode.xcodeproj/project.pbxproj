@@ -34,6 +34,8 @@
 		3FBA36A1269C2DB90082BED9 /* README.md in Resources */ = {isa = PBXBuildFile; fileRef = 3FBA36A0269C2DB90082BED9 /* README.md */; };
 		3FDCF4CE274CE8C5004FCFB6 /* 0105.ConstructBinaryTreefromPreorderandInorderTraversal.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3FDCF4CD274CE8C5004FCFB6 /* 0105.ConstructBinaryTreefromPreorderandInorderTraversal.swift */; };
 		3FDCF4D0274CE8EE004FCFB6 /* README.md in Resources */ = {isa = PBXBuildFile; fileRef = 3FDCF4CF274CE8EE004FCFB6 /* README.md */; };
+		3FDCF4D3274D3341004FCFB6 /* ConstructBinaryTreeInorderPostorder.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3FDCF4D2274D3341004FCFB6 /* ConstructBinaryTreeInorderPostorder.swift */; };
+		3FDCF4D5274D3371004FCFB6 /* README.md in Resources */ = {isa = PBXBuildFile; fileRef = 3FDCF4D4274D3371004FCFB6 /* README.md */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -69,6 +71,8 @@
 		3FBA36A0269C2DB90082BED9 /* README.md */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
 		3FDCF4CD274CE8C5004FCFB6 /* 0105.ConstructBinaryTreefromPreorderandInorderTraversal.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = 0105.ConstructBinaryTreefromPreorderandInorderTraversal.swift; sourceTree = "<group>"; };
 		3FDCF4CF274CE8EE004FCFB6 /* README.md */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
+		3FDCF4D2274D3341004FCFB6 /* ConstructBinaryTreeInorderPostorder.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ConstructBinaryTreeInorderPostorder.swift; sourceTree = "<group>"; };
+		3FDCF4D4274D3371004FCFB6 /* README.md */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -180,6 +184,7 @@
 				3FB5D426272EF556007EDB71 /* 0053.MaximumSubarray */,
 				3F3C8E1A26EA088F00E419C2 /* 0094.Binary-Tree-Inorder-Traversal */,
 				3FDCF4CC274CE87F004FCFB6 /* 0105.Construct-Binary-Tree-from-Preorder-and-Inorder-Traversal */,
+				3FDCF4D1274D3322004FCFB6 /* 0106.ConstructBinaryTreeInorderPostorder */,
 				3FBA369A269C270D0082BED9 /* 0160.Intersection-of-Two-Linked-Lists */,
 				3F3BE4B426E8B2CB00632503 /* 0206. Reverse Linked List */,
 				3F413997269DF4150094800A /* 0226.翻转二叉树 */,
@@ -230,6 +235,15 @@
 				3FDCF4CF274CE8EE004FCFB6 /* README.md */,
 			);
 			path = "0105.Construct-Binary-Tree-from-Preorder-and-Inorder-Traversal";
+			sourceTree = "<group>";
+		};
+		3FDCF4D1274D3322004FCFB6 /* 0106.ConstructBinaryTreeInorderPostorder */ = {
+			isa = PBXGroup;
+			children = (
+				3FDCF4D2274D3341004FCFB6 /* ConstructBinaryTreeInorderPostorder.swift */,
+				3FDCF4D4274D3371004FCFB6 /* README.md */,
+			);
+			path = 0106.ConstructBinaryTreeInorderPostorder;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -293,6 +307,7 @@
 				3FBA368E269C1E2A0082BED9 /* LaunchScreen.storyboard in Resources */,
 				3FB90570272AF284002B9A13 /* README.md in Resources */,
 				3FBA368B269C1E2A0082BED9 /* Assets.xcassets in Resources */,
+				3FDCF4D5274D3371004FCFB6 /* README.md in Resources */,
 				3F3BE4B626E8B2F000632503 /* README.md in Resources */,
 				3FBA369E269C27BB0082BED9 /* README.md in Resources */,
 				3FDCF4D0274CE8EE004FCFB6 /* README.md in Resources */,
@@ -314,6 +329,7 @@
 				3F81B53C269E97A4007C996F /* LongestPalindromicSubstring.swift in Sources */,
 				3FBA3686269C1E270082BED9 /* ViewController.swift in Sources */,
 				3FBA369C269C27B40082BED9 /* IntersectionofTwoLinkedLists.swift in Sources */,
+				3FDCF4D3274D3341004FCFB6 /* ConstructBinaryTreeInorderPostorder.swift in Sources */,
 				3FBA3682269C1E270082BED9 /* AppDelegate.swift in Sources */,
 				3F413999269DF4450094800A /* InvertTree.swift in Sources */,
 				3F3C8E1E26EA08CD00E419C2 /* 94. BinaryTreeInorderTraversal.swift in Sources */,
