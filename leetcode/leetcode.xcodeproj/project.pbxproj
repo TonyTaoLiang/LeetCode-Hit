@@ -10,6 +10,14 @@
 		3F1E1BB9274F826D00E0A7A9 /* README.md in Resources */ = {isa = PBXBuildFile; fileRef = 3F1E1BB8274F826D00E0A7A9 /* README.md */; };
 		3F1E1BBB274F82AC00E0A7A9 /* MergeTwoSortedLists.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3F1E1BBA274F82AC00E0A7A9 /* MergeTwoSortedLists.swift */; };
 		3F1E1BBD2750840D00E0A7A9 /* MergeTwoLists.gif in Resources */ = {isa = PBXBuildFile; fileRef = 3F1E1BBC2750840D00E0A7A9 /* MergeTwoLists.gif */; };
+		3F1E1BE227526D4F00E0A7A9 /* SwapNodesinPairs.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3F1E1BE127526D4F00E0A7A9 /* SwapNodesinPairs.swift */; };
+		3F1E1BE427526D6000E0A7A9 /* README.md in Resources */ = {isa = PBXBuildFile; fileRef = 3F1E1BE327526D6000E0A7A9 /* README.md */; };
+		3F1E1BE7275346C800E0A7A9 /* SortList.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3F1E1BE6275346C800E0A7A9 /* SortList.swift */; };
+		3F1E1BE9275346D500E0A7A9 /* README.md in Resources */ = {isa = PBXBuildFile; fileRef = 3F1E1BE8275346D500E0A7A9 /* README.md */; };
+		3F1E1BEC2753495E00E0A7A9 /* MiddleoftheLinkedList.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3F1E1BEB2753495E00E0A7A9 /* MiddleoftheLinkedList.swift */; };
+		3F1E1BEE2753496900E0A7A9 /* README.md in Resources */ = {isa = PBXBuildFile; fileRef = 3F1E1BED2753496900E0A7A9 /* README.md */; };
+		3F1E1BF827534EBF00E0A7A9 /* leetcodeTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3F1E1BF727534EBF00E0A7A9 /* leetcodeTests.swift */; };
+		3F1E1C00275378F100E0A7A9 /* ListNode.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3F1E1BFF275378F100E0A7A9 /* ListNode.swift */; };
 		3F3BE4B626E8B2F000632503 /* README.md in Resources */ = {isa = PBXBuildFile; fileRef = 3F3BE4B526E8B2F000632503 /* README.md */; };
 		3F3BE4B826E8B31800632503 /* ReverseLinkedList.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3F3BE4B726E8B31800632503 /* ReverseLinkedList.swift */; };
 		3F3C8E1C26EA08A100E419C2 /* README.md in Resources */ = {isa = PBXBuildFile; fileRef = 3F3C8E1B26EA08A100E419C2 /* README.md */; };
@@ -41,10 +49,30 @@
 		3FDCF4D5274D3371004FCFB6 /* README.md in Resources */ = {isa = PBXBuildFile; fileRef = 3FDCF4D4274D3371004FCFB6 /* README.md */; };
 /* End PBXBuildFile section */
 
+/* Begin PBXContainerItemProxy section */
+		3F1E1BFA27534EBF00E0A7A9 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 3FBA3676269C1E260082BED9 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 3FBA367D269C1E270082BED9;
+			remoteInfo = leetcode;
+		};
+/* End PBXContainerItemProxy section */
+
 /* Begin PBXFileReference section */
 		3F1E1BB8274F826D00E0A7A9 /* README.md */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
 		3F1E1BBA274F82AC00E0A7A9 /* MergeTwoSortedLists.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MergeTwoSortedLists.swift; sourceTree = "<group>"; };
 		3F1E1BBC2750840D00E0A7A9 /* MergeTwoLists.gif */ = {isa = PBXFileReference; lastKnownFileType = image.gif; path = MergeTwoLists.gif; sourceTree = "<group>"; };
+		3F1E1BE127526D4F00E0A7A9 /* SwapNodesinPairs.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SwapNodesinPairs.swift; sourceTree = "<group>"; };
+		3F1E1BE327526D6000E0A7A9 /* README.md */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
+		3F1E1BE6275346C800E0A7A9 /* SortList.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SortList.swift; sourceTree = "<group>"; };
+		3F1E1BE8275346D500E0A7A9 /* README.md */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
+		3F1E1BEB2753495E00E0A7A9 /* MiddleoftheLinkedList.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MiddleoftheLinkedList.swift; sourceTree = "<group>"; };
+		3F1E1BED2753496900E0A7A9 /* README.md */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
+		3F1E1BF527534EBE00E0A7A9 /* leetcodeTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = leetcodeTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		3F1E1BF727534EBF00E0A7A9 /* leetcodeTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = leetcodeTests.swift; sourceTree = "<group>"; };
+		3F1E1BF927534EBF00E0A7A9 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		3F1E1BFF275378F100E0A7A9 /* ListNode.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ListNode.swift; sourceTree = "<group>"; };
 		3F3BE4B526E8B2F000632503 /* README.md */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
 		3F3BE4B726E8B31800632503 /* ReverseLinkedList.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ReverseLinkedList.swift; sourceTree = "<group>"; };
 		3F3C8E1B26EA08A100E419C2 /* README.md */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
@@ -82,6 +110,13 @@
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
+		3F1E1BF227534EBE00E0A7A9 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		3FBA367B269C1E270082BED9 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
@@ -100,6 +135,42 @@
 				3F1E1BBC2750840D00E0A7A9 /* MergeTwoLists.gif */,
 			);
 			path = 0021.MergeTwoSortedLists;
+			sourceTree = "<group>";
+		};
+		3F1E1BE027526D2A00E0A7A9 /* 0024.SwapNodesinPairs */ = {
+			isa = PBXGroup;
+			children = (
+				3F1E1BE127526D4F00E0A7A9 /* SwapNodesinPairs.swift */,
+				3F1E1BE327526D6000E0A7A9 /* README.md */,
+			);
+			path = 0024.SwapNodesinPairs;
+			sourceTree = "<group>";
+		};
+		3F1E1BE5275346AD00E0A7A9 /* 0148.SortList */ = {
+			isa = PBXGroup;
+			children = (
+				3F1E1BE6275346C800E0A7A9 /* SortList.swift */,
+				3F1E1BE8275346D500E0A7A9 /* README.md */,
+			);
+			path = 0148.SortList;
+			sourceTree = "<group>";
+		};
+		3F1E1BEA2753490200E0A7A9 /* 0876.MiddleoftheLinkedList */ = {
+			isa = PBXGroup;
+			children = (
+				3F1E1BEB2753495E00E0A7A9 /* MiddleoftheLinkedList.swift */,
+				3F1E1BED2753496900E0A7A9 /* README.md */,
+			);
+			path = 0876.MiddleoftheLinkedList;
+			sourceTree = "<group>";
+		};
+		3F1E1BF627534EBF00E0A7A9 /* leetcodeTests */ = {
+			isa = PBXGroup;
+			children = (
+				3F1E1BF727534EBF00E0A7A9 /* leetcodeTests.swift */,
+				3F1E1BF927534EBF00E0A7A9 /* Info.plist */,
+			);
+			path = leetcodeTests;
 			sourceTree = "<group>";
 		};
 		3F3BE4B426E8B2CB00632503 /* 0206. Reverse Linked List */ = {
@@ -178,6 +249,7 @@
 			isa = PBXGroup;
 			children = (
 				3FBA3680269C1E270082BED9 /* leetcode */,
+				3F1E1BF627534EBF00E0A7A9 /* leetcodeTests */,
 				3FBA367F269C1E270082BED9 /* Products */,
 			);
 			sourceTree = "<group>";
@@ -186,6 +258,7 @@
 			isa = PBXGroup;
 			children = (
 				3FBA367E269C1E270082BED9 /* leetcode.app */,
+				3F1E1BF527534EBE00E0A7A9 /* leetcodeTests.xctest */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -197,15 +270,18 @@
 				3F81B539269E8C1C007C996F /* 0005.最长回文子串 */,
 				3F3C8E1F26EE4B4B00E419C2 /* 0015.3Sum */,
 				3F1E1BB7274F825000E0A7A9 /* 0021.MergeTwoSortedLists */,
+				3F1E1BE027526D2A00E0A7A9 /* 0024.SwapNodesinPairs */,
 				3FB9056C272AF237002B9A13 /* 0051.N-Queens */,
 				3FB5D426272EF556007EDB71 /* 0053.MaximumSubarray */,
 				3F3C8E1A26EA088F00E419C2 /* 0094.Binary-Tree-Inorder-Traversal */,
 				3FDCF4CC274CE87F004FCFB6 /* 0105.Construct-Binary-Tree-from-Preorder-and-Inorder-Traversal */,
 				3FDCF4D1274D3322004FCFB6 /* 0106.ConstructBinaryTreeInorderPostorder */,
+				3F1E1BE5275346AD00E0A7A9 /* 0148.SortList */,
 				3FBA369A269C270D0082BED9 /* 0160.Intersection-of-Two-Linked-Lists */,
 				3F3BE4B426E8B2CB00632503 /* 0206. Reverse Linked List */,
 				3F413997269DF4150094800A /* 0226.翻转二叉树 */,
 				3F413993269DECC90094800A /* 0442.FindDuplicates */,
+				3F1E1BEA2753490200E0A7A9 /* 0876.MiddleoftheLinkedList */,
 				3FBA369F269C2D740082BED9 /* 剑指offer03 */,
 				3FBA3681269C1E270082BED9 /* AppDelegate.swift */,
 				3FBA3683269C1E270082BED9 /* SceneDelegate.swift */,
@@ -214,6 +290,7 @@
 				3FBA368A269C1E2A0082BED9 /* Assets.xcassets */,
 				3FBA368C269C1E2A0082BED9 /* LaunchScreen.storyboard */,
 				3FBA368F269C1E2A0082BED9 /* Info.plist */,
+				3F1E1BFF275378F100E0A7A9 /* ListNode.swift */,
 			);
 			path = leetcode;
 			sourceTree = "<group>";
@@ -266,6 +343,24 @@
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
+		3F1E1BF427534EBE00E0A7A9 /* leetcodeTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 3F1E1BFC27534EBF00E0A7A9 /* Build configuration list for PBXNativeTarget "leetcodeTests" */;
+			buildPhases = (
+				3F1E1BF127534EBE00E0A7A9 /* Sources */,
+				3F1E1BF227534EBE00E0A7A9 /* Frameworks */,
+				3F1E1BF327534EBE00E0A7A9 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				3F1E1BFB27534EBF00E0A7A9 /* PBXTargetDependency */,
+			);
+			name = leetcodeTests;
+			productName = leetcodeTests;
+			productReference = 3F1E1BF527534EBE00E0A7A9 /* leetcodeTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
 		3FBA367D269C1E270082BED9 /* leetcode */ = {
 			isa = PBXNativeTarget;
 			buildConfigurationList = 3FBA3692269C1E2A0082BED9 /* Build configuration list for PBXNativeTarget "leetcode" */;
@@ -289,9 +384,14 @@
 		3FBA3676269C1E260082BED9 /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
+				DefaultBuildSystemTypeForWorkspace = Original;
 				LastSwiftUpdateCheck = 1250;
 				LastUpgradeCheck = 1250;
 				TargetAttributes = {
+					3F1E1BF427534EBE00E0A7A9 = {
+						CreatedOnToolsVersion = 12.5.1;
+						TestTargetID = 3FBA367D269C1E270082BED9;
+					};
 					3FBA367D269C1E270082BED9 = {
 						CreatedOnToolsVersion = 12.5.1;
 					};
@@ -311,11 +411,19 @@
 			projectRoot = "";
 			targets = (
 				3FBA367D269C1E270082BED9 /* leetcode */,
+				3F1E1BF427534EBE00E0A7A9 /* leetcodeTests */,
 			);
 		};
 /* End PBXProject section */
 
 /* Begin PBXResourcesBuildPhase section */
+		3F1E1BF327534EBE00E0A7A9 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		3FBA367C269C1E270082BED9 /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
@@ -326,10 +434,13 @@
 				3FBA368B269C1E2A0082BED9 /* Assets.xcassets in Resources */,
 				3FDCF4D5274D3371004FCFB6 /* README.md in Resources */,
 				3F3BE4B626E8B2F000632503 /* README.md in Resources */,
+				3F1E1BEE2753496900E0A7A9 /* README.md in Resources */,
+				3F1E1BE427526D6000E0A7A9 /* README.md in Resources */,
 				3FBA369E269C27BB0082BED9 /* README.md in Resources */,
 				3FDCF4D0274CE8EE004FCFB6 /* README.md in Resources */,
 				3FBA3697269C1E7D0082BED9 /* README.md in Resources */,
 				3F3C8E2126EE4B9600E419C2 /* README.md in Resources */,
+				3F1E1BE9275346D500E0A7A9 /* README.md in Resources */,
 				3F1E1BB9274F826D00E0A7A9 /* README.md in Resources */,
 				3F3C8E1C26EA08A100E419C2 /* README.md in Resources */,
 				3FB5D428272EF5E9007EDB71 /* README.md in Resources */,
@@ -341,11 +452,20 @@
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
+		3F1E1BF127534EBE00E0A7A9 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3F1E1BF827534EBF00E0A7A9 /* leetcodeTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		3FBA367A269C1E270082BED9 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 				3F81B53C269E97A4007C996F /* LongestPalindromicSubstring.swift in Sources */,
+				3F1E1BE227526D4F00E0A7A9 /* SwapNodesinPairs.swift in Sources */,
 				3FBA3686269C1E270082BED9 /* ViewController.swift in Sources */,
 				3FBA369C269C27B40082BED9 /* IntersectionofTwoLinkedLists.swift in Sources */,
 				3FDCF4D3274D3341004FCFB6 /* ConstructBinaryTreeInorderPostorder.swift in Sources */,
@@ -357,6 +477,9 @@
 				3FB5D42A272EF812007EDB71 /* MaximumSubarray.swift in Sources */,
 				3F413996269DEEAE0094800A /* FindDuplicates.swift in Sources */,
 				3FB9056E272AF26C002B9A13 /* NQueens.swift in Sources */,
+				3F1E1BE7275346C800E0A7A9 /* SortList.swift in Sources */,
+				3F1E1C00275378F100E0A7A9 /* ListNode.swift in Sources */,
+				3F1E1BEC2753495E00E0A7A9 /* MiddleoftheLinkedList.swift in Sources */,
 				3F413992269DE66E0094800A /* RepeatNumber.swift in Sources */,
 				3FBA3699269C1EF80082BED9 /* TwoSum.swift in Sources */,
 				3FDCF4CE274CE8C5004FCFB6 /* 0105.ConstructBinaryTreefromPreorderandInorderTraversal.swift in Sources */,
@@ -366,6 +489,14 @@
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		3F1E1BFB27534EBF00E0A7A9 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 3FBA367D269C1E270082BED9 /* leetcode */;
+			targetProxy = 3F1E1BFA27534EBF00E0A7A9 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
 
 /* Begin PBXVariantGroup section */
 		3FBA3687269C1E270082BED9 /* Main.storyboard */ = {
@@ -387,6 +518,46 @@
 /* End PBXVariantGroup section */
 
 /* Begin XCBuildConfiguration section */
+		3F1E1BFD27534EBF00E0A7A9 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 8DMV8KYPEW;
+				INFOPLIST_FILE = leetcodeTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.ioslearning.swift.leetcodeTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/leetcode.app/leetcode";
+			};
+			name = Debug;
+		};
+		3F1E1BFE27534EBF00E0A7A9 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 8DMV8KYPEW;
+				INFOPLIST_FILE = leetcodeTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.ioslearning.swift.leetcodeTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/leetcode.app/leetcode";
+			};
+			name = Release;
+		};
 		3FBA3690269C1E2A0082BED9 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
@@ -544,6 +715,15 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
+		3F1E1BFC27534EBF00E0A7A9 /* Build configuration list for PBXNativeTarget "leetcodeTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3F1E1BFD27534EBF00E0A7A9 /* Debug */,
+				3F1E1BFE27534EBF00E0A7A9 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
 		3FBA3679269C1E270082BED9 /* Build configuration list for PBXProject "leetcode" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (

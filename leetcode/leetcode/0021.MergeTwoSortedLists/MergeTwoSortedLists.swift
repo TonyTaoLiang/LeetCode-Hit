@@ -8,7 +8,7 @@
 import Foundation
 
 
-class MergeTwoSortedLists{
+public class MergeTwoSortedLists{
     //类似归并排序的方式
     func mergeTwoLists(_ l1: ListNode?, _ l2: ListNode?) -> ListNode? {
 
