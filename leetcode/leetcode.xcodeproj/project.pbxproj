@@ -18,6 +18,7 @@
 		3F1E1BEE2753496900E0A7A9 /* README.md in Resources */ = {isa = PBXBuildFile; fileRef = 3F1E1BED2753496900E0A7A9 /* README.md */; };
 		3F1E1BF827534EBF00E0A7A9 /* leetcodeTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3F1E1BF727534EBF00E0A7A9 /* leetcodeTests.swift */; };
 		3F1E1C00275378F100E0A7A9 /* ListNode.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3F1E1BFF275378F100E0A7A9 /* ListNode.swift */; };
+		3F326B45275670FF004F27C5 /* 最长回文串.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 3F326B44275670FF004F27C5 /* 最长回文串.jpg */; };
 		3F3BE4B626E8B2F000632503 /* README.md in Resources */ = {isa = PBXBuildFile; fileRef = 3F3BE4B526E8B2F000632503 /* README.md */; };
 		3F3BE4B826E8B31800632503 /* ReverseLinkedList.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3F3BE4B726E8B31800632503 /* ReverseLinkedList.swift */; };
 		3F3C8E1C26EA08A100E419C2 /* README.md in Resources */ = {isa = PBXBuildFile; fileRef = 3F3C8E1B26EA08A100E419C2 /* README.md */; };
@@ -75,6 +76,7 @@
 		3F1E1BF727534EBF00E0A7A9 /* leetcodeTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = leetcodeTests.swift; sourceTree = "<group>"; };
 		3F1E1BF927534EBF00E0A7A9 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		3F1E1BFF275378F100E0A7A9 /* ListNode.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ListNode.swift; sourceTree = "<group>"; };
+		3F326B44275670FF004F27C5 /* 最长回文串.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "最长回文串.jpg"; sourceTree = "<group>"; };
 		3F3BE4B526E8B2F000632503 /* README.md */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
 		3F3BE4B726E8B31800632503 /* ReverseLinkedList.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ReverseLinkedList.swift; sourceTree = "<group>"; };
 		3F3C8E1B26EA08A100E419C2 /* README.md */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
@@ -227,6 +229,7 @@
 			children = (
 				3F81B53B269E97A4007C996F /* LongestPalindromicSubstring.swift */,
 				3F81B53A269E8C39007C996F /* README.md */,
+				3F326B44275670FF004F27C5 /* 最长回文串.jpg */,
 			);
 			path = "0005.最长回文子串";
 			sourceTree = "<group>";
@@ -270,7 +273,6 @@
 		3FBA3680269C1E270082BED9 /* leetcode */ = {
 			isa = PBXGroup;
 			children = (
-				3FEC954A2755041C00CCD88E /* 0088.MergeSortedArray */,
 				3FBA3695269C1E410082BED9 /* 0001.Two-Sum */,
 				3F81B539269E8C1C007C996F /* 0005.最长回文子串 */,
 				3F3C8E1F26EE4B4B00E419C2 /* 0015.3Sum */,
@@ -278,6 +280,7 @@
 				3F1E1BE027526D2A00E0A7A9 /* 0024.SwapNodesinPairs */,
 				3FB9056C272AF237002B9A13 /* 0051.N-Queens */,
 				3FB5D426272EF556007EDB71 /* 0053.MaximumSubarray */,
+				3FEC954A2755041C00CCD88E /* 0088.MergeSortedArray */,
 				3F3C8E1A26EA088F00E419C2 /* 0094.Binary-Tree-Inorder-Traversal */,
 				3FDCF4CC274CE87F004FCFB6 /* 0105.Construct-Binary-Tree-from-Preorder-and-Inorder-Traversal */,
 				3FDCF4D1274D3322004FCFB6 /* 0106.ConstructBinaryTreeInorderPostorder */,
@@ -460,6 +463,7 @@
 				3F3C8E1C26EA08A100E419C2 /* README.md in Resources */,
 				3FB5D428272EF5E9007EDB71 /* README.md in Resources */,
 				3F1E1BBD2750840D00E0A7A9 /* MergeTwoLists.gif in Resources */,
+				3F326B45275670FF004F27C5 /* 最长回文串.jpg in Resources */,
 				3FBA3689269C1E270082BED9 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

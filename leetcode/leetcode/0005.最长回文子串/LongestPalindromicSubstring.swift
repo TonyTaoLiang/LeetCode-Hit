@@ -17,17 +17,18 @@ class LongestPalindromicSubstring {
         //转成数组，方便下面操作字符串的下标
 //        let sCharts = Array(s)
 
-        //二维数组超时 ，优化一下类似于最长公共子串，用一维数组倒着遍历j。如果顺着遍历就会覆盖下一层
+        //二维数组
         var dp = Array(repeating: Array(repeating: false, count: s.count), count: s.count)
 
         for i in 0..<s.count {
             dp[i][i] = true
         }
 
-        //i倒着遍历是因为dp[i,j] = dp[i+1,j-1]推导而来。联想二维数组i+1是i的下一层，所以从后往前遍历
+        //i倒着遍历是因为dp[i,j] = dp[i+1,j-1]推导而来。也就是需要先算出左下角的值
+        //联想二维数组的表i+1是i的下一层，所以从后往前遍历
         for i in (0...s.count-1).reversed() {
             //j的范围为什么是从i～len。这是因为回文串的表示是s[i,j],j肯定是在i的右边
-            //例如"abba" :  第一次遍历(a,a)，第二次遍历 (b,b)（ba）.随着i一直往左走，j的判断范围就越大。回文串就越来越长，最终将所有的情况都遍历到。实际上填写二维数组格子的范围应该是对角线的右半边。
+            //例如"abba" :  第一次遍历(a,a)，第二次遍历 (b,b)（ba）.随着i一直往左走，j的判断范围就越大。回文串就越来越长，最终将所有的情况都遍历到。实际上填写二维数组格子的范围应该是对角线的右半边。（因为j始终比i大）
             for j in i..<s.count {
                 //j-1 < 3是字符串长度为0，1，2 几种特殊情况只需要判断头尾是否相等
                 dp[i][j] = s[s.index(s.startIndex, offsetBy: i)] == s[s.index(s.startIndex, offsetBy: j)] && ((j-i < 3) || dp[i+1][j-1])
@@ -52,7 +53,7 @@ class LongestPalindromicSubstring {
         //转成数组，方便下面操作字符串的下标
 //        let sCharts = Array(s)
 
-        //优化一下,类似于最长公共子串，用一维数组倒着遍历j。如果顺着遍历就会覆盖下一层
+        //优化一下,用一维数组倒着遍历j。如果顺着遍历j-1的值就会重新计算，覆盖掉应该获取的左下角（也就是下一层的值 如求1-4 就得先知道2-3的值）
         var dp = Array(repeating: false, count: s.count)
 
         for i in (0...s.count-1).reversed() {
@@ -109,10 +110,11 @@ class LongestPalindromicSubstring {
         let sCharts = Array(s)
         var start: Int = 0 , maxLen: Int = 0
 
+        //枚举每个轴心的位置
         for i in 0..<s.count {
-
-            maxPalindrome(sCharts, i, i, &start, &maxLen)
-            maxPalindrome(sCharts, i, i+1, &start, &maxLen)
+            //然后做两次假设
+            maxPalindrome(sCharts, i, i, &start, &maxLen)//奇
+            maxPalindrome(sCharts, i, i+1, &start, &maxLen)//偶
         }
 
         return String(sCharts[start..<start+maxLen])
