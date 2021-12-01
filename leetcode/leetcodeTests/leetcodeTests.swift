@@ -7,7 +7,7 @@
 
 import XCTest
 @testable import leetcode
-
+//新创建了类，先command+B build一下
 class leetcodeTests: XCTestCase {
 
     override func setUpWithError() throws {
@@ -61,5 +61,19 @@ class leetcodeTests: XCTestCase {
 
     }
 
+    func testBinarySearch(){
 
+        let binary = BinarySearch()
+
+//        let nums = [1,2,3,4,5,6]
+        let nums = [-1,0,3,5,9,12]
+//        XCTAssertEqual(binary.search(nums, 6), 5, "二分查找")
+//        XCTAssertEqual(binary.search(nums, 5), 4, "二分查找")
+//        XCTAssertEqual(binary.search(nums, 4), 3, "二分查找")
+//        XCTAssertEqual(binary.search(nums, 3), 2, "二分查找")
+//        XCTAssertEqual(binary.search(nums, 2), 1, "二分查找")
+//        XCTAssertEqual(binary.search(nums, 1), 0, "二分查找")
+//        XCTAssertEqual(binary.search(nums, 7), 5, "二分查找")
+        XCTAssertEqual(binary.search2(nums, 12), 5, "二分查找")
+    }
 }
