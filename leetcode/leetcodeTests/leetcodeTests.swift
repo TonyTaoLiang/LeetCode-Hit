@@ -76,4 +76,15 @@ class leetcodeTests: XCTestCase {
 //        XCTAssertEqual(binary.search(nums, 7), 5, "二分查找")
         XCTAssertEqual(binary.search2(nums, 12), 5, "二分查找")
     }
+
+    func testSearchInsertPosition(){
+
+        let search = SearchInsertPosition()
+
+//        let nums = [-1,0,3,5,9,12]
+        let nums = [1,3,6]
+        XCTAssertEqual(search.searchInsert(nums, 1), 0, "搜索插入位置")
+
+
+    }
 }
