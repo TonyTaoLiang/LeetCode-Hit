@@ -23,6 +23,8 @@
 		3F1E1BF827534EBF00E0A7A9 /* leetcodeTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3F1E1BF727534EBF00E0A7A9 /* leetcodeTests.swift */; };
 		3F1E1C00275378F100E0A7A9 /* ListNode.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3F1E1BFF275378F100E0A7A9 /* ListNode.swift */; };
 		3F326B45275670FF004F27C5 /* 最长回文串.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 3F326B44275670FF004F27C5 /* 最长回文串.jpg */; };
+		3F3BD1D9275A085100FBE743 /* README.md in Resources */ = {isa = PBXBuildFile; fileRef = 3F3BD1D8275A085100FBE743 /* README.md */; };
+		3F3BD1DB275A0FAF00FBE743 /* MoveZeroes.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3F3BD1DA275A0FAF00FBE743 /* MoveZeroes.swift */; };
 		3F3BE4B626E8B2F000632503 /* README.md in Resources */ = {isa = PBXBuildFile; fileRef = 3F3BE4B526E8B2F000632503 /* README.md */; };
 		3F3BE4B826E8B31800632503 /* ReverseLinkedList.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3F3BE4B726E8B31800632503 /* ReverseLinkedList.swift */; };
 		3F3C8E1C26EA08A100E419C2 /* README.md in Resources */ = {isa = PBXBuildFile; fileRef = 3F3C8E1B26EA08A100E419C2 /* README.md */; };
@@ -91,6 +93,8 @@
 		3F1E1BF927534EBF00E0A7A9 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		3F1E1BFF275378F100E0A7A9 /* ListNode.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ListNode.swift; sourceTree = "<group>"; };
 		3F326B44275670FF004F27C5 /* 最长回文串.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "最长回文串.jpg"; sourceTree = "<group>"; };
+		3F3BD1D8275A085100FBE743 /* README.md */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
+		3F3BD1DA275A0FAF00FBE743 /* MoveZeroes.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MoveZeroes.swift; sourceTree = "<group>"; };
 		3F3BE4B526E8B2F000632503 /* README.md */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
 		3F3BE4B726E8B31800632503 /* ReverseLinkedList.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ReverseLinkedList.swift; sourceTree = "<group>"; };
 		3F3C8E1B26EA08A100E419C2 /* README.md */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
@@ -215,6 +219,15 @@
 				3F1E1BF927534EBF00E0A7A9 /* Info.plist */,
 			);
 			path = leetcodeTests;
+			sourceTree = "<group>";
+		};
+		3F3BD1D6275A07E800FBE743 /* 0283.Move-Zeroes */ = {
+			isa = PBXGroup;
+			children = (
+				3F3BD1DA275A0FAF00FBE743 /* MoveZeroes.swift */,
+				3F3BD1D8275A085100FBE743 /* README.md */,
+			);
+			path = "0283.Move-Zeroes";
 			sourceTree = "<group>";
 		};
 		3F3BE4B426E8B2CB00632503 /* 0206. Reverse Linked List */ = {
@@ -356,6 +369,7 @@
 				3F3BE4B426E8B2CB00632503 /* 0206. Reverse Linked List */,
 				3F413997269DF4150094800A /* 0226.翻转二叉树 */,
 				3FB715A227576ECB005A4176 /* 0278.FirstBadVersion */,
+				3F3BD1D6275A07E800FBE743 /* 0283.Move-Zeroes */,
 				3F413993269DECC90094800A /* 0442.FindDuplicates */,
 				3FB7159D27574FC3005A4176 /* 0704.BinarySearch */,
 				3F1E1BEA2753490200E0A7A9 /* 0876.MiddleoftheLinkedList */,
@@ -519,6 +533,7 @@
 				3FBA368E269C1E2A0082BED9 /* LaunchScreen.storyboard in Resources */,
 				3FB90570272AF284002B9A13 /* README.md in Resources */,
 				3FB7159F27574FFD005A4176 /* README.md in Resources */,
+				3F3BD1D9275A085100FBE743 /* README.md in Resources */,
 				3FBA368B269C1E2A0082BED9 /* Assets.xcassets in Resources */,
 				3FDCF4D5274D3371004FCFB6 /* README.md in Resources */,
 				3F1712632758A56200295C29 /* README.md in Resources */,
@@ -572,6 +587,7 @@
 				3F1E1BBB274F82AC00E0A7A9 /* MergeTwoSortedLists.swift in Sources */,
 				3F3BE4B826E8B31800632503 /* ReverseLinkedList.swift in Sources */,
 				3FB5D42A272EF812007EDB71 /* MaximumSubarray.swift in Sources */,
+				3F3BD1DB275A0FAF00FBE743 /* MoveZeroes.swift in Sources */,
 				3F413996269DEEAE0094800A /* FindDuplicates.swift in Sources */,
 				3FB9056E272AF26C002B9A13 /* NQueens.swift in Sources */,
 				3FB715A127575046005A4176 /* BinarySearch.swift in Sources */,
