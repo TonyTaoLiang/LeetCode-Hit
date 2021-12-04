@@ -87,4 +87,19 @@ class leetcodeTests: XCTestCase {
 
 
     }
+
+    func testTwoSumInput(){
+
+        let two = TwoSumInputArray()
+        let nums = [2,7,11,15]
+        XCTAssertEqual(two.twoSum(nums, 9), [1,2], "2")
+    }
+
+    func testReverseWordsinStringIII() {
+
+        let rever = ReverseWordsinStringIII()
+        XCTAssert((rever.reverseWords("Let's take LeetCode contest") == "s'teL ekat edoCteeL tsetnoc"), "111")
+
+
+    }
 }
