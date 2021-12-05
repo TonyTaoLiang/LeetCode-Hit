@@ -98,7 +98,7 @@ class leetcodeTests: XCTestCase {
     func testReverseWordsinStringIII() {
 
         let rever = ReverseWordsinStringIII()
-        XCTAssert((rever.reverseWords("Let's take LeetCode contest") == "s'teL ekat edoCteeL tsetnoc"), "111")
+        XCTAssert((rever.reverseWords2("Let's take LeetCode contest") == "s'teL ekat edoCteeL tsetnoc"), "111")
 
 
     }

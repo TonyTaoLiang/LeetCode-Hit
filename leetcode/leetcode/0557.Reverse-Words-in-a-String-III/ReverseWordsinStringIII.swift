@@ -36,9 +36,35 @@ class ReverseWordsinStringIII{
         return String(res.dropLast())
     }
 
-    //原地解法 根据空格的位置控制j的位置
-//    func reverseWords2(_ s: String) -> String {
-//
-//
-//    }
+    //原地解法(也不原地，swift直接交换字符串太麻烦了，这里还是转成了array，但是超时了，了解这个思路就行了吧。用上面一个方法即可) 根据空格的位置控制i的位置
+    func reverseWords2(_ s: String) -> String {
+
+        var i = 0
+        var array = Array(s)
+
+        while i < s.count {
+
+            var start = i
+
+            while i < s.count && s[s.index(s.startIndex, offsetBy: i)] != " " {
+                i += 1
+            }
+
+            var end = i - 1
+
+            while start < end {
+
+                array.swapAt(start, end)
+                start += 1
+                end -= 1
+
+            }
+
+            while i < s.count && s[s.index(s.startIndex, offsetBy: i)] == " " {
+                i += 1
+            }
+        }
+
+        return String(array[0..<array.count])
+    }
 }
