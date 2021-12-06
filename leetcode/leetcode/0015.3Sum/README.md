@@ -28,8 +28,10 @@ A solution set is:
 
 Sort the array, and traverse it, increment left or decrease right predicated on their sum is greater or not than the target
 
-1.此题使用双指针，有点类似快排small，equal，large移动的感觉
-2.选定一个数，另外2数的和就是选定数的负数。为了避免重复排序后如果下一个元素跟之前的元素相同则跳过选中的这个元素
+1:此题使用双指针，有点类似快排small，equal，large移动的感觉
+PS:先排序，前后指针碰撞，然后跳过重复的元素
+
+2:选定一个数，另外2数的和就是选定数的负数。为了避免重复排序后如果下一个元素跟之前的元素相同则跳过选中的这个元素
 3.主要是如何解决重复的问题，这就需要去排序，排序后，相同的2个元素一定是相邻的，这时候指针跳过即可。
 
 
