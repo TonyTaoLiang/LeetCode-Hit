@@ -9,7 +9,7 @@ import Foundation
 
 class PermutationinString {
 
-
+    //解法一：滑动窗口
     func checkInclusion(_ s1: String, _ s2: String) -> Bool {
 
 
@@ -51,4 +51,41 @@ class PermutationinString {
         return false
     }
 
+
+    //解法二：双指针
+    func checkInclusion2(_ s1: String, _ s2: String) -> Bool {
+
+        if s1.count > s2.count {
+            return false
+        }
+
+        var array1 = Array(repeating: 0, count: 26)
+        let a: Character = "a"
+        let num2 = Array(s2)
+        var left = 0
+        //统计s1中每个字符的个数
+        for character in s1 {
+
+            array1[Int(character.asciiValue!) - Int(a.asciiValue!)] -= 1
+
+        }
+
+        for right in 0..<s2.count {
+
+            //计算右侧入区间字符的个数
+            array1[Int(num2[right].asciiValue!) - Int(a.asciiValue!)] += 1
+
+            //此字符出现次数过多，左指针右移,左区间的字符次数-1
+            while array1[Int(num2[right].asciiValue!) - Int(a.asciiValue!)] > 0 {
+                array1[Int(num2[left].asciiValue!) - Int(a.asciiValue!)] -= 1
+                left += 1
+            }
+
+            if right - left + 1 == s1.count {
+                return true
+            }
+        }
+
+        return false
+    }
 }

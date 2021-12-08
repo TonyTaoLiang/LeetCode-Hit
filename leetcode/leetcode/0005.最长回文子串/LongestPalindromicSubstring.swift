@@ -9,7 +9,7 @@ import Foundation
 
 class LongestPalindromicSubstring {
 
-
+    //解法一：DP
     func longestPalindrome(_ s: String) -> String {
 
         var res = ""
@@ -100,7 +100,7 @@ class LongestPalindromicSubstring {
         return String(cString: cs[rng.0...rng.1].map{$0} + [0])
     }
 
-    //中心扩散（中心分长度为1 or 2，奇 or 偶）
+    //解法二：中心扩散（中心分长度为1 or 2，奇 or 偶）
     func longestPalindrome4(_ s: String) -> String {
 
         guard s.count > 1 else {
@@ -136,6 +136,9 @@ class LongestPalindromicSubstring {
         }
 
     }
+
+    //解法三：滑动窗口
+    
 }
 public extension String {
   subscript(value: Int) -> Character {
