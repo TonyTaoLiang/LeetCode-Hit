@@ -411,7 +411,6 @@
 		3FBA3680269C1E270082BED9 /* leetcode */ = {
 			isa = PBXGroup;
 			children = (
-				3F948B6D275E51DC00DE9132 /* 0567.★Permutation-in-String */,
 				3F3BD1DC275A19D100FBE743 /* 0167.Two-Sum-II-Input-array-is-sorted */,
 				3FBA3695269C1E410082BED9 /* 0001.Two-Sum */,
 				3F948B68275DF30100DE9132 /* 0003.★Longest-Substring-Without-Repeating-Characters */,
@@ -437,6 +436,7 @@
 				3FE9A0AA275BB2B30069668D /* 0344.Reverse-String */,
 				3F413993269DECC90094800A /* 0442.FindDuplicates */,
 				3FE9A0AD275BB49E0069668D /* 0557.Reverse-Words-in-a-String-III */,
+				3F948B6D275E51DC00DE9132 /* 0567.★Permutation-in-String */,
 				3FB7159D27574FC3005A4176 /* 0704.BinarySearch */,
 				3F1E1BEA2753490200E0A7A9 /* 0876.MiddleoftheLinkedList */,
 				3F1712612758A54D00295C29 /* 0977.SquaresofaSortedArray */,

@@ -136,9 +136,6 @@ class LongestPalindromicSubstring {
         }
 
     }
-
-    //解法三：滑动窗口
-    
 }
 public extension String {
   subscript(value: Int) -> Character {
