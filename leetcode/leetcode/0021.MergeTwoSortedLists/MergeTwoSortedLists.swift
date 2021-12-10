@@ -51,11 +51,15 @@ public class MergeTwoSortedLists{
         if l1!.val < l2!.val {
             l1?.next = mergeTwoLists2(l1?.next, l2)
             return l1
+        }else {
+            //写进来时间复杂度更低
+            l2?.next = mergeTwoLists2(l1, l2?.next)
+            return l2
         }
 
 
-        l2?.next = mergeTwoLists2(l1, l2?.next)
-        return l2
+//        l2?.next = mergeTwoLists2(l1, l2?.next)
+//        return l2
     }
     
 }

@@ -102,4 +102,11 @@ class leetcodeTests: XCTestCase {
 
 
     }
+
+    func testFloodFill(){
+
+        let flood = FloodFill()
+        flood.floodFill([[0,0,0],[0,1,1]], 1, 1, 1)
+
+    }
 }
