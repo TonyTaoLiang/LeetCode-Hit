@@ -21,6 +21,21 @@ public class Node {
 
 class NextRightPoint{
 
+    //100%高手的写法
+    func connect1(_ root: Node?) -> Node? {
+            if root == nil{
+                return nil
+            }
+            if let left = root!.left{
+                left.next = root!.right
+                //咋没想到这样处理
+                root!.right?.next = root!.next == nil ? nil :root?.next?.left
+                connect(left)
+                connect(root?.right)
+            }
+            return root
+    }
+
     func connect(_ root: Node?) -> Node? {
 
         if root == nil {

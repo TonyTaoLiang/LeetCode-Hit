@@ -136,6 +136,41 @@ class LongestPalindromicSubstring {
         }
 
     }
+
+    //解法三：中心扩散的优化（滑动窗口，双指针）
+    //核心思路：（可看图）
+    //        0.以一串连续的相同字符组成的子串作为扩展中心。
+    //        1.选择一个字符s[i]，right指针一直跳到第一个与s[i]不相等的位置，s[i]的左侧位置计为left。然后选择[left,right]这一坨（可能是多个字符，可能是一个字符）作为扩展中心。
+    //        2.找到最长回文子串后，right作为下一次的i。即不在一个一个的挪动，直接跳过上一次相等字符。你一个个的挪动，绝对没有相等那一坨[left,right]扩展中心的长。
+    //        3.为啥不用考虑间隙作为中心了？思考，选择间隙也是没有相等的一坨[left,right]作为扩展中心的长
+    //        4.这样就跳过了许多扩展中心
+    /**
+     func longestPalindrome1(s string) string {
+         if len(s) == 0 {
+             return ""
+         }
+         left, right, pl, pr := 0, -1, 0, 0
+         for left < len(s) {
+             // 移动到相同字母的最右边（如果有相同字母）
+             for right+1 < len(s) && s[left] == s[right+1] {
+                 right++
+             }
+             // 找到回文的边界
+             for left-1 >= 0 && right+1 < len(s) && s[left-1] == s[right+1] {
+                 left--
+                 right++
+             }
+             if right-left > pr-pl {
+                 pl, pr = left, right
+             }
+             // 重置到下一次寻找回文的中心
+             left = (left+right)/2 + 1
+             right = left
+         }
+         return s[pl : pr+1]
+     }
+
+     */
 }
 public extension String {
   subscript(value: Int) -> Character {

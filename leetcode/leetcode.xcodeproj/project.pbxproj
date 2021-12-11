@@ -76,6 +76,7 @@
 		3FDDA7592764A648008246E0 /* MergeTwoBinaryTrees.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3FDDA7582764A648008246E0 /* MergeTwoBinaryTrees.swift */; };
 		3FDDA75C2764B8FF008246E0 /* PopulatingNextRightPointersinEachNode.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3FDDA75B2764B8FF008246E0 /* PopulatingNextRightPointersinEachNode.swift */; };
 		3FDDA75E2764B916008246E0 /* README.md in Resources */ = {isa = PBXBuildFile; fileRef = 3FDDA75D2764B916008246E0 /* README.md */; };
+		3FDDA7602764F0EE008246E0 /* 回文串扩展中心优化.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 3FDDA75F2764F0EE008246E0 /* 回文串扩展中心优化.jpg */; };
 		3FE9A0A9275BB2A40069668D /* ReverseString.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3FE9A0A8275BB2A40069668D /* ReverseString.swift */; };
 		3FE9A0AC275BB39B0069668D /* README.md in Resources */ = {isa = PBXBuildFile; fileRef = 3FE9A0AB275BB39B0069668D /* README.md */; };
 		3FE9A0AF275BB4BC0069668D /* ReverseWordsinStringIII.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3FE9A0AE275BB4BC0069668D /* ReverseWordsinStringIII.swift */; };
@@ -171,6 +172,7 @@
 		3FDDA7582764A648008246E0 /* MergeTwoBinaryTrees.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MergeTwoBinaryTrees.swift; sourceTree = "<group>"; };
 		3FDDA75B2764B8FF008246E0 /* PopulatingNextRightPointersinEachNode.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PopulatingNextRightPointersinEachNode.swift; sourceTree = "<group>"; };
 		3FDDA75D2764B916008246E0 /* README.md */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
+		3FDDA75F2764F0EE008246E0 /* 回文串扩展中心优化.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "回文串扩展中心优化.jpg"; sourceTree = "<group>"; };
 		3FE9A0A8275BB2A40069668D /* ReverseString.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ReverseString.swift; sourceTree = "<group>"; };
 		3FE9A0AB275BB39B0069668D /* README.md */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
 		3FE9A0AE275BB4BC0069668D /* ReverseWordsinStringIII.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ReverseWordsinStringIII.swift; sourceTree = "<group>"; };
@@ -330,6 +332,7 @@
 				3F81B53B269E97A4007C996F /* LongestPalindromicSubstring.swift */,
 				3F81B53A269E8C39007C996F /* README.md */,
 				3F326B44275670FF004F27C5 /* 最长回文串.jpg */,
+				3FDDA75F2764F0EE008246E0 /* 回文串扩展中心优化.jpg */,
 			);
 			path = "0005.最长回文子串";
 			sourceTree = "<group>";
@@ -427,8 +430,6 @@
 		3FBA3680269C1E270082BED9 /* leetcode */ = {
 			isa = PBXGroup;
 			children = (
-				3FDDA75A2764B8D7008246E0 /* 0116.PopulatingNextRightPointersinEachNode */,
-				3FDDA7552764A609008246E0 /* 0617.Merge-Two-Binary-Trees */,
 				3F3BD1DC275A19D100FBE743 /* 0167.Two-Sum-II-Input-array-is-sorted */,
 				3FBA3695269C1E410082BED9 /* 0001.Two-Sum */,
 				3F948B68275DF30100DE9132 /* 0003.★Longest-Substring-Without-Repeating-Characters */,
@@ -444,6 +445,7 @@
 				3F3C8E1A26EA088F00E419C2 /* 0094.Binary-Tree-Inorder-Traversal */,
 				3FDCF4CC274CE87F004FCFB6 /* 0105.Construct-Binary-Tree-from-Preorder-and-Inorder-Traversal */,
 				3FDCF4D1274D3322004FCFB6 /* 0106.ConstructBinaryTreeInorderPostorder */,
+				3FDDA75A2764B8D7008246E0 /* 0116.★PopulatingNextRightPointersinEachNode */,
 				3F1E1BE5275346AD00E0A7A9 /* 0148.SortList */,
 				3FBA369A269C270D0082BED9 /* 0160.Intersection-of-Two-Linked-Lists */,
 				3F1712662758F4AF00295C29 /* 0189.★Rotate-Array */,
@@ -455,6 +457,7 @@
 				3F413993269DECC90094800A /* 0442.FindDuplicates */,
 				3FE9A0AD275BB49E0069668D /* 0557.Reverse-Words-in-a-String-III */,
 				3F948B6D275E51DC00DE9132 /* 0567.★Permutation-in-String */,
+				3FDDA7552764A609008246E0 /* 0617.Merge-Two-Binary-Trees */,
 				3FDDA7502764968F008246E0 /* 0695.Max-Area-of-Island */,
 				3FB7159D27574FC3005A4176 /* 0704.BinarySearch */,
 				3FD29C6D2763451800C7AAC7 /* 0733.★Flood-Fill */,
@@ -545,13 +548,13 @@
 			path = "0617.Merge-Two-Binary-Trees";
 			sourceTree = "<group>";
 		};
-		3FDDA75A2764B8D7008246E0 /* 0116.PopulatingNextRightPointersinEachNode */ = {
+		3FDDA75A2764B8D7008246E0 /* 0116.★PopulatingNextRightPointersinEachNode */ = {
 			isa = PBXGroup;
 			children = (
 				3FDDA75B2764B8FF008246E0 /* PopulatingNextRightPointersinEachNode.swift */,
 				3FDDA75D2764B916008246E0 /* README.md */,
 			);
-			path = 0116.PopulatingNextRightPointersinEachNode;
+			path = "0116.★PopulatingNextRightPointersinEachNode";
 			sourceTree = "<group>";
 		};
 		3FE9A0AA275BB2B30069668D /* 0344.Reverse-String */ = {
@@ -679,6 +682,7 @@
 				3FBA368B269C1E2A0082BED9 /* Assets.xcassets in Resources */,
 				3FDCF4D5274D3371004FCFB6 /* README.md in Resources */,
 				3F1712632758A56200295C29 /* README.md in Resources */,
+				3FDDA7602764F0EE008246E0 /* 回文串扩展中心优化.jpg in Resources */,
 				3FD29C712763453900C7AAC7 /* README.md in Resources */,
 				3F3BE4B626E8B2F000632503 /* README.md in Resources */,
 				3F1E1BEE2753496900E0A7A9 /* README.md in Resources */,
