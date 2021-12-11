@@ -70,6 +70,12 @@
 		3FDCF4D0274CE8EE004FCFB6 /* README.md in Resources */ = {isa = PBXBuildFile; fileRef = 3FDCF4CF274CE8EE004FCFB6 /* README.md */; };
 		3FDCF4D3274D3341004FCFB6 /* ConstructBinaryTreeInorderPostorder.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3FDCF4D2274D3341004FCFB6 /* ConstructBinaryTreeInorderPostorder.swift */; };
 		3FDCF4D5274D3371004FCFB6 /* README.md in Resources */ = {isa = PBXBuildFile; fileRef = 3FDCF4D4274D3371004FCFB6 /* README.md */; };
+		3FDDA7522764969D008246E0 /* README.md in Resources */ = {isa = PBXBuildFile; fileRef = 3FDDA7512764969D008246E0 /* README.md */; };
+		3FDDA754276496C3008246E0 /* MaxAreaofIsland.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3FDDA753276496C3008246E0 /* MaxAreaofIsland.swift */; };
+		3FDDA7572764A614008246E0 /* README.md in Resources */ = {isa = PBXBuildFile; fileRef = 3FDDA7562764A614008246E0 /* README.md */; };
+		3FDDA7592764A648008246E0 /* MergeTwoBinaryTrees.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3FDDA7582764A648008246E0 /* MergeTwoBinaryTrees.swift */; };
+		3FDDA75C2764B8FF008246E0 /* PopulatingNextRightPointersinEachNode.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3FDDA75B2764B8FF008246E0 /* PopulatingNextRightPointersinEachNode.swift */; };
+		3FDDA75E2764B916008246E0 /* README.md in Resources */ = {isa = PBXBuildFile; fileRef = 3FDDA75D2764B916008246E0 /* README.md */; };
 		3FE9A0A9275BB2A40069668D /* ReverseString.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3FE9A0A8275BB2A40069668D /* ReverseString.swift */; };
 		3FE9A0AC275BB39B0069668D /* README.md in Resources */ = {isa = PBXBuildFile; fileRef = 3FE9A0AB275BB39B0069668D /* README.md */; };
 		3FE9A0AF275BB4BC0069668D /* ReverseWordsinStringIII.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3FE9A0AE275BB4BC0069668D /* ReverseWordsinStringIII.swift */; };
@@ -159,6 +165,12 @@
 		3FDCF4CF274CE8EE004FCFB6 /* README.md */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
 		3FDCF4D2274D3341004FCFB6 /* ConstructBinaryTreeInorderPostorder.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ConstructBinaryTreeInorderPostorder.swift; sourceTree = "<group>"; };
 		3FDCF4D4274D3371004FCFB6 /* README.md */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
+		3FDDA7512764969D008246E0 /* README.md */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
+		3FDDA753276496C3008246E0 /* MaxAreaofIsland.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MaxAreaofIsland.swift; sourceTree = "<group>"; };
+		3FDDA7562764A614008246E0 /* README.md */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
+		3FDDA7582764A648008246E0 /* MergeTwoBinaryTrees.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MergeTwoBinaryTrees.swift; sourceTree = "<group>"; };
+		3FDDA75B2764B8FF008246E0 /* PopulatingNextRightPointersinEachNode.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PopulatingNextRightPointersinEachNode.swift; sourceTree = "<group>"; };
+		3FDDA75D2764B916008246E0 /* README.md */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
 		3FE9A0A8275BB2A40069668D /* ReverseString.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ReverseString.swift; sourceTree = "<group>"; };
 		3FE9A0AB275BB39B0069668D /* README.md */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
 		3FE9A0AE275BB4BC0069668D /* ReverseWordsinStringIII.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ReverseWordsinStringIII.swift; sourceTree = "<group>"; };
@@ -415,6 +427,8 @@
 		3FBA3680269C1E270082BED9 /* leetcode */ = {
 			isa = PBXGroup;
 			children = (
+				3FDDA75A2764B8D7008246E0 /* 0116.PopulatingNextRightPointersinEachNode */,
+				3FDDA7552764A609008246E0 /* 0617.Merge-Two-Binary-Trees */,
 				3F3BD1DC275A19D100FBE743 /* 0167.Two-Sum-II-Input-array-is-sorted */,
 				3FBA3695269C1E410082BED9 /* 0001.Two-Sum */,
 				3F948B68275DF30100DE9132 /* 0003.★Longest-Substring-Without-Repeating-Characters */,
@@ -441,6 +455,7 @@
 				3F413993269DECC90094800A /* 0442.FindDuplicates */,
 				3FE9A0AD275BB49E0069668D /* 0557.Reverse-Words-in-a-String-III */,
 				3F948B6D275E51DC00DE9132 /* 0567.★Permutation-in-String */,
+				3FDDA7502764968F008246E0 /* 0695.Max-Area-of-Island */,
 				3FB7159D27574FC3005A4176 /* 0704.BinarySearch */,
 				3FD29C6D2763451800C7AAC7 /* 0733.★Flood-Fill */,
 				3F1E1BEA2753490200E0A7A9 /* 0876.MiddleoftheLinkedList */,
@@ -510,6 +525,33 @@
 				3FDCF4D4274D3371004FCFB6 /* README.md */,
 			);
 			path = 0106.ConstructBinaryTreeInorderPostorder;
+			sourceTree = "<group>";
+		};
+		3FDDA7502764968F008246E0 /* 0695.Max-Area-of-Island */ = {
+			isa = PBXGroup;
+			children = (
+				3FDDA753276496C3008246E0 /* MaxAreaofIsland.swift */,
+				3FDDA7512764969D008246E0 /* README.md */,
+			);
+			path = "0695.Max-Area-of-Island";
+			sourceTree = "<group>";
+		};
+		3FDDA7552764A609008246E0 /* 0617.Merge-Two-Binary-Trees */ = {
+			isa = PBXGroup;
+			children = (
+				3FDDA7582764A648008246E0 /* MergeTwoBinaryTrees.swift */,
+				3FDDA7562764A614008246E0 /* README.md */,
+			);
+			path = "0617.Merge-Two-Binary-Trees";
+			sourceTree = "<group>";
+		};
+		3FDDA75A2764B8D7008246E0 /* 0116.PopulatingNextRightPointersinEachNode */ = {
+			isa = PBXGroup;
+			children = (
+				3FDDA75B2764B8FF008246E0 /* PopulatingNextRightPointersinEachNode.swift */,
+				3FDDA75D2764B916008246E0 /* README.md */,
+			);
+			path = 0116.PopulatingNextRightPointersinEachNode;
 			sourceTree = "<group>";
 		};
 		3FE9A0AA275BB2B30069668D /* 0344.Reverse-String */ = {
@@ -633,6 +675,7 @@
 				3FB7159F27574FFD005A4176 /* README.md in Resources */,
 				3F948B6A275DF30E00DE9132 /* README.md in Resources */,
 				3F3BD1D9275A085100FBE743 /* README.md in Resources */,
+				3FDDA75E2764B916008246E0 /* README.md in Resources */,
 				3FBA368B269C1E2A0082BED9 /* Assets.xcassets in Resources */,
 				3FDCF4D5274D3371004FCFB6 /* README.md in Resources */,
 				3F1712632758A56200295C29 /* README.md in Resources */,
@@ -644,6 +687,7 @@
 				3F9D5D6D275D05D7009F4D0C /* README.md in Resources */,
 				3F1E1BE427526D6000E0A7A9 /* README.md in Resources */,
 				3FE9A0B1275BBB0D0069668D /* README.md in Resources */,
+				3FDDA7572764A614008246E0 /* README.md in Resources */,
 				3FBA369E269C27BB0082BED9 /* README.md in Resources */,
 				3F1712682758F4CD00295C29 /* README.md in Resources */,
 				3FDCF4D0274CE8EE004FCFB6 /* README.md in Resources */,
@@ -655,6 +699,7 @@
 				3FEC954E2755046500CCD88E /* README.md in Resources */,
 				3F1E1BB9274F826D00E0A7A9 /* README.md in Resources */,
 				3F3C8E1C26EA08A100E419C2 /* README.md in Resources */,
+				3FDDA7522764969D008246E0 /* README.md in Resources */,
 				3FB5D428272EF5E9007EDB71 /* README.md in Resources */,
 				3F1E1BBD2750840D00E0A7A9 /* MergeTwoLists.gif in Resources */,
 				3F326B45275670FF004F27C5 /* 最长回文串.jpg in Resources */,
@@ -689,6 +734,7 @@
 				3FBA3686269C1E270082BED9 /* ViewController.swift in Sources */,
 				3FBA369C269C27B40082BED9 /* IntersectionofTwoLinkedLists.swift in Sources */,
 				3FDCF4D3274D3341004FCFB6 /* ConstructBinaryTreeInorderPostorder.swift in Sources */,
+				3FDDA754276496C3008246E0 /* MaxAreaofIsland.swift in Sources */,
 				3F948B6C275DF3D400DE9132 /* LongestSubstringWithoutRepeatingCharacters.swift in Sources */,
 				3FBA3682269C1E270082BED9 /* AppDelegate.swift in Sources */,
 				3F413999269DF4450094800A /* InvertTree.swift in Sources */,
@@ -701,9 +747,11 @@
 				3F413996269DEEAE0094800A /* FindDuplicates.swift in Sources */,
 				3FB9056E272AF26C002B9A13 /* NQueens.swift in Sources */,
 				3FB715A127575046005A4176 /* BinarySearch.swift in Sources */,
+				3FDDA75C2764B8FF008246E0 /* PopulatingNextRightPointersinEachNode.swift in Sources */,
 				3F1E1BE7275346C800E0A7A9 /* SortList.swift in Sources */,
 				3F1E1C00275378F100E0A7A9 /* ListNode.swift in Sources */,
 				3F1E1BEC2753495E00E0A7A9 /* MiddleoftheLinkedList.swift in Sources */,
+				3FDDA7592764A648008246E0 /* MergeTwoBinaryTrees.swift in Sources */,
 				3F413992269DE66E0094800A /* RepeatNumber.swift in Sources */,
 				3F948B71275E601D00DE9132 /* PermutationinString.swift in Sources */,
 				3FE9A0AF275BB4BC0069668D /* ReverseWordsinStringIII.swift in Sources */,
