@@ -70,6 +70,7 @@
 		3FD4CF0A2766015C004766C0 /* Matrix.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3FD4CF092766015C004766C0 /* Matrix.swift */; };
 		3FD4CF0D27660F97004766C0 /* RottingOranges.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3FD4CF0C27660F97004766C0 /* RottingOranges.swift */; };
 		3FD4CF0F276645EB004766C0 /* Queue.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3FD4CF0E276645EB004766C0 /* Queue.swift */; };
+		3FD4CF11276653D8004766C0 /* README.md in Resources */ = {isa = PBXBuildFile; fileRef = 3FD4CF10276653D8004766C0 /* README.md */; };
 		3FDCF4CE274CE8C5004FCFB6 /* 0105.ConstructBinaryTreefromPreorderandInorderTraversal.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3FDCF4CD274CE8C5004FCFB6 /* 0105.ConstructBinaryTreefromPreorderandInorderTraversal.swift */; };
 		3FDCF4D0274CE8EE004FCFB6 /* README.md in Resources */ = {isa = PBXBuildFile; fileRef = 3FDCF4CF274CE8EE004FCFB6 /* README.md */; };
 		3FDCF4D3274D3341004FCFB6 /* ConstructBinaryTreeInorderPostorder.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3FDCF4D2274D3341004FCFB6 /* ConstructBinaryTreeInorderPostorder.swift */; };
@@ -170,6 +171,7 @@
 		3FD4CF092766015C004766C0 /* Matrix.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Matrix.swift; sourceTree = "<group>"; };
 		3FD4CF0C27660F97004766C0 /* RottingOranges.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RottingOranges.swift; sourceTree = "<group>"; };
 		3FD4CF0E276645EB004766C0 /* Queue.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Queue.swift; sourceTree = "<group>"; };
+		3FD4CF10276653D8004766C0 /* README.md */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
 		3FDCF4CD274CE8C5004FCFB6 /* 0105.ConstructBinaryTreefromPreorderandInorderTraversal.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = 0105.ConstructBinaryTreefromPreorderandInorderTraversal.swift; sourceTree = "<group>"; };
 		3FDCF4CF274CE8EE004FCFB6 /* README.md */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
 		3FDCF4D2274D3341004FCFB6 /* ConstructBinaryTreeInorderPostorder.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ConstructBinaryTreeInorderPostorder.swift; sourceTree = "<group>"; };
@@ -438,7 +440,6 @@
 		3FBA3680269C1E270082BED9 /* leetcode */ = {
 			isa = PBXGroup;
 			children = (
-				3FD4CF0B27660F6E004766C0 /* 0994.RottingOranges */,
 				3F3BD1DC275A19D100FBE743 /* 0167.Two-Sum-II-Input-array-is-sorted */,
 				3FBA3695269C1E410082BED9 /* 0001.Two-Sum */,
 				3F948B68275DF30100DE9132 /* 0003.★Longest-Substring-Without-Repeating-Characters */,
@@ -473,6 +474,7 @@
 				3FD29C6D2763451800C7AAC7 /* 0733.★Flood-Fill */,
 				3F1E1BEA2753490200E0A7A9 /* 0876.MiddleoftheLinkedList */,
 				3F1712612758A54D00295C29 /* 0977.SquaresofaSortedArray */,
+				3FD4CF0B27660F6E004766C0 /* 0994.★RottingOranges */,
 				3FBA369F269C2D740082BED9 /* 剑指offer03 */,
 				3FBA3681269C1E270082BED9 /* AppDelegate.swift */,
 				3FBA3683269C1E270082BED9 /* SceneDelegate.swift */,
@@ -532,12 +534,13 @@
 			path = "0542.★01-Matrix";
 			sourceTree = "<group>";
 		};
-		3FD4CF0B27660F6E004766C0 /* 0994.RottingOranges */ = {
+		3FD4CF0B27660F6E004766C0 /* 0994.★RottingOranges */ = {
 			isa = PBXGroup;
 			children = (
 				3FD4CF0C27660F97004766C0 /* RottingOranges.swift */,
+				3FD4CF10276653D8004766C0 /* README.md */,
 			);
-			path = 0994.RottingOranges;
+			path = "0994.★RottingOranges";
 			sourceTree = "<group>";
 		};
 		3FDCF4CC274CE87F004FCFB6 /* 0105.Construct-Binary-Tree-from-Preorder-and-Inorder-Traversal */ = {
@@ -730,6 +733,7 @@
 				3F1E1BE9275346D500E0A7A9 /* README.md in Resources */,
 				3FEC954E2755046500CCD88E /* README.md in Resources */,
 				3F1E1BB9274F826D00E0A7A9 /* README.md in Resources */,
+				3FD4CF11276653D8004766C0 /* README.md in Resources */,
 				3F3C8E1C26EA08A100E419C2 /* README.md in Resources */,
 				3FDDA7522764969D008246E0 /* README.md in Resources */,
 				3FD4CF082765F0AE004766C0 /* README.md in Resources */,

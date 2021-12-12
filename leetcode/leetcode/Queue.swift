@@ -18,7 +18,7 @@ public protocol Queue {
     mutating func dequeue() -> Element?
     var isEmpty:Bool {get}
     var peek: Element? {get}
-
+    var size: Int {get}
 }
 
 //MARK:数组实现
@@ -38,6 +38,12 @@ struct QueueArray<T>:Queue {
     var peek: T? {
 
         get {array.first}
+    }
+
+    var size: Int {
+
+        return array.count
+
     }
 
     public init(){
