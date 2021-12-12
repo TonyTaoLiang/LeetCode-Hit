@@ -16,6 +16,8 @@ class RottingOranges{
 
     func orangesRotting(_ grid: [[Int]]) -> Int {
 
+        var mutableGrid = grid
+
         //用一个元组来表示入列的烂橘子的坐标
         var queue = QueueArray<(Int,Int)>()
 
@@ -41,24 +43,74 @@ class RottingOranges{
         //round 表示腐烂的轮数，或者分钟数
         var round = 0
 
+        //为什么不像BFS打印树的节点这样直接循环dequeue然后enqueue，一开始不能理解题解这句话，原因在于这样第一层入列和第二层入列的全混合在一起，无法计算round了。
+        //这个队列中第 1 层和第 2 层的结点会紧挨在一起，无法区分
+        //while let locate = queue.dequeue() {
+
+        //}
+
         // 如果有新鲜橘子 并且 队列不为空
         // 直到上下左右都触及边界 或者 被感染的橘子已经遍历完
-
-        while let locate = queue.dequeue() {
-
-            if count == 0 {
-                return round
-            }
-
-            
-
-        }
-
         while count > 0 && !queue.isEmpty {
 
+            //每次进入都是新的一层
+            round += 1
 
+            for _ in 0..<queue.size {
 
+                let locate: (Int,Int)? = queue.dequeue()
 
+                //当前腐烂的坐标
+                if let r = locate?.0, let c = locate?.1 {
+
+                    // ↑ 上邻点 判断是否边界 并且 上方是否是健康的橘子
+                    if r - 1 >= 0 && mutableGrid[r-1][c] == 1{
+
+                        //感染它
+                        mutableGrid[r-1][c] = 2
+                        //好橘子-1
+                        count -= 1
+                        //入列
+                        queue.enqueue((r-1,c))
+
+                    }
+                    // ↓ 下邻点 同上
+                    if r + 1 < grid.count && mutableGrid[r+1][c] == 1{
+
+                        //感染它
+                        mutableGrid[r+1][c] = 2
+                        //好橘子-1
+                        count -= 1
+                        //入列
+                        queue.enqueue((r+1,c))
+
+                    }
+                    // ← 左邻点 同上
+                    if c - 1 >= 0 && mutableGrid[r][c-1] == 1{
+
+                        //感染它
+                        mutableGrid[r][c-1] = 2
+                        //好橘子-1
+                        count -= 1
+                        //入列
+                        queue.enqueue((r,c-1))
+
+                    }
+                    // → 右邻点 同上
+                    if c + 1 < grid[0].count && mutableGrid[r][c+1] == 1{
+
+                        //感染它
+                        mutableGrid[r][c+1] = 2
+                        //好橘子-1
+                        count -= 1
+                        //入列
+                        queue.enqueue((r,c+1))
+
+                    }
+
+                }
+
+            }
 
         }
 
