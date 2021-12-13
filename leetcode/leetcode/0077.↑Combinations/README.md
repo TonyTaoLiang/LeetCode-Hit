@@ -23,7 +23,7 @@ Given two integers *n* and *k*, return all possible combinations of *k* num
 给定两个整数 n 和 k，返回 1 ... n 中所有可能的 k 个数的组合。
 
 ## 解题思路
-
+和46题类似
 - 计算排列组合中的组合，用 DFS 深搜即可，注意剪枝
 
 [回溯算法 + 剪枝](https://leetcode-cn.com/problems/combinations/solution/hui-su-suan-fa-jian-zhi-python-dai-ma-java-dai-ma-/)

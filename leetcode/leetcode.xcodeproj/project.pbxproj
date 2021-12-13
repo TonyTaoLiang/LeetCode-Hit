@@ -25,6 +25,9 @@
 		3F1E76C82766ED82008B63A4 /* README.md in Resources */ = {isa = PBXBuildFile; fileRef = 3F1E76C72766ED82008B63A4 /* README.md */; };
 		3F1E76CA276735E9008B63A4 /* 组合树状图.png in Resources */ = {isa = PBXBuildFile; fileRef = 3F1E76C9276735E9008B63A4 /* 组合树状图.png */; };
 		3F1E76CC27673611008B63A4 /* Combination.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3F1E76CB27673611008B63A4 /* Combination.swift */; };
+		3F1E76CF2767916C008B63A4 /* Permutations.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3F1E76CE2767916C008B63A4 /* Permutations.swift */; };
+		3F1E76D127679176008B63A4 /* README.md in Resources */ = {isa = PBXBuildFile; fileRef = 3F1E76D027679176008B63A4 /* README.md */; };
+		3F1E76D32767A4BE008B63A4 /* 全排列.png in Resources */ = {isa = PBXBuildFile; fileRef = 3F1E76D22767A4BE008B63A4 /* 全排列.png */; };
 		3F326B45275670FF004F27C5 /* 最长回文串.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 3F326B44275670FF004F27C5 /* 最长回文串.jpg */; };
 		3F3BD1D9275A085100FBE743 /* README.md in Resources */ = {isa = PBXBuildFile; fileRef = 3F3BD1D8275A085100FBE743 /* README.md */; };
 		3F3BD1DB275A0FAF00FBE743 /* MoveZeroes.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3F3BD1DA275A0FAF00FBE743 /* MoveZeroes.swift */; };
@@ -124,6 +127,9 @@
 		3F1E76C72766ED82008B63A4 /* README.md */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
 		3F1E76C9276735E9008B63A4 /* 组合树状图.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "组合树状图.png"; sourceTree = "<group>"; };
 		3F1E76CB27673611008B63A4 /* Combination.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Combination.swift; sourceTree = "<group>"; };
+		3F1E76CE2767916C008B63A4 /* Permutations.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Permutations.swift; sourceTree = "<group>"; };
+		3F1E76D027679176008B63A4 /* README.md */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
+		3F1E76D22767A4BE008B63A4 /* 全排列.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "全排列.png"; sourceTree = "<group>"; };
 		3F326B44275670FF004F27C5 /* 最长回文串.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "最长回文串.jpg"; sourceTree = "<group>"; };
 		3F3BD1D8275A085100FBE743 /* README.md */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
 		3F3BD1DA275A0FAF00FBE743 /* MoveZeroes.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MoveZeroes.swift; sourceTree = "<group>"; };
@@ -279,14 +285,24 @@
 			path = leetcodeTests;
 			sourceTree = "<group>";
 		};
-		3F1E76C62766ED78008B63A4 /* 0077.Combinations */ = {
+		3F1E76C62766ED78008B63A4 /* 0077.↑Combinations */ = {
 			isa = PBXGroup;
 			children = (
 				3F1E76CB27673611008B63A4 /* Combination.swift */,
 				3F1E76C72766ED82008B63A4 /* README.md */,
 				3F1E76C9276735E9008B63A4 /* 组合树状图.png */,
 			);
-			path = 0077.Combinations;
+			path = "0077.↑Combinations";
+			sourceTree = "<group>";
+		};
+		3F1E76CD27679158008B63A4 /* 0046.↓Permutations */ = {
+			isa = PBXGroup;
+			children = (
+				3F1E76CE2767916C008B63A4 /* Permutations.swift */,
+				3F1E76D027679176008B63A4 /* README.md */,
+				3F1E76D22767A4BE008B63A4 /* 全排列.png */,
+			);
+			path = "0046.↓Permutations";
 			sourceTree = "<group>";
 		};
 		3F3BD1D6275A07E800FBE743 /* 0283.Move-Zeroes */ = {
@@ -467,7 +483,8 @@
 				3FB715A72757C64C005A4176 /* 0035.SearchInsertPosition */,
 				3FB9056C272AF237002B9A13 /* 0051.N-Queens */,
 				3FB5D426272EF556007EDB71 /* 0053.MaximumSubarray */,
-				3F1E76C62766ED78008B63A4 /* 0077.Combinations */,
+				3F1E76CD27679158008B63A4 /* 0046.↓Permutations */,
+				3F1E76C62766ED78008B63A4 /* 0077.↑Combinations */,
 				3FEC954A2755041C00CCD88E /* 0088.MergeSortedArray */,
 				3F3C8E1A26EA088F00E419C2 /* 0094.Binary-Tree-Inorder-Traversal */,
 				3FDCF4CC274CE87F004FCFB6 /* 0105.Construct-Binary-Tree-from-Preorder-and-Inorder-Traversal */,
@@ -720,6 +737,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				3F1E76D32767A4BE008B63A4 /* 全排列.png in Resources */,
 				3FBA36A1269C2DB90082BED9 /* README.md in Resources */,
 				3FBA368E269C1E2A0082BED9 /* LaunchScreen.storyboard in Resources */,
 				3FB90570272AF284002B9A13 /* README.md in Resources */,
@@ -744,6 +762,7 @@
 				3FBA369E269C27BB0082BED9 /* README.md in Resources */,
 				3F1712682758F4CD00295C29 /* README.md in Resources */,
 				3F1E76C82766ED82008B63A4 /* README.md in Resources */,
+				3F1E76D127679176008B63A4 /* README.md in Resources */,
 				3FDCF4D0274CE8EE004FCFB6 /* README.md in Resources */,
 				3F3BD1DE275A19DA00FBE743 /* README.md in Resources */,
 				3FBA3697269C1E7D0082BED9 /* README.md in Resources */,
@@ -811,6 +830,7 @@
 				3F1E1BEC2753495E00E0A7A9 /* MiddleoftheLinkedList.swift in Sources */,
 				3FDDA7592764A648008246E0 /* MergeTwoBinaryTrees.swift in Sources */,
 				3FD4CF0A2766015C004766C0 /* Matrix.swift in Sources */,
+				3F1E76CF2767916C008B63A4 /* Permutations.swift in Sources */,
 				3F413992269DE66E0094800A /* RepeatNumber.swift in Sources */,
 				3F948B71275E601D00DE9132 /* PermutationinString.swift in Sources */,
 				3FE9A0AF275BB4BC0069668D /* ReverseWordsinStringIII.swift in Sources */,
