@@ -131,4 +131,15 @@ class leetcodeTests: XCTestCase {
         let res = orange.orangesRotting(array)
     }
 
+    func testCombine(){
+
+        let com = Combination()
+        com.combine(4, 2)
+
+    }
+    func testLetter(){
+
+        let letter = LetterPermutation()
+        letter.letterCasePermutation("aa")
+    }
 }

@@ -28,6 +28,7 @@ class Combination{
 
         // 递归终止条件是：path 的长度等于 k
         if c.count == k {
+            print("终止\(start)")
             res.append(c)
             return
         }
