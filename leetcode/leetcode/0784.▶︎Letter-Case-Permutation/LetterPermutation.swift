@@ -23,22 +23,26 @@ vv  ....
      c ^= (1 << 5)
      可以不用知道字母 c 的大小写的情况，做大小写切换。
      */
+    //优化一下，不操作Sting: var ss = String(s) 操作 Array: var ss: [Character] = Array(s)时间复杂度瞬间降下来
     func letterCasePermutation(_ s: String) -> [String] {
 
         if s.count == 0 {
             return []
         }
         var res: [String] = [String]()
-        var ss = String(s)
+//        var ss = String(s)
+        var ss: [Character] = Array(s)
         dfsLetterPermutation(&ss, 0, &res)
         return res
     }
 
-    func dfsLetterPermutation(_ s: inout String, _ depth: Int, _ res: inout [String]){
+//    func dfsLetterPermutation(_ s: inout String, _ depth: Int, _ res: inout [String]){
+    func dfsLetterPermutation(_ s: inout [Character], _ depth: Int, _ res: inout [String]){
 
         //depth到最后一层了
         if s.count == depth {
-            res.append(s)
+//            res.append(s)
+            res.append(String(s))
             return
         }
 
@@ -60,8 +64,9 @@ vv  ....
         let currentCharacter = Character(UnicodeScalar(currentInt)!)
         //这句有问题：如果字符串有相同的字符，替换会乱掉，要替换对应位置的字符
         //s = s.replacingOccurrences(of: String(s[depth]), with: String(currentCharacter))
-        let index = s.index(s.startIndex, offsetBy: depth)
-        s = s.replacingCharacters(in: index...index, with: String(currentCharacter))
+//        let index = s.index(s.startIndex, offsetBy: depth)
+//        s = s.replacingCharacters(in: index...index, with: String(currentCharacter))
+        s[depth] = currentCharacter
         dfsLetterPermutation(&s, depth + 1, &res)
     }
 

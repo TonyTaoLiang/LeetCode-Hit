@@ -142,4 +142,10 @@ class leetcodeTests: XCTestCase {
         let letter = LetterPermutation()
         letter.letterCasePermutation("aa")
     }
+    func testClimb(){
+
+        let climb = ClimbingStairs()
+        climb.climbStairs(1)
+
+    }
 }
