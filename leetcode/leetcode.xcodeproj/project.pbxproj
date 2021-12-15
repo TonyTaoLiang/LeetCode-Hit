@@ -74,6 +74,8 @@
 		3FBBD15F27684F77005AC22C /* README.md in Resources */ = {isa = PBXBuildFile; fileRef = 3FBBD15E27684F76005AC22C /* README.md */; };
 		3FBBD1622769C8FD005AC22C /* ClimbingStairs.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3FBBD1612769C8FD005AC22C /* ClimbingStairs.swift */; };
 		3FBBD1642769C904005AC22C /* README.md in Resources */ = {isa = PBXBuildFile; fileRef = 3FBBD1632769C904005AC22C /* README.md */; };
+		3FBBD1672769D1B7005AC22C /* HouseRobber.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3FBBD1662769D1B7005AC22C /* HouseRobber.swift */; };
+		3FBBD1692769D1BE005AC22C /* README.md in Resources */ = {isa = PBXBuildFile; fileRef = 3FBBD1682769D1BD005AC22C /* README.md */; };
 		3FD29C6F2763452E00C7AAC7 /* FloodFill.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3FD29C6E2763452E00C7AAC7 /* FloodFill.swift */; };
 		3FD29C712763453900C7AAC7 /* README.md in Resources */ = {isa = PBXBuildFile; fileRef = 3FD29C702763453800C7AAC7 /* README.md */; };
 		3FD4CF082765F0AE004766C0 /* README.md in Resources */ = {isa = PBXBuildFile; fileRef = 3FD4CF072765F0AE004766C0 /* README.md */; };
@@ -185,6 +187,8 @@
 		3FBBD15E27684F76005AC22C /* README.md */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
 		3FBBD1612769C8FD005AC22C /* ClimbingStairs.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ClimbingStairs.swift; sourceTree = "<group>"; };
 		3FBBD1632769C904005AC22C /* README.md */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
+		3FBBD1662769D1B7005AC22C /* HouseRobber.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HouseRobber.swift; sourceTree = "<group>"; };
+		3FBBD1682769D1BD005AC22C /* README.md */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
 		3FD29C6E2763452E00C7AAC7 /* FloodFill.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FloodFill.swift; sourceTree = "<group>"; };
 		3FD29C702763453800C7AAC7 /* README.md */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
 		3FD4CF072765F0AE004766C0 /* README.md */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
@@ -503,6 +507,7 @@
 				3F1E1BE5275346AD00E0A7A9 /* 0148.SortList */,
 				3FBA369A269C270D0082BED9 /* 0160.Intersection-of-Two-Linked-Lists */,
 				3F1712662758F4AF00295C29 /* 0189.★Rotate-Array */,
+				3FBBD1652769D1A8005AC22C /* 0198.House-Robber */,
 				3F3BE4B426E8B2CB00632503 /* 0206. Reverse Linked List */,
 				3F413997269DF4150094800A /* 0226.翻转二叉树 */,
 				3FB715A227576ECB005A4176 /* 0278.FirstBadVersion */,
@@ -576,6 +581,15 @@
 				3FBBD1632769C904005AC22C /* README.md */,
 			);
 			path = "0070.Climbing-Stairs";
+			sourceTree = "<group>";
+		};
+		3FBBD1652769D1A8005AC22C /* 0198.House-Robber */ = {
+			isa = PBXGroup;
+			children = (
+				3FBBD1662769D1B7005AC22C /* HouseRobber.swift */,
+				3FBBD1682769D1BD005AC22C /* README.md */,
+			);
+			path = "0198.House-Robber";
 			sourceTree = "<group>";
 		};
 		3FD29C6D2763451800C7AAC7 /* 0733.★Flood-Fill */ = {
@@ -773,6 +787,7 @@
 				3F948B6A275DF30E00DE9132 /* README.md in Resources */,
 				3F3BD1D9275A085100FBE743 /* README.md in Resources */,
 				3FDDA75E2764B916008246E0 /* README.md in Resources */,
+				3FBBD1692769D1BE005AC22C /* README.md in Resources */,
 				3FBA368B269C1E2A0082BED9 /* Assets.xcassets in Resources */,
 				3FDCF4D5274D3371004FCFB6 /* README.md in Resources */,
 				3F1712632758A56200295C29 /* README.md in Resources */,
@@ -848,6 +863,7 @@
 				3F9E1DEF2758FB23000B88CC /* RotateArray.swift in Sources */,
 				3F3C8E1E26EA08CD00E419C2 /* 94. BinaryTreeInorderTraversal.swift in Sources */,
 				3F1E1BBB274F82AC00E0A7A9 /* MergeTwoSortedLists.swift in Sources */,
+				3FBBD1672769D1B7005AC22C /* HouseRobber.swift in Sources */,
 				3F3BE4B826E8B31800632503 /* ReverseLinkedList.swift in Sources */,
 				3FB5D42A272EF812007EDB71 /* MaximumSubarray.swift in Sources */,
 				3F3BD1DB275A0FAF00FBE743 /* MoveZeroes.swift in Sources */,
