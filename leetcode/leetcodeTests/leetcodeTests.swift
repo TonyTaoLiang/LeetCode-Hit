@@ -148,4 +148,13 @@ class leetcodeTests: XCTestCase {
         climb.climbStairs(1)
 
     }
+
+    func testTriangle() {
+
+        let tri = Triangle()
+        var array = [[-1],[9,-2],[0,4,5],[7,4,-4,-5],[9,6,0,5,7],[9,2,-9,-4,5,-2],[-4,-9,-5,-7,-5,-5,-2],[-9,5,-6,-4,4,1,6,-4],[-4,3,9,-2,8,6,-9,-2,-2]]
+//        tri.minimumTotal([[-1],[2,3],[1,-1,-3],[-100,1,2,1]])
+        tri.minimumTotal(array)
+        tri.minimumTotal4(array)
+    }
 }

@@ -70,6 +70,8 @@
 		3FBA369C269C27B40082BED9 /* IntersectionofTwoLinkedLists.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3FBA369B269C27B40082BED9 /* IntersectionofTwoLinkedLists.swift */; };
 		3FBA369E269C27BB0082BED9 /* README.md in Resources */ = {isa = PBXBuildFile; fileRef = 3FBA369D269C27BB0082BED9 /* README.md */; };
 		3FBA36A1269C2DB90082BED9 /* README.md in Resources */ = {isa = PBXBuildFile; fileRef = 3FBA36A0269C2DB90082BED9 /* README.md */; };
+		3FBB399C276AD81F00C579B2 /* Triangle.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3FBB399B276AD81F00C579B2 /* Triangle.swift */; };
+		3FBB399E276AD82600C579B2 /* README.md in Resources */ = {isa = PBXBuildFile; fileRef = 3FBB399D276AD82600C579B2 /* README.md */; };
 		3FBBD15D27684F5B005AC22C /* LetterPermutation.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3FBBD15C27684F5B005AC22C /* LetterPermutation.swift */; };
 		3FBBD15F27684F77005AC22C /* README.md in Resources */ = {isa = PBXBuildFile; fileRef = 3FBBD15E27684F76005AC22C /* README.md */; };
 		3FBBD1622769C8FD005AC22C /* ClimbingStairs.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3FBBD1612769C8FD005AC22C /* ClimbingStairs.swift */; };
@@ -183,6 +185,8 @@
 		3FBA369B269C27B40082BED9 /* IntersectionofTwoLinkedLists.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = IntersectionofTwoLinkedLists.swift; sourceTree = "<group>"; };
 		3FBA369D269C27BB0082BED9 /* README.md */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
 		3FBA36A0269C2DB90082BED9 /* README.md */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
+		3FBB399B276AD81F00C579B2 /* Triangle.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Triangle.swift; sourceTree = "<group>"; };
+		3FBB399D276AD82600C579B2 /* README.md */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
 		3FBBD15C27684F5B005AC22C /* LetterPermutation.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LetterPermutation.swift; sourceTree = "<group>"; };
 		3FBBD15E27684F76005AC22C /* README.md */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
 		3FBBD1612769C8FD005AC22C /* ClimbingStairs.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ClimbingStairs.swift; sourceTree = "<group>"; };
@@ -503,6 +507,7 @@
 				3F3C8E1A26EA088F00E419C2 /* 0094.Binary-Tree-Inorder-Traversal */,
 				3FDCF4CC274CE87F004FCFB6 /* 0105.Construct-Binary-Tree-from-Preorder-and-Inorder-Traversal */,
 				3FDCF4D1274D3322004FCFB6 /* 0106.ConstructBinaryTreeInorderPostorder */,
+				3FBB399A276AD80900C579B2 /* 0120.★Triangle */,
 				3FDDA75A2764B8D7008246E0 /* 0116.★PopulatingNextRightPointersinEachNode */,
 				3F1E1BE5275346AD00E0A7A9 /* 0148.SortList */,
 				3FBA369A269C270D0082BED9 /* 0160.Intersection-of-Two-Linked-Lists */,
@@ -563,6 +568,15 @@
 				3FBA36A0269C2DB90082BED9 /* README.md */,
 			);
 			path = "剑指offer03";
+			sourceTree = "<group>";
+		};
+		3FBB399A276AD80900C579B2 /* 0120.★Triangle */ = {
+			isa = PBXGroup;
+			children = (
+				3FBB399B276AD81F00C579B2 /* Triangle.swift */,
+				3FBB399D276AD82600C579B2 /* README.md */,
+			);
+			path = "0120.★Triangle";
 			sourceTree = "<group>";
 		};
 		3FBBD15B27684F47005AC22C /* 0784.▶︎Letter-Case-Permutation */ = {
@@ -790,6 +804,7 @@
 				3FBBD1692769D1BE005AC22C /* README.md in Resources */,
 				3FBA368B269C1E2A0082BED9 /* Assets.xcassets in Resources */,
 				3FDCF4D5274D3371004FCFB6 /* README.md in Resources */,
+				3FBB399E276AD82600C579B2 /* README.md in Resources */,
 				3F1712632758A56200295C29 /* README.md in Resources */,
 				3FDDA7602764F0EE008246E0 /* 回文串扩展中心优化.jpg in Resources */,
 				3FD29C712763453900C7AAC7 /* README.md in Resources */,
@@ -853,6 +868,7 @@
 				3F3BD1E0275A1A0300FBE743 /* 0167.TwoSumInputArray.swift in Sources */,
 				3F9D5D6F275D0623009F4D0C /* RemoveNthNodeEndList.swift in Sources */,
 				3FBA3686269C1E270082BED9 /* ViewController.swift in Sources */,
+				3FBB399C276AD81F00C579B2 /* Triangle.swift in Sources */,
 				3FBA369C269C27B40082BED9 /* IntersectionofTwoLinkedLists.swift in Sources */,
 				3FBBD15D27684F5B005AC22C /* LetterPermutation.swift in Sources */,
 				3FDCF4D3274D3341004FCFB6 /* ConstructBinaryTreeInorderPostorder.swift in Sources */,
