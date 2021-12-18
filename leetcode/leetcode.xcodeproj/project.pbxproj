@@ -29,6 +29,8 @@
 		3F1E76D127679176008B63A4 /* README.md in Resources */ = {isa = PBXBuildFile; fileRef = 3F1E76D027679176008B63A4 /* README.md */; };
 		3F1E76D32767A4BE008B63A4 /* 全排列.png in Resources */ = {isa = PBXBuildFile; fileRef = 3F1E76D22767A4BE008B63A4 /* 全排列.png */; };
 		3F326B45275670FF004F27C5 /* 最长回文串.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 3F326B44275670FF004F27C5 /* 最长回文串.jpg */; };
+		3F39CC2A276DD66C00C9C071 /* PascalsTriangle.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3F39CC29276DD66C00C9C071 /* PascalsTriangle.swift */; };
+		3F39CC2C276DD67900C9C071 /* README.md in Resources */ = {isa = PBXBuildFile; fileRef = 3F39CC2B276DD67900C9C071 /* README.md */; };
 		3F3BD1D9275A085100FBE743 /* README.md in Resources */ = {isa = PBXBuildFile; fileRef = 3F3BD1D8275A085100FBE743 /* README.md */; };
 		3F3BD1DB275A0FAF00FBE743 /* MoveZeroes.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3F3BD1DA275A0FAF00FBE743 /* MoveZeroes.swift */; };
 		3F3BD1DE275A19DA00FBE743 /* README.md in Resources */ = {isa = PBXBuildFile; fileRef = 3F3BD1DD275A19DA00FBE743 /* README.md */; };
@@ -141,6 +143,8 @@
 		3F1E76D027679176008B63A4 /* README.md */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
 		3F1E76D22767A4BE008B63A4 /* 全排列.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "全排列.png"; sourceTree = "<group>"; };
 		3F326B44275670FF004F27C5 /* 最长回文串.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "最长回文串.jpg"; sourceTree = "<group>"; };
+		3F39CC29276DD66C00C9C071 /* PascalsTriangle.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PascalsTriangle.swift; sourceTree = "<group>"; };
+		3F39CC2B276DD67900C9C071 /* README.md */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
 		3F3BD1D8275A085100FBE743 /* README.md */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
 		3F3BD1DA275A0FAF00FBE743 /* MoveZeroes.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MoveZeroes.swift; sourceTree = "<group>"; };
 		3F3BD1DD275A19DA00FBE743 /* README.md */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
@@ -323,6 +327,15 @@
 				3F1E76D22767A4BE008B63A4 /* 全排列.png */,
 			);
 			path = "0046.↓Permutations";
+			sourceTree = "<group>";
+		};
+		3F39CC28276DD64600C9C071 /* 0118.杨辉三角 */ = {
+			isa = PBXGroup;
+			children = (
+				3F39CC29276DD66C00C9C071 /* PascalsTriangle.swift */,
+				3F39CC2B276DD67900C9C071 /* README.md */,
+			);
+			path = "0118.杨辉三角";
 			sourceTree = "<group>";
 		};
 		3F3BD1D6275A07E800FBE743 /* 0283.Move-Zeroes */ = {
@@ -520,6 +533,7 @@
 				3F3C8E1A26EA088F00E419C2 /* 0094.Binary-Tree-Inorder-Traversal */,
 				3FDCF4CC274CE87F004FCFB6 /* 0105.Construct-Binary-Tree-from-Preorder-and-Inorder-Traversal */,
 				3FDCF4D1274D3322004FCFB6 /* 0106.ConstructBinaryTreeInorderPostorder */,
+				3F39CC28276DD64600C9C071 /* 0118.杨辉三角 */,
 				3FBB399A276AD80900C579B2 /* 0120.★Triangle */,
 				3FB380EA276C315100E066C3 /* 0121.BestTimetoBuyandSellStock */,
 				3FDDA75A2764B8D7008246E0 /* 0116.★PopulatingNextRightPointersinEachNode */,
@@ -824,6 +838,7 @@
 				3FDDA7602764F0EE008246E0 /* 回文串扩展中心优化.jpg in Resources */,
 				3FD29C712763453900C7AAC7 /* README.md in Resources */,
 				3F3BE4B626E8B2F000632503 /* README.md in Resources */,
+				3F39CC2C276DD67900C9C071 /* README.md in Resources */,
 				3F1E1BEE2753496900E0A7A9 /* README.md in Resources */,
 				3FE9A0AC275BB39B0069668D /* README.md in Resources */,
 				3F17126027587CF200295C29 /* README.md in Resources */,
@@ -882,6 +897,7 @@
 				3F1E1BE227526D4F00E0A7A9 /* SwapNodesinPairs.swift in Sources */,
 				3F3BD1E0275A1A0300FBE743 /* 0167.TwoSumInputArray.swift in Sources */,
 				3F9D5D6F275D0623009F4D0C /* RemoveNthNodeEndList.swift in Sources */,
+				3F39CC2A276DD66C00C9C071 /* PascalsTriangle.swift in Sources */,
 				3FBA3686269C1E270082BED9 /* ViewController.swift in Sources */,
 				3FBB399C276AD81F00C579B2 /* Triangle.swift in Sources */,
 				3FBA369C269C27B40082BED9 /* IntersectionofTwoLinkedLists.swift in Sources */,
