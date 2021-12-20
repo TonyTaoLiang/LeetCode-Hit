@@ -157,4 +157,12 @@ class leetcodeTests: XCTestCase {
         tri.minimumTotal(array)
         tri.minimumTotal4(array)
     }
+
+    func testMaxDepthofBinaryTree(){
+
+        let de = MaxDepthofBinaryTree()
+        let tree1 = TreeNode(3, TreeNode(9), TreeNode(20, TreeNode(15), TreeNode(7)))
+        de.maxDepth(tree1)
+
+    }
 }
