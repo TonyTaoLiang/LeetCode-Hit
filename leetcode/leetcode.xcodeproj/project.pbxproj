@@ -8,6 +8,8 @@
 
 /* Begin PBXBuildFile section */
 		3F0D314127707F0400DCF718 /* MaxDepthofBinaryTree.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3F0D314027707F0400DCF718 /* MaxDepthofBinaryTree.swift */; };
+		3F0D31432770B49100DCF718 /* README.md in Resources */ = {isa = PBXBuildFile; fileRef = 3F0D31422770B49100DCF718 /* README.md */; };
+		3F0D31452770B66E00DCF718 /* 二叉树的最大深度.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 3F0D31442770B66E00DCF718 /* 二叉树的最大深度.jpg */; };
 		3F17126027587CF200295C29 /* README.md in Resources */ = {isa = PBXBuildFile; fileRef = 3F17125F27587CF200295C29 /* README.md */; };
 		3F1712632758A56200295C29 /* README.md in Resources */ = {isa = PBXBuildFile; fileRef = 3F1712622758A56200295C29 /* README.md */; };
 		3F1712652758A57400295C29 /* SquaresofaSortedArray.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3F1712642758A57400295C29 /* SquaresofaSortedArray.swift */; };
@@ -123,6 +125,8 @@
 
 /* Begin PBXFileReference section */
 		3F0D314027707F0400DCF718 /* MaxDepthofBinaryTree.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MaxDepthofBinaryTree.swift; sourceTree = "<group>"; };
+		3F0D31422770B49100DCF718 /* README.md */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
+		3F0D31442770B66E00DCF718 /* 二叉树的最大深度.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "二叉树的最大深度.jpg"; sourceTree = "<group>"; };
 		3F17125F27587CF200295C29 /* README.md */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
 		3F1712622758A56200295C29 /* README.md */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
 		3F1712642758A57400295C29 /* SquaresofaSortedArray.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SquaresofaSortedArray.swift; sourceTree = "<group>"; };
@@ -255,6 +259,8 @@
 			isa = PBXGroup;
 			children = (
 				3F0D314027707F0400DCF718 /* MaxDepthofBinaryTree.swift */,
+				3F0D31422770B49100DCF718 /* README.md */,
+				3F0D31442770B66E00DCF718 /* 二叉树的最大深度.jpg */,
 			);
 			path = "0104.Maximum-Depth-of-Binary-Tree";
 			sourceTree = "<group>";
@@ -528,7 +534,6 @@
 		3FBA3680269C1E270082BED9 /* leetcode */ = {
 			isa = PBXGroup;
 			children = (
-				3F0D313F27707ECE00DCF718 /* 0104.Maximum-Depth-of-Binary-Tree */,
 				3F3BD1DC275A19D100FBE743 /* 0167.Two-Sum-II-Input-array-is-sorted */,
 				3FBA3695269C1E410082BED9 /* 0001.Two-Sum */,
 				3F948B68275DF30100DE9132 /* 0003.★Longest-Substring-Without-Repeating-Characters */,
@@ -547,6 +552,7 @@
 				3F1E76C62766ED78008B63A4 /* 0077.↑Combinations */,
 				3FEC954A2755041C00CCD88E /* 0088.MergeSortedArray */,
 				3F3C8E1A26EA088F00E419C2 /* 0094.Binary-Tree-Inorder-Traversal */,
+				3F0D313F27707ECE00DCF718 /* 0104.Maximum-Depth-of-Binary-Tree */,
 				3FDCF4CC274CE87F004FCFB6 /* 0105.Construct-Binary-Tree-from-Preorder-and-Inorder-Traversal */,
 				3FDCF4D1274D3322004FCFB6 /* 0106.ConstructBinaryTreeInorderPostorder */,
 				3F39CC28276DD64600C9C071 /* 0118.杨辉三角 */,
@@ -873,6 +879,7 @@
 				3FE9A0B1275BBB0D0069668D /* README.md in Resources */,
 				3FDDA7572764A614008246E0 /* README.md in Resources */,
 				3F1E76CA276735E9008B63A4 /* 组合树状图.png in Resources */,
+				3F0D31452770B66E00DCF718 /* 二叉树的最大深度.jpg in Resources */,
 				3FBA369E269C27BB0082BED9 /* README.md in Resources */,
 				3F1712682758F4CD00295C29 /* README.md in Resources */,
 				3F1E76C82766ED82008B63A4 /* README.md in Resources */,
@@ -891,6 +898,7 @@
 				3FD4CF082765F0AE004766C0 /* README.md in Resources */,
 				3FB5D428272EF5E9007EDB71 /* README.md in Resources */,
 				3F1E1BBD2750840D00E0A7A9 /* MergeTwoLists.gif in Resources */,
+				3F0D31432770B49100DCF718 /* README.md in Resources */,
 				3F326B45275670FF004F27C5 /* 最长回文串.jpg in Resources */,
 				3FB715A427576ED9005A4176 /* README.md in Resources */,
 				3FBBD1642769C904005AC22C /* README.md in Resources */,
