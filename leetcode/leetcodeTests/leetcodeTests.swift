@@ -165,4 +165,19 @@ class leetcodeTests: XCTestCase {
         de.maxDepth(tree1)
 
     }
+
+    func testNumbersOfIsland(){
+
+        let island = NumbersOfIsland()
+        let aa: Character = "a"
+        let grid = [
+            ["1","1","1","1","0"],
+            ["1","1","0","1","0"],
+            ["1","1","0","0","0"],
+            ["0","0","0","0","0"]
+        ]
+
+        island.numIslands(grid)
+
+    }
 }
