@@ -31,6 +31,8 @@
 		3F1E76CF2767916C008B63A4 /* Permutations.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3F1E76CE2767916C008B63A4 /* Permutations.swift */; };
 		3F1E76D127679176008B63A4 /* README.md in Resources */ = {isa = PBXBuildFile; fileRef = 3F1E76D027679176008B63A4 /* README.md */; };
 		3F1E76D32767A4BE008B63A4 /* 全排列.png in Resources */ = {isa = PBXBuildFile; fileRef = 3F1E76D22767A4BE008B63A4 /* 全排列.png */; };
+		3F2242E827716E8600AB9C50 /* SymmetricTree.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3F2242E727716E8600AB9C50 /* SymmetricTree.swift */; };
+		3F2242EA277180A800AB9C50 /* README.md in Resources */ = {isa = PBXBuildFile; fileRef = 3F2242E9277180A800AB9C50 /* README.md */; };
 		3F326B45275670FF004F27C5 /* 最长回文串.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 3F326B44275670FF004F27C5 /* 最长回文串.jpg */; };
 		3F39CC2A276DD66C00C9C071 /* PascalsTriangle.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3F39CC29276DD66C00C9C071 /* PascalsTriangle.swift */; };
 		3F39CC2C276DD67900C9C071 /* README.md in Resources */ = {isa = PBXBuildFile; fileRef = 3F39CC2B276DD67900C9C071 /* README.md */; };
@@ -150,6 +152,8 @@
 		3F1E76CE2767916C008B63A4 /* Permutations.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Permutations.swift; sourceTree = "<group>"; };
 		3F1E76D027679176008B63A4 /* README.md */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
 		3F1E76D22767A4BE008B63A4 /* 全排列.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "全排列.png"; sourceTree = "<group>"; };
+		3F2242E727716E8600AB9C50 /* SymmetricTree.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SymmetricTree.swift; sourceTree = "<group>"; };
+		3F2242E9277180A800AB9C50 /* README.md */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
 		3F326B44275670FF004F27C5 /* 最长回文串.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "最长回文串.jpg"; sourceTree = "<group>"; };
 		3F39CC29276DD66C00C9C071 /* PascalsTriangle.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PascalsTriangle.swift; sourceTree = "<group>"; };
 		3F39CC2B276DD67900C9C071 /* README.md */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
@@ -347,6 +351,15 @@
 				3F1E76D22767A4BE008B63A4 /* 全排列.png */,
 			);
 			path = "0046.↓Permutations";
+			sourceTree = "<group>";
+		};
+		3F2242E627716E5600AB9C50 /* 0101.Symmetric-Tree */ = {
+			isa = PBXGroup;
+			children = (
+				3F2242E727716E8600AB9C50 /* SymmetricTree.swift */,
+				3F2242E9277180A800AB9C50 /* README.md */,
+			);
+			path = "0101.Symmetric-Tree";
 			sourceTree = "<group>";
 		};
 		3F39CC28276DD64600C9C071 /* 0118.杨辉三角 */ = {
@@ -552,6 +565,7 @@
 				3F1E76C62766ED78008B63A4 /* 0077.↑Combinations */,
 				3FEC954A2755041C00CCD88E /* 0088.MergeSortedArray */,
 				3F3C8E1A26EA088F00E419C2 /* 0094.Binary-Tree-Inorder-Traversal */,
+				3F2242E627716E5600AB9C50 /* 0101.Symmetric-Tree */,
 				3F0D313F27707ECE00DCF718 /* 0104.Maximum-Depth-of-Binary-Tree */,
 				3FDCF4CC274CE87F004FCFB6 /* 0105.Construct-Binary-Tree-from-Preorder-and-Inorder-Traversal */,
 				3FDCF4D1274D3322004FCFB6 /* 0106.ConstructBinaryTreeInorderPostorder */,
@@ -864,6 +878,7 @@
 				3FBBD1692769D1BE005AC22C /* README.md in Resources */,
 				3FBA368B269C1E2A0082BED9 /* Assets.xcassets in Resources */,
 				3FDCF4D5274D3371004FCFB6 /* README.md in Resources */,
+				3F2242EA277180A800AB9C50 /* README.md in Resources */,
 				3FC0D295276F3F5000407ABB /* README.md in Resources */,
 				3FBB399E276AD82600C579B2 /* README.md in Resources */,
 				3F1712632758A56200295C29 /* README.md in Resources */,
@@ -937,6 +952,7 @@
 				3FBA369C269C27B40082BED9 /* IntersectionofTwoLinkedLists.swift in Sources */,
 				3FBBD15D27684F5B005AC22C /* LetterPermutation.swift in Sources */,
 				3FDCF4D3274D3341004FCFB6 /* ConstructBinaryTreeInorderPostorder.swift in Sources */,
+				3F2242E827716E8600AB9C50 /* SymmetricTree.swift in Sources */,
 				3FDDA754276496C3008246E0 /* MaxAreaofIsland.swift in Sources */,
 				3F948B6C275DF3D400DE9132 /* LongestSubstringWithoutRepeatingCharacters.swift in Sources */,
 				3FBA3682269C1E270082BED9 /* AppDelegate.swift in Sources */,
