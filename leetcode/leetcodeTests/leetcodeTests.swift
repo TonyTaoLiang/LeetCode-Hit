@@ -177,7 +177,28 @@ class leetcodeTests: XCTestCase {
             ["0","0","0","0","0"]
         ]
 
-        island.numIslands(grid)
+        let grid2 = [
+          ["1","1","0","0","0"],
+          ["1","1","0","0","0"],
+          ["0","0","1","0","0"],
+          ["0","0","0","1","1"]
+        ]
+
+        let grid3 = [["1","0","1"],
+                     ["0","1","0"],
+                     ["1","0","1"]]
+        island.numIslands(grid3)
+        island.numIslands2(grid3)
+    }
+
+    func testHanota() {
+
+        let h = Hanota()
+        var a: [Int] = [2,1,0]
+        var b: [Int] = [Int]()
+        var c: [Int] = [Int]()
+
+        h.hanota(&a, &b, &c)
 
     }
 }
