@@ -58,6 +58,8 @@
 		3F948B71275E601D00DE9132 /* PermutationinString.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3F948B70275E601D00DE9132 /* PermutationinString.swift */; };
 		3F9D5D6D275D05D7009F4D0C /* README.md in Resources */ = {isa = PBXBuildFile; fileRef = 3F9D5D6C275D05D7009F4D0C /* README.md */; };
 		3F9D5D6F275D0623009F4D0C /* RemoveNthNodeEndList.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3F9D5D6E275D0623009F4D0C /* RemoveNthNodeEndList.swift */; };
+		3F9DCAC7277455A400198943 /* KthSmallestBST.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3F9DCAC6277455A300198943 /* KthSmallestBST.swift */; };
+		3F9DCAC927745F9D00198943 /* README.md in Resources */ = {isa = PBXBuildFile; fileRef = 3F9DCAC827745F9D00198943 /* README.md */; };
 		3F9E1DEF2758FB23000B88CC /* RotateArray.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3F9E1DEE2758FB22000B88CC /* RotateArray.swift */; };
 		3FB380EC276C317E00E066C3 /* SellStock.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3FB380EB276C317E00E066C3 /* SellStock.swift */; };
 		3FB380EE276C318400E066C3 /* README.md in Resources */ = {isa = PBXBuildFile; fileRef = 3FB380ED276C318400E066C3 /* README.md */; };
@@ -186,6 +188,8 @@
 		3F948B70275E601D00DE9132 /* PermutationinString.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PermutationinString.swift; sourceTree = "<group>"; };
 		3F9D5D6C275D05D7009F4D0C /* README.md */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
 		3F9D5D6E275D0623009F4D0C /* RemoveNthNodeEndList.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RemoveNthNodeEndList.swift; sourceTree = "<group>"; };
+		3F9DCAC6277455A300198943 /* KthSmallestBST.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = KthSmallestBST.swift; sourceTree = "<group>"; };
+		3F9DCAC827745F9D00198943 /* README.md */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
 		3F9E1DEE2758FB22000B88CC /* RotateArray.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RotateArray.swift; sourceTree = "<group>"; };
 		3FB380EB276C317E00E066C3 /* SellStock.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SellStock.swift; sourceTree = "<group>"; };
 		3FB380ED276C318400E066C3 /* README.md */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
@@ -489,6 +493,15 @@
 			path = "0019.Remove-Nth-Node-From-End-of-List";
 			sourceTree = "<group>";
 		};
+		3F9DCAC52774555900198943 /* 0230.KthSmallestElementinBST */ = {
+			isa = PBXGroup;
+			children = (
+				3F9DCAC6277455A300198943 /* KthSmallestBST.swift */,
+				3F9DCAC827745F9D00198943 /* README.md */,
+			);
+			path = 0230.KthSmallestElementinBST;
+			sourceTree = "<group>";
+		};
 		3FB380EA276C315100E066C3 /* 0121.BestTimetoBuyandSellStock */ = {
 			isa = PBXGroup;
 			children = (
@@ -596,6 +609,7 @@
 				3FBBD1652769D1A8005AC22C /* 0198.House-Robber */,
 				3F3BE4B426E8B2CB00632503 /* 0206. Reverse Linked List */,
 				3F413997269DF4150094800A /* 0226.翻转二叉树 */,
+				3F9DCAC52774555900198943 /* 0230.KthSmallestElementinBST */,
 				3FB715A227576ECB005A4176 /* 0278.FirstBadVersion */,
 				3F3BD1D6275A07E800FBE743 /* 0283.Move-Zeroes */,
 				3FE9A0AA275BB2B30069668D /* 0344.Reverse-String */,
@@ -932,6 +946,7 @@
 				3FBA3697269C1E7D0082BED9 /* README.md in Resources */,
 				3F3C8E2126EE4B9600E419C2 /* README.md in Resources */,
 				3F948B6F275E521300DE9132 /* README.md in Resources */,
+				3F9DCAC927745F9D00198943 /* README.md in Resources */,
 				3F1E1BE9275346D500E0A7A9 /* README.md in Resources */,
 				3FEC954E2755046500CCD88E /* README.md in Resources */,
 				3F1E1BB9274F826D00E0A7A9 /* README.md in Resources */,
@@ -973,6 +988,7 @@
 				3F81B53C269E97A4007C996F /* LongestPalindromicSubstring.swift in Sources */,
 				3FEC954C2755043E00CCD88E /* MergeSortedArray.swift in Sources */,
 				3FE9A0A9275BB2A40069668D /* ReverseString.swift in Sources */,
+				3F9DCAC7277455A400198943 /* KthSmallestBST.swift in Sources */,
 				3F1E1BE227526D4F00E0A7A9 /* SwapNodesinPairs.swift in Sources */,
 				3F3BD1E0275A1A0300FBE743 /* 0167.TwoSumInputArray.swift in Sources */,
 				3F9D5D6F275D0623009F4D0C /* RemoveNthNodeEndList.swift in Sources */,

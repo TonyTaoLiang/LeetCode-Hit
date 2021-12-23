@@ -201,4 +201,16 @@ class leetcodeTests: XCTestCase {
         h.hanota(&a, &b, &c)
 
     }
+
+    func testKthTree() {
+//            3
+//        1      4
+//          2
+        let root = TreeNode(3, TreeNode(1, nil, TreeNode(2)), TreeNode(4))
+        let k = KthSmallestBST()
+//        k.kthSmallest(root, 1)
+//        k.kthSmallest(root, 2)
+        k.kthSmallest(root, 3)
+//        k.kthSmallest(root, 4)
+    }
 }
