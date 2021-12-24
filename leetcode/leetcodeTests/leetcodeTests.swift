@@ -213,4 +213,19 @@ class leetcodeTests: XCTestCase {
         k.kthSmallest(root, 3)
 //        k.kthSmallest(root, 4)
     }
+
+    func testMaxPathTree() {
+
+//        -10
+//        / \
+//       9  20
+//         /  \
+//        15   7
+
+        let root = TreeNode(-10, TreeNode(9) , TreeNode(20, TreeNode(15), TreeNode(7)))
+//        let root = TreeNode(3, TreeNode(1, nil, TreeNode(2)), TreeNode(4))
+        let m = MaxPathBinaryTree()
+        m.maxPathSum(root)
+
+    }
 }
