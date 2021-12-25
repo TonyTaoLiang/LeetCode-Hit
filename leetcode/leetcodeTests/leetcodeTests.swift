@@ -228,4 +228,13 @@ class leetcodeTests: XCTestCase {
         m.maxPathSum(root)
 
     }
+
+
+    func testConvertTree() {
+
+        let tree = ConvertSortedArrayToBST()
+        let array = [0,1,2,3,4,5]
+        tree.sortedArrayToBST(array)
+
+    }
 }
