@@ -237,4 +237,12 @@ class leetcodeTests: XCTestCase {
         tree.sortedArrayToBST(array)
 
     }
+
+    func testAncestorBT() {
+
+        let AncestorBT = CommonAncestorBT()
+        let root = TreeNode(-10, TreeNode(9) , TreeNode(20, TreeNode(15), TreeNode(7)))
+        AncestorBT.lowestCommonAncestor2(root, TreeNode(9), TreeNode(7))
+
+    }
 }
