@@ -11,7 +11,7 @@ class MaxDepthofBinaryTree{
 
     var res = 0
 
-    //二叉树的最大深度即为max(l,r)+1；而它的左子树，右子树就是它的子问题求解
+    //二叉树的最大深度即为max(l,r)+1(自己)；而它的左子树，右子树就是它的子问题求解
     func maxDepth(_ root: TreeNode?) -> Int {
 
         if root == nil {

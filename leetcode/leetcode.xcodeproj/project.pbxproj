@@ -9,6 +9,10 @@
 /* Begin PBXBuildFile section */
 		3F099D252775A8090070B0CD /* README.md in Resources */ = {isa = PBXBuildFile; fileRef = 3F099D242775A8090070B0CD /* README.md */; };
 		3F099D272775C65B0070B0CD /* MaxPathBinaryTree.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3F099D262775C65B0070B0CD /* MaxPathBinaryTree.swift */; };
+		3F0B07D72779924A0030F216 /* DiameterofBinaryTree.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3F0B07D62779924A0030F216 /* DiameterofBinaryTree.swift */; };
+		3F0B07D9277995270030F216 /* README.md in Resources */ = {isa = PBXBuildFile; fileRef = 3F0B07D8277995270030F216 /* README.md */; };
+		3F0B07DC277997FC0030F216 /* README.md in Resources */ = {isa = PBXBuildFile; fileRef = 3F0B07DB277997FC0030F216 /* README.md */; };
+		3F0B07DE27799AA10030F216 /* BTLevelOrderTraversal.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3F0B07DD27799AA10030F216 /* BTLevelOrderTraversal.swift */; };
 		3F0D314127707F0400DCF718 /* MaxDepthofBinaryTree.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3F0D314027707F0400DCF718 /* MaxDepthofBinaryTree.swift */; };
 		3F0D31432770B49100DCF718 /* README.md in Resources */ = {isa = PBXBuildFile; fileRef = 3F0D31422770B49100DCF718 /* README.md */; };
 		3F0D31452770B66E00DCF718 /* 二叉树的最大深度.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 3F0D31442770B66E00DCF718 /* 二叉树的最大深度.jpg */; };
@@ -141,6 +145,10 @@
 /* Begin PBXFileReference section */
 		3F099D242775A8090070B0CD /* README.md */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
 		3F099D262775C65B0070B0CD /* MaxPathBinaryTree.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MaxPathBinaryTree.swift; sourceTree = "<group>"; };
+		3F0B07D62779924A0030F216 /* DiameterofBinaryTree.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DiameterofBinaryTree.swift; sourceTree = "<group>"; };
+		3F0B07D8277995270030F216 /* README.md */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
+		3F0B07DB277997FC0030F216 /* README.md */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
+		3F0B07DD27799AA10030F216 /* BTLevelOrderTraversal.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BTLevelOrderTraversal.swift; sourceTree = "<group>"; };
 		3F0D314027707F0400DCF718 /* MaxDepthofBinaryTree.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MaxDepthofBinaryTree.swift; sourceTree = "<group>"; };
 		3F0D31422770B49100DCF718 /* README.md */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
 		3F0D31442770B66E00DCF718 /* 二叉树的最大深度.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "二叉树的最大深度.jpg"; sourceTree = "<group>"; };
@@ -292,6 +300,24 @@
 				3F099D242775A8090070B0CD /* README.md */,
 			);
 			path = "0124.★BinaryTreeMaximumPathSum";
+			sourceTree = "<group>";
+		};
+		3F0B07D52779921E0030F216 /* 0543.DiameterofBinaryTree */ = {
+			isa = PBXGroup;
+			children = (
+				3F0B07D62779924A0030F216 /* DiameterofBinaryTree.swift */,
+				3F0B07D8277995270030F216 /* README.md */,
+			);
+			path = 0543.DiameterofBinaryTree;
+			sourceTree = "<group>";
+		};
+		3F0B07DA277997ED0030F216 /* 0102.Binary-Tree-Level-Order-Traversal */ = {
+			isa = PBXGroup;
+			children = (
+				3F0B07DD27799AA10030F216 /* BTLevelOrderTraversal.swift */,
+				3F0B07DB277997FC0030F216 /* README.md */,
+			);
+			path = "0102.Binary-Tree-Level-Order-Traversal";
 			sourceTree = "<group>";
 		};
 		3F0D313F27707ECE00DCF718 /* 0104.Maximum-Depth-of-Binary-Tree */ = {
@@ -620,14 +646,16 @@
 				3FEC954A2755041C00CCD88E /* 0088.MergeSortedArray */,
 				3F3C8E1A26EA088F00E419C2 /* 0094.Binary-Tree-Inorder-Traversal */,
 				3F2242E627716E5600AB9C50 /* 0101.Symmetric-Tree */,
+				3F0B07DA277997ED0030F216 /* 0102.Binary-Tree-Level-Order-Traversal */,
 				3F0D313F27707ECE00DCF718 /* 0104.Maximum-Depth-of-Binary-Tree */,
+				3F099D232775A7F10070B0CD /* 0124.★BinaryTreeMaximumPathSum */,
+				3F0B07D52779921E0030F216 /* 0543.DiameterofBinaryTree */,
 				3FDCF4CC274CE87F004FCFB6 /* 0105.↓Construct-Binary-Tree-from-Preorder-and-Inorder-Traversal */,
 				3FDCF4D1274D3322004FCFB6 /* 0106.▶︎ConstructBinaryTreeInorderPostorder */,
 				3FD1A59527773CA9002F5CE2 /* 0108.↑Convert-Sorted-Array-to-Binary-Search-Tree */,
 				3F39CC28276DD64600C9C071 /* 0118.杨辉三角 */,
 				3FBB399A276AD80900C579B2 /* 0120.★Triangle */,
 				3FB380EA276C315100E066C3 /* 0121.BestTimetoBuyandSellStock */,
-				3F099D232775A7F10070B0CD /* 0124.★BinaryTreeMaximumPathSum */,
 				3FDDA75A2764B8D7008246E0 /* 0116.★PopulatingNextRightPointersinEachNode */,
 				3F1E1BE5275346AD00E0A7A9 /* 0148.SortList */,
 				3FBA369A269C270D0082BED9 /* 0160.Intersection-of-Two-Linked-Lists */,
@@ -957,6 +985,7 @@
 				3FBA36A1269C2DB90082BED9 /* README.md in Resources */,
 				3FBA368E269C1E2A0082BED9 /* LaunchScreen.storyboard in Resources */,
 				3FB90570272AF284002B9A13 /* README.md in Resources */,
+				3F0B07DC277997FC0030F216 /* README.md in Resources */,
 				3FB7159F27574FFD005A4176 /* README.md in Resources */,
 				3F948B6A275DF30E00DE9132 /* README.md in Resources */,
 				3FB380EE276C318400E066C3 /* README.md in Resources */,
@@ -975,6 +1004,7 @@
 				3F39CC2C276DD67900C9C071 /* README.md in Resources */,
 				3F1E1BEE2753496900E0A7A9 /* README.md in Resources */,
 				3FE9A0AC275BB39B0069668D /* README.md in Resources */,
+				3F0B07D9277995270030F216 /* README.md in Resources */,
 				3F17126027587CF200295C29 /* README.md in Resources */,
 				3F9D5D6D275D05D7009F4D0C /* README.md in Resources */,
 				3F1E1BE427526D6000E0A7A9 /* README.md in Resources */,
@@ -1087,7 +1117,9 @@
 				3F1712652758A57400295C29 /* SquaresofaSortedArray.swift in Sources */,
 				3FB715A62757BFA4005A4176 /* FirstBadVersion.swift in Sources */,
 				3FD4CF0D27660F97004766C0 /* RottingOranges.swift in Sources */,
+				3F0B07DE27799AA10030F216 /* BTLevelOrderTraversal.swift in Sources */,
 				3F3C8E2326EE4CAC00E419C2 /* ThreeSum.swift in Sources */,
+				3F0B07D72779924A0030F216 /* DiameterofBinaryTree.swift in Sources */,
 				3FBA3684269C1E270082BED9 /* SceneDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
