@@ -69,6 +69,8 @@
 		3F9E1DEF2758FB23000B88CC /* RotateArray.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3F9E1DEE2758FB22000B88CC /* RotateArray.swift */; };
 		3FB380EC276C317E00E066C3 /* SellStock.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3FB380EB276C317E00E066C3 /* SellStock.swift */; };
 		3FB380EE276C318400E066C3 /* README.md in Resources */ = {isa = PBXBuildFile; fileRef = 3FB380ED276C318400E066C3 /* README.md */; };
+		3FB5268A277AAF0B00B8BFAA /* README.md in Resources */ = {isa = PBXBuildFile; fileRef = 3FB52689277AAF0B00B8BFAA /* README.md */; };
+		3FB5268C277AAF3600B8BFAA /* ValidateBST.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3FB5268B277AAF3600B8BFAA /* ValidateBST.swift */; };
 		3FB5D428272EF5E9007EDB71 /* README.md in Resources */ = {isa = PBXBuildFile; fileRef = 3FB5D427272EF5E9007EDB71 /* README.md */; };
 		3FB5D42A272EF812007EDB71 /* MaximumSubarray.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3FB5D429272EF812007EDB71 /* MaximumSubarray.swift */; };
 		3FB7159F27574FFD005A4176 /* README.md in Resources */ = {isa = PBXBuildFile; fileRef = 3FB7159E27574FFD005A4176 /* README.md */; };
@@ -210,6 +212,8 @@
 		3F9E1DEE2758FB22000B88CC /* RotateArray.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RotateArray.swift; sourceTree = "<group>"; };
 		3FB380EB276C317E00E066C3 /* SellStock.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SellStock.swift; sourceTree = "<group>"; };
 		3FB380ED276C318400E066C3 /* README.md */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
+		3FB52689277AAF0B00B8BFAA /* README.md */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
+		3FB5268B277AAF3600B8BFAA /* ValidateBST.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ValidateBST.swift; sourceTree = "<group>"; };
 		3FB5D427272EF5E9007EDB71 /* README.md */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
 		3FB5D429272EF812007EDB71 /* MaximumSubarray.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MaximumSubarray.swift; sourceTree = "<group>"; };
 		3FB7159E27574FFD005A4176 /* README.md */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
@@ -560,6 +564,15 @@
 			path = 0121.BestTimetoBuyandSellStock;
 			sourceTree = "<group>";
 		};
+		3FB52688277AAEFD00B8BFAA /* 0098.Validate-Binary-Search-Tree */ = {
+			isa = PBXGroup;
+			children = (
+				3FB5268B277AAF3600B8BFAA /* ValidateBST.swift */,
+				3FB52689277AAF0B00B8BFAA /* README.md */,
+			);
+			path = "0098.Validate-Binary-Search-Tree";
+			sourceTree = "<group>";
+		};
 		3FB5D426272EF556007EDB71 /* 0053.MaximumSubarray */ = {
 			isa = PBXGroup;
 			children = (
@@ -645,6 +658,7 @@
 				3F1E76C62766ED78008B63A4 /* 0077.↑Combinations */,
 				3FEC954A2755041C00CCD88E /* 0088.MergeSortedArray */,
 				3F3C8E1A26EA088F00E419C2 /* 0094.Binary-Tree-Inorder-Traversal */,
+				3FB52688277AAEFD00B8BFAA /* 0098.Validate-Binary-Search-Tree */,
 				3F2242E627716E5600AB9C50 /* 0101.Symmetric-Tree */,
 				3F0B07DA277997ED0030F216 /* 0102.Binary-Tree-Level-Order-Traversal */,
 				3F0D313F27707ECE00DCF718 /* 0104.Maximum-Depth-of-Binary-Tree */,
@@ -1005,6 +1019,7 @@
 				3F1E1BEE2753496900E0A7A9 /* README.md in Resources */,
 				3FE9A0AC275BB39B0069668D /* README.md in Resources */,
 				3F0B07D9277995270030F216 /* README.md in Resources */,
+				3FB5268A277AAF0B00B8BFAA /* README.md in Resources */,
 				3F17126027587CF200295C29 /* README.md in Resources */,
 				3F9D5D6D275D05D7009F4D0C /* README.md in Resources */,
 				3F1E1BE427526D6000E0A7A9 /* README.md in Resources */,
@@ -1095,6 +1110,7 @@
 				3FB5D42A272EF812007EDB71 /* MaximumSubarray.swift in Sources */,
 				3F3BD1DB275A0FAF00FBE743 /* MoveZeroes.swift in Sources */,
 				3F413996269DEEAE0094800A /* FindDuplicates.swift in Sources */,
+				3FB5268C277AAF3600B8BFAA /* ValidateBST.swift in Sources */,
 				3FB9056E272AF26C002B9A13 /* NQueens.swift in Sources */,
 				3FD4CF0F276645EB004766C0 /* Queue.swift in Sources */,
 				3FB715A127575046005A4176 /* BinarySearch.swift in Sources */,
