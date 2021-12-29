@@ -80,6 +80,9 @@
 		3FB715A92757C665005A4176 /* SearchInsertPosition.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3FB715A82757C665005A4176 /* SearchInsertPosition.swift */; };
 		3FB9056E272AF26C002B9A13 /* NQueens.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3FB9056D272AF26B002B9A13 /* NQueens.swift */; };
 		3FB90570272AF284002B9A13 /* README.md in Resources */ = {isa = PBXBuildFile; fileRef = 3FB9056F272AF284002B9A13 /* README.md */; };
+		3FB9E9BB277BFE5A00117749 /* README.md in Resources */ = {isa = PBXBuildFile; fileRef = 3FB9E9BA277BFE5A00117749 /* README.md */; };
+		3FB9E9BD277BFF5000117749 /* FlattenList.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3FB9E9BC277BFF5000117749 /* FlattenList.swift */; };
+		3FB9E9BF277CA44E00117749 /* Stack.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3FB9E9BE277CA44E00117749 /* Stack.swift */; };
 		3FBA3682269C1E270082BED9 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3FBA3681269C1E270082BED9 /* AppDelegate.swift */; };
 		3FBA3684269C1E270082BED9 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3FBA3683269C1E270082BED9 /* SceneDelegate.swift */; };
 		3FBA3686269C1E270082BED9 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3FBA3685269C1E270082BED9 /* ViewController.swift */; };
@@ -223,6 +226,9 @@
 		3FB715A82757C665005A4176 /* SearchInsertPosition.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SearchInsertPosition.swift; sourceTree = "<group>"; };
 		3FB9056D272AF26B002B9A13 /* NQueens.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NQueens.swift; sourceTree = "<group>"; };
 		3FB9056F272AF284002B9A13 /* README.md */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
+		3FB9E9BA277BFE5A00117749 /* README.md */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
+		3FB9E9BC277BFF5000117749 /* FlattenList.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FlattenList.swift; sourceTree = "<group>"; };
+		3FB9E9BE277CA44E00117749 /* Stack.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Stack.swift; sourceTree = "<group>"; };
 		3FBA367E269C1E270082BED9 /* leetcode.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = leetcode.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		3FBA3681269C1E270082BED9 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		3FBA3683269C1E270082BED9 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -618,6 +624,15 @@
 			path = "0051.N-Queens";
 			sourceTree = "<group>";
 		};
+		3FB9E9B9277BFE5000117749 /* 0341.★Flatten-Nested-List-Iterator */ = {
+			isa = PBXGroup;
+			children = (
+				3FB9E9BC277BFF5000117749 /* FlattenList.swift */,
+				3FB9E9BA277BFE5A00117749 /* README.md */,
+			);
+			path = "0341.★Flatten-Nested-List-Iterator";
+			sourceTree = "<group>";
+		};
 		3FBA3675269C1E260082BED9 = {
 			isa = PBXGroup;
 			children = (
@@ -639,6 +654,7 @@
 		3FBA3680269C1E270082BED9 /* leetcode */ = {
 			isa = PBXGroup;
 			children = (
+				3FB9E9B9277BFE5000117749 /* 0341.★Flatten-Nested-List-Iterator */,
 				3FBF051627784D0B007D8A39 /* 0236.★Lowest-Common-Ancestor-of-a-Binary-Tree */,
 				3F3BD1DC275A19D100FBE743 /* 0167.Two-Sum-II-Input-array-is-sorted */,
 				3FBA3695269C1E410082BED9 /* 0001.Two-Sum */,
@@ -703,6 +719,7 @@
 				3FBA368C269C1E2A0082BED9 /* LaunchScreen.storyboard */,
 				3FBA368F269C1E2A0082BED9 /* Info.plist */,
 				3F1E1BFF275378F100E0A7A9 /* ListNode.swift */,
+				3FB9E9BE277CA44E00117749 /* Stack.swift */,
 				3FD4CF0E276645EB004766C0 /* Queue.swift */,
 			);
 			path = leetcode;
@@ -1049,6 +1066,7 @@
 				3FDDA7522764969D008246E0 /* README.md in Resources */,
 				3FD4CF082765F0AE004766C0 /* README.md in Resources */,
 				3FBF051A27788B88007D8A39 /* 二叉树的最近公共祖先.gif in Resources */,
+				3FB9E9BB277BFE5A00117749 /* README.md in Resources */,
 				3FB5D428272EF5E9007EDB71 /* README.md in Resources */,
 				3F1E1BBD2750840D00E0A7A9 /* MergeTwoLists.gif in Resources */,
 				3F0D31432770B49100DCF718 /* README.md in Resources */,
@@ -1112,6 +1130,8 @@
 				3F413996269DEEAE0094800A /* FindDuplicates.swift in Sources */,
 				3FB5268C277AAF3600B8BFAA /* ValidateBST.swift in Sources */,
 				3FB9056E272AF26C002B9A13 /* NQueens.swift in Sources */,
+				3FB9E9BD277BFF5000117749 /* FlattenList.swift in Sources */,
+				3FB9E9BF277CA44E00117749 /* Stack.swift in Sources */,
 				3FD4CF0F276645EB004766C0 /* Queue.swift in Sources */,
 				3FB715A127575046005A4176 /* BinarySearch.swift in Sources */,
 				3FDDA75C2764B8FF008246E0 /* PopulatingNextRightPointersinEachNode.swift in Sources */,
