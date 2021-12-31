@@ -245,4 +245,12 @@ class leetcodeTests: XCTestCase {
         AncestorBT.lowestCommonAncestor2(root, TreeNode(9), TreeNode(7))
 
     }
+
+    func testSurroundedRegions(){
+
+        let SurroundedRegions = SurroundedRegions()
+        var a = [["O","O","O"],["O","O","O"],["O","O","O"]]
+        SurroundedRegions.solve2(&a)
+
+    }
 }
