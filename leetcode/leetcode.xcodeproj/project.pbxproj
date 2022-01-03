@@ -87,6 +87,9 @@
 		3FB9E9BB277BFE5A00117749 /* README.md in Resources */ = {isa = PBXBuildFile; fileRef = 3FB9E9BA277BFE5A00117749 /* README.md */; };
 		3FB9E9BD277BFF5000117749 /* FlattenList.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3FB9E9BC277BFF5000117749 /* FlattenList.swift */; };
 		3FB9E9BF277CA44E00117749 /* Stack.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3FB9E9BE277CA44E00117749 /* Stack.swift */; };
+		3FBA2B482782DD1600DB3A1F /* Powxn.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3FBA2B472782DD1600DB3A1F /* Powxn.swift */; };
+		3FBA2B4A2782F60500DB3A1F /* 快速幂.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 3FBA2B492782F60500DB3A1F /* 快速幂.jpg */; };
+		3FBA2B4C2782F61D00DB3A1F /* README.md in Resources */ = {isa = PBXBuildFile; fileRef = 3FBA2B4B2782F61D00DB3A1F /* README.md */; };
 		3FBA3682269C1E270082BED9 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3FBA3681269C1E270082BED9 /* AppDelegate.swift */; };
 		3FBA3684269C1E270082BED9 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3FBA3683269C1E270082BED9 /* SceneDelegate.swift */; };
 		3FBA3686269C1E270082BED9 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3FBA3685269C1E270082BED9 /* ViewController.swift */; };
@@ -241,6 +244,9 @@
 		3FB9E9BA277BFE5A00117749 /* README.md */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
 		3FB9E9BC277BFF5000117749 /* FlattenList.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FlattenList.swift; sourceTree = "<group>"; };
 		3FB9E9BE277CA44E00117749 /* Stack.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Stack.swift; sourceTree = "<group>"; };
+		3FBA2B472782DD1600DB3A1F /* Powxn.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Powxn.swift; sourceTree = "<group>"; };
+		3FBA2B492782F60500DB3A1F /* 快速幂.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "快速幂.jpg"; sourceTree = "<group>"; };
+		3FBA2B4B2782F61D00DB3A1F /* README.md */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
 		3FBA367E269C1E270082BED9 /* leetcode.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = leetcode.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		3FBA3681269C1E270082BED9 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		3FBA3683269C1E270082BED9 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -667,6 +673,16 @@
 			path = "0341.★Flatten-Nested-List-Iterator";
 			sourceTree = "<group>";
 		};
+		3FBA2B462782DCF900DB3A1F /* 0050.Powx-n */ = {
+			isa = PBXGroup;
+			children = (
+				3FBA2B472782DD1600DB3A1F /* Powxn.swift */,
+				3FBA2B492782F60500DB3A1F /* 快速幂.jpg */,
+				3FBA2B4B2782F61D00DB3A1F /* README.md */,
+			);
+			path = "0050.Powx-n";
+			sourceTree = "<group>";
+		};
 		3FBA3675269C1E260082BED9 = {
 			isa = PBXGroup;
 			children = (
@@ -688,6 +704,7 @@
 		3FBA3680269C1E270082BED9 /* leetcode */ = {
 			isa = PBXGroup;
 			children = (
+				3FBA2B462782DCF900DB3A1F /* 0050.Powx-n */,
 				3FB9E9B9277BFE5000117749 /* 0341.★Flatten-Nested-List-Iterator */,
 				3FBF051627784D0B007D8A39 /* 0236.★Lowest-Common-Ancestor-of-a-Binary-Tree */,
 				3F3BD1DC275A19D100FBE743 /* 0167.Two-Sum-II-Input-array-is-sorted */,
@@ -1080,6 +1097,7 @@
 				3FDDA75E2764B916008246E0 /* README.md in Resources */,
 				3FBBD1692769D1BE005AC22C /* README.md in Resources */,
 				3FBA368B269C1E2A0082BED9 /* Assets.xcassets in Resources */,
+				3FBA2B4A2782F60500DB3A1F /* 快速幂.jpg in Resources */,
 				3FDCF4D5274D3371004FCFB6 /* README.md in Resources */,
 				3F2242EA277180A800AB9C50 /* README.md in Resources */,
 				3FC0D295276F3F5000407ABB /* README.md in Resources */,
@@ -1119,6 +1137,7 @@
 				3FD1A599277752B2002F5CE2 /* README.md in Resources */,
 				3FD4CF11276653D8004766C0 /* README.md in Resources */,
 				3FD8A93C27731E4800B221F7 /* README.md in Resources */,
+				3FBA2B4C2782F61D00DB3A1F /* README.md in Resources */,
 				3F2242ED277184CE00AB9C50 /* README.md in Resources */,
 				3F3C8E1C26EA08A100E419C2 /* README.md in Resources */,
 				3FDDA7522764969D008246E0 /* README.md in Resources */,
@@ -1192,6 +1211,7 @@
 				3FB5268C277AAF3600B8BFAA /* ValidateBST.swift in Sources */,
 				3FB9056E272AF26C002B9A13 /* NQueens.swift in Sources */,
 				3FB9E9BD277BFF5000117749 /* FlattenList.swift in Sources */,
+				3FBA2B482782DD1600DB3A1F /* Powxn.swift in Sources */,
 				3FB9E9BF277CA44E00117749 /* Stack.swift in Sources */,
 				3FD4CF0F276645EB004766C0 /* Queue.swift in Sources */,
 				3FB715A127575046005A4176 /* BinarySearch.swift in Sources */,

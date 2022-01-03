@@ -253,4 +253,10 @@ class leetcodeTests: XCTestCase {
         SurroundedRegions.solve2(&a)
 
     }
+
+    func testPow() {
+
+        let p = Powxn()
+        p.myPow(0.00001, 2147483647)
+    }
 }
