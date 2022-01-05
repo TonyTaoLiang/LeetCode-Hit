@@ -263,6 +263,6 @@ class leetcodeTests: XCTestCase {
     func testcoinChange() {
 
         let coin = CoinChange()
-        coin.coinChange([1,2,5], 10)
+        coin.coinChange([2], 3)
     }
 }
