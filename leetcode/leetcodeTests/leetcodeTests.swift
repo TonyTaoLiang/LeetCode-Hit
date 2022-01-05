@@ -259,4 +259,10 @@ class leetcodeTests: XCTestCase {
         let p = Powxn()
         p.myPow(0.00001, 2147483647)
     }
+
+    func testcoinChange() {
+
+        let coin = CoinChange()
+        coin.coinChange([1,2,5], 10)
+    }
 }

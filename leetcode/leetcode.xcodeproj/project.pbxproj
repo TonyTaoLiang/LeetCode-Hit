@@ -44,6 +44,8 @@
 		3F2242ED277184CE00AB9C50 /* README.md in Resources */ = {isa = PBXBuildFile; fileRef = 3F2242EC277184CE00AB9C50 /* README.md */; };
 		3F2242EF2771AD2500AB9C50 /* NumbersOfIsland.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3F2242EE2771AD2500AB9C50 /* NumbersOfIsland.swift */; };
 		3F326B45275670FF004F27C5 /* 最长回文串.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 3F326B44275670FF004F27C5 /* 最长回文串.jpg */; };
+		3F33E4E52785472C005183A8 /* README.md in Resources */ = {isa = PBXBuildFile; fileRef = 3F33E4E42785472C005183A8 /* README.md */; };
+		3F33E4E72785473A005183A8 /* CoinChange.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3F33E4E62785473A005183A8 /* CoinChange.swift */; };
 		3F38264F277D50B600F7F1E9 /* README.md in Resources */ = {isa = PBXBuildFile; fileRef = 3F38264E277D50B600F7F1E9 /* README.md */; };
 		3F382651277D5BD900F7F1E9 /* ZigzagBT.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3F382650277D5BD900F7F1E9 /* ZigzagBT.swift */; };
 		3F39CC2A276DD66C00C9C071 /* PascalsTriangle.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3F39CC29276DD66C00C9C071 /* PascalsTriangle.swift */; };
@@ -200,6 +202,8 @@
 		3F2242EC277184CE00AB9C50 /* README.md */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
 		3F2242EE2771AD2500AB9C50 /* NumbersOfIsland.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NumbersOfIsland.swift; sourceTree = "<group>"; };
 		3F326B44275670FF004F27C5 /* 最长回文串.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "最长回文串.jpg"; sourceTree = "<group>"; };
+		3F33E4E42785472C005183A8 /* README.md */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
+		3F33E4E62785473A005183A8 /* CoinChange.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CoinChange.swift; sourceTree = "<group>"; };
 		3F38264E277D50B600F7F1E9 /* README.md */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
 		3F382650277D5BD900F7F1E9 /* ZigzagBT.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ZigzagBT.swift; sourceTree = "<group>"; };
 		3F39CC29276DD66C00C9C071 /* PascalsTriangle.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PascalsTriangle.swift; sourceTree = "<group>"; };
@@ -477,6 +481,15 @@
 			path = "0200.↓Number-of-Islands";
 			sourceTree = "<group>";
 		};
+		3F33E4E327854723005183A8 /* 0322.★Coin-Change */ = {
+			isa = PBXGroup;
+			children = (
+				3F33E4E62785473A005183A8 /* CoinChange.swift */,
+				3F33E4E42785472C005183A8 /* README.md */,
+			);
+			path = "0322.★Coin-Change";
+			sourceTree = "<group>";
+		};
 		3F38264D277D509A00F7F1E9 /* 0103.Binary-Tree-Zigzag-Level-Order-Traversal */ = {
 			isa = PBXGroup;
 			children = (
@@ -708,6 +721,7 @@
 		3FBA3680269C1E270082BED9 /* leetcode */ = {
 			isa = PBXGroup;
 			children = (
+				3F33E4E327854723005183A8 /* 0322.★Coin-Change */,
 				3FBA2B462782DCF900DB3A1F /* 0050.★Powx-n */,
 				3FB9E9B9277BFE5000117749 /* 0341.★Flatten-Nested-List-Iterator */,
 				3FBF051627784D0B007D8A39 /* 0236.★Lowest-Common-Ancestor-of-a-Binary-Tree */,
@@ -1105,6 +1119,7 @@
 				3FB90570272AF284002B9A13 /* README.md in Resources */,
 				3F0B07DC277997FC0030F216 /* README.md in Resources */,
 				3FB7159F27574FFD005A4176 /* README.md in Resources */,
+				3F33E4E52785472C005183A8 /* README.md in Resources */,
 				3F948B6A275DF30E00DE9132 /* README.md in Resources */,
 				3FB380EE276C318400E066C3 /* README.md in Resources */,
 				3F3BD1D9275A085100FBE743 /* README.md in Resources */,
@@ -1204,6 +1219,7 @@
 				3FBB399C276AD81F00C579B2 /* Triangle.swift in Sources */,
 				3FBA369C269C27B40082BED9 /* IntersectionofTwoLinkedLists.swift in Sources */,
 				3FBBD15D27684F5B005AC22C /* LetterPermutation.swift in Sources */,
+				3F33E4E72785473A005183A8 /* CoinChange.swift in Sources */,
 				3FDCF4D3274D3341004FCFB6 /* ConstructBinaryTreeInorderPostorder.swift in Sources */,
 				3F2242E827716E8600AB9C50 /* SymmetricTree.swift in Sources */,
 				3FDDA754276496C3008246E0 /* MaxAreaofIsland.swift in Sources */,
