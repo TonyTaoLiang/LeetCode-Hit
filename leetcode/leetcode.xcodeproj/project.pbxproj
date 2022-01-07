@@ -153,6 +153,7 @@
 		3FE9A0B1275BBB0D0069668D /* README.md in Resources */ = {isa = PBXBuildFile; fileRef = 3FE9A0B0275BBB0C0069668D /* README.md */; };
 		3FEC954C2755043E00CCD88E /* MergeSortedArray.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3FEC954B2755043E00CCD88E /* MergeSortedArray.swift */; };
 		3FEC954E2755046500CCD88E /* README.md in Resources */ = {isa = PBXBuildFile; fileRef = 3FEC954D2755046500CCD88E /* README.md */; };
+		3FEF9D1F27883E980015BBAA /* ValidParentheses.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3FEF9D1E27883E980015BBAA /* ValidParentheses.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -319,6 +320,7 @@
 		3FE9A0B0275BBB0C0069668D /* README.md */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
 		3FEC954B2755043E00CCD88E /* MergeSortedArray.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MergeSortedArray.swift; sourceTree = "<group>"; };
 		3FEC954D2755046500CCD88E /* README.md */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
+		3FEF9D1E27883E980015BBAA /* ValidParentheses.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ValidParentheses.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -737,6 +739,7 @@
 		3FBA3680269C1E270082BED9 /* leetcode */ = {
 			isa = PBXGroup;
 			children = (
+				3FEF9D1D27883E710015BBAA /* 0020.Valid-Parentheses */,
 				3FBA2B462782DCF900DB3A1F /* 0050.★Powx-n */,
 				3FB9E9B9277BFE5000117749 /* 0341.★Flatten-Nested-List-Iterator */,
 				3FBF051627784D0B007D8A39 /* 0236.★Lowest-Common-Ancestor-of-a-Binary-Tree */,
@@ -1042,6 +1045,14 @@
 			path = 0088.MergeSortedArray;
 			sourceTree = "<group>";
 		};
+		3FEF9D1D27883E710015BBAA /* 0020.Valid-Parentheses */ = {
+			isa = PBXGroup;
+			children = (
+				3FEF9D1E27883E980015BBAA /* ValidParentheses.swift */,
+			);
+			path = "0020.Valid-Parentheses";
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -1289,6 +1300,7 @@
 				3FB715A62757BFA4005A4176 /* FirstBadVersion.swift in Sources */,
 				3F0D3A852781C55E00DFB87E /* AddTwoNumbers.swift in Sources */,
 				3FD4CF0D27660F97004766C0 /* RottingOranges.swift in Sources */,
+				3FEF9D1F27883E980015BBAA /* ValidParentheses.swift in Sources */,
 				3F0B07DE27799AA10030F216 /* BTLevelOrderTraversal.swift in Sources */,
 				3F3C8E2326EE4CAC00E419C2 /* ThreeSum.swift in Sources */,
 				3F0B07D72779924A0030F216 /* DiameterofBinaryTree.swift in Sources */,
