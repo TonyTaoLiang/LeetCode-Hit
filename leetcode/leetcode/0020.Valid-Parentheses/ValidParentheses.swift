@@ -19,7 +19,7 @@ class ValidParentheses {
         }
 
         //用hash快速匹配
-        let parentheses = [
+        let parentheses: [Character : Character] = [
 
             "}" : "{",
             ")" : "(",
@@ -28,25 +28,28 @@ class ValidParentheses {
 
         var stack: Stack<Character> = Stack()
 
-        let sCharts = Array(s)
+        for sCharts in s {
 
-        for i in 0..<sCharts.count {
-
-            if sCharts[i] == "[" || sCharts[i] == "(" || sCharts[i] == "{"{
-                stack.push(sCharts[i])
+            //左括号入栈
+            if sCharts == "[" || sCharts == "(" || sCharts == "{"{
+                stack.push(sCharts)
             } else {
 
-                if stack.isEmpty {
+                //没有左括号与之匹配 || 栈顶的左与右不匹配（后遇到的左括号先没有闭合）
+//                if stack.isEmpty || stack.peek()! != parentheses[sCharts]{
+//                    return false
+//                }
+//
+//                stack.pop()
+
+                //更简单的做法
+                if parentheses[sCharts] != stack.pop() {
                     return false
                 }
-
-
             }
 
         }
 
-
         return stack.isEmpty
     }
-
 }

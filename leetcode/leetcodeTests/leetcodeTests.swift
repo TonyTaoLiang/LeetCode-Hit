@@ -265,4 +265,12 @@ class leetcodeTests: XCTestCase {
         let coin = CoinChange()
         coin.coinChange([2], 3)
     }
+
+    func testValidPalindrome() {
+
+        let v = ValidPalindrome()
+
+        v.isPalindrome("A man, a plan, a canal: Panama")
+
+    }
 }

@@ -154,6 +154,9 @@
 		3FEC954C2755043E00CCD88E /* MergeSortedArray.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3FEC954B2755043E00CCD88E /* MergeSortedArray.swift */; };
 		3FEC954E2755046500CCD88E /* README.md in Resources */ = {isa = PBXBuildFile; fileRef = 3FEC954D2755046500CCD88E /* README.md */; };
 		3FEF9D1F27883E980015BBAA /* ValidParentheses.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3FEF9D1E27883E980015BBAA /* ValidParentheses.swift */; };
+		3FEF9D21278899CA0015BBAA /* README.md in Resources */ = {isa = PBXBuildFile; fileRef = 3FEF9D20278899CA0015BBAA /* README.md */; };
+		3FEF9D2427889FC20015BBAA /* README.md in Resources */ = {isa = PBXBuildFile; fileRef = 3FEF9D2327889FC20015BBAA /* README.md */; };
+		3FEF9D2627889FD90015BBAA /* ValidPalindrome.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3FEF9D2527889FD90015BBAA /* ValidPalindrome.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -321,6 +324,9 @@
 		3FEC954B2755043E00CCD88E /* MergeSortedArray.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MergeSortedArray.swift; sourceTree = "<group>"; };
 		3FEC954D2755046500CCD88E /* README.md */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
 		3FEF9D1E27883E980015BBAA /* ValidParentheses.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ValidParentheses.swift; sourceTree = "<group>"; };
+		3FEF9D20278899CA0015BBAA /* README.md */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
+		3FEF9D2327889FC20015BBAA /* README.md */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
+		3FEF9D2527889FD90015BBAA /* ValidPalindrome.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ValidPalindrome.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -739,7 +745,6 @@
 		3FBA3680269C1E270082BED9 /* leetcode */ = {
 			isa = PBXGroup;
 			children = (
-				3FEF9D1D27883E710015BBAA /* 0020.Valid-Parentheses */,
 				3FBA2B462782DCF900DB3A1F /* 0050.★Powx-n */,
 				3FB9E9B9277BFE5000117749 /* 0341.★Flatten-Nested-List-Iterator */,
 				3FBF051627784D0B007D8A39 /* 0236.★Lowest-Common-Ancestor-of-a-Binary-Tree */,
@@ -752,6 +757,7 @@
 				3F33E4E327854723005183A8 /* 0322.★Coin-Change */,
 				3F3C8E1F26EE4B4B00E419C2 /* 0015.3Sum */,
 				3F9D5D6B275D0501009F4D0C /* 0019.Remove-Nth-Node-From-End-of-List */,
+				3FEF9D1D27883E710015BBAA /* 0020.Valid-Parentheses */,
 				3F1E1BB7274F825000E0A7A9 /* 0021.MergeTwoSortedLists */,
 				3F1E1BE027526D2A00E0A7A9 /* 0024.SwapNodesinPairs */,
 				3FB715A72757C64C005A4176 /* 0035.SearchInsertPosition */,
@@ -770,6 +776,7 @@
 				3F38264D277D509A00F7F1E9 /* 0103.Binary-Tree-Zigzag-Level-Order-Traversal */,
 				3F0D313F27707ECE00DCF718 /* 0104.Maximum-Depth-of-Binary-Tree */,
 				3F099D232775A7F10070B0CD /* 0124.★BinaryTreeMaximumPathSum */,
+				3FEF9D2227889FB70015BBAA /* 0125.Valid-Palindrome */,
 				3F0B07D52779921E0030F216 /* 0543.DiameterofBinaryTree */,
 				3FDCF4CC274CE87F004FCFB6 /* 0105.↓Construct-Binary-Tree-from-Preorder-and-Inorder-Traversal */,
 				3FDCF4D1274D3322004FCFB6 /* 0106.▶︎ConstructBinaryTreeInorderPostorder */,
@@ -1049,8 +1056,18 @@
 			isa = PBXGroup;
 			children = (
 				3FEF9D1E27883E980015BBAA /* ValidParentheses.swift */,
+				3FEF9D20278899CA0015BBAA /* README.md */,
 			);
 			path = "0020.Valid-Parentheses";
+			sourceTree = "<group>";
+		};
+		3FEF9D2227889FB70015BBAA /* 0125.Valid-Palindrome */ = {
+			isa = PBXGroup;
+			children = (
+				3FEF9D2527889FD90015BBAA /* ValidPalindrome.swift */,
+				3FEF9D2327889FC20015BBAA /* README.md */,
+			);
+			path = "0125.Valid-Palindrome";
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -1153,6 +1170,7 @@
 				3F3BD1D9275A085100FBE743 /* README.md in Resources */,
 				3FDDA75E2764B916008246E0 /* README.md in Resources */,
 				3FBBD1692769D1BE005AC22C /* README.md in Resources */,
+				3FEF9D21278899CA0015BBAA /* README.md in Resources */,
 				3FBA368B269C1E2A0082BED9 /* Assets.xcassets in Resources */,
 				3FBA2B4A2782F60500DB3A1F /* 快速幂.jpg in Resources */,
 				3FDCF4D5274D3371004FCFB6 /* README.md in Resources */,
@@ -1210,6 +1228,7 @@
 				3F411FAF2786D80300B72F8E /* README.md in Resources */,
 				3F326B45275670FF004F27C5 /* 最长回文串.jpg in Resources */,
 				3F0D3A872781D0BC00DFB87E /* README.md in Resources */,
+				3FEF9D2427889FC20015BBAA /* README.md in Resources */,
 				3FB715A427576ED9005A4176 /* README.md in Resources */,
 				3FBBD1642769C904005AC22C /* README.md in Resources */,
 				3FE5834F278056F1004FC016 /* README.md in Resources */,
@@ -1284,6 +1303,7 @@
 				3F0D314127707F0400DCF718 /* MaxDepthofBinaryTree.swift in Sources */,
 				3F1E76CC27673611008B63A4 /* Combination.swift in Sources */,
 				3F1E1C00275378F100E0A7A9 /* ListNode.swift in Sources */,
+				3FEF9D2627889FD90015BBAA /* ValidPalindrome.swift in Sources */,
 				3FC0D293276F3F4900407ABB /* GenerateParentheses.swift in Sources */,
 				3FE5834D27804C14004FC016 /* PalindromeLinkedList.swift in Sources */,
 				3F1E1BEC2753495E00E0A7A9 /* MiddleoftheLinkedList.swift in Sources */,
