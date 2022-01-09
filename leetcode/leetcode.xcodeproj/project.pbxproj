@@ -132,6 +132,8 @@
 		3FD4CF11276653D8004766C0 /* README.md in Resources */ = {isa = PBXBuildFile; fileRef = 3FD4CF10276653D8004766C0 /* README.md */; };
 		3FD8A93A2773147600B221F7 /* Hanota.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3FD8A9392773147600B221F7 /* Hanota.swift */; };
 		3FD8A93C27731E4800B221F7 /* README.md in Resources */ = {isa = PBXBuildFile; fileRef = 3FD8A93B27731E4800B221F7 /* README.md */; };
+		3FD8B376278A9D9E0025E8CA /* README.md in Resources */ = {isa = PBXBuildFile; fileRef = 3FD8B375278A9D9E0025E8CA /* README.md */; };
+		3FD8B378278A9E530025E8CA /* LinkedListCycle.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3FD8B377278A9E530025E8CA /* LinkedListCycle.swift */; };
 		3FDCF4CE274CE8C5004FCFB6 /* 0105.ConstructBinaryTreefromPreorderandInorderTraversal.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3FDCF4CD274CE8C5004FCFB6 /* 0105.ConstructBinaryTreefromPreorderandInorderTraversal.swift */; };
 		3FDCF4D0274CE8EE004FCFB6 /* README.md in Resources */ = {isa = PBXBuildFile; fileRef = 3FDCF4CF274CE8EE004FCFB6 /* README.md */; };
 		3FDCF4D3274D3341004FCFB6 /* ConstructBinaryTreeInorderPostorder.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3FDCF4D2274D3341004FCFB6 /* ConstructBinaryTreeInorderPostorder.swift */; };
@@ -302,6 +304,8 @@
 		3FD4CF10276653D8004766C0 /* README.md */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
 		3FD8A9392773147600B221F7 /* Hanota.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Hanota.swift; sourceTree = "<group>"; };
 		3FD8A93B27731E4800B221F7 /* README.md */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
+		3FD8B375278A9D9E0025E8CA /* README.md */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = net.daringfireball.markdown; name = README.md; path = "../../../../LeetCode-Go-master/leetcode/0141.Linked-List-Cycle/README.md"; sourceTree = "<group>"; };
+		3FD8B377278A9E530025E8CA /* LinkedListCycle.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LinkedListCycle.swift; sourceTree = "<group>"; };
 		3FDCF4CD274CE8C5004FCFB6 /* 0105.ConstructBinaryTreefromPreorderandInorderTraversal.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = 0105.ConstructBinaryTreefromPreorderandInorderTraversal.swift; sourceTree = "<group>"; };
 		3FDCF4CF274CE8EE004FCFB6 /* README.md */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
 		3FDCF4D2274D3341004FCFB6 /* ConstructBinaryTreeInorderPostorder.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ConstructBinaryTreeInorderPostorder.swift; sourceTree = "<group>"; };
@@ -745,6 +749,7 @@
 		3FBA3680269C1E270082BED9 /* leetcode */ = {
 			isa = PBXGroup;
 			children = (
+				3FD8B372278A9C3F0025E8CA /* 0141.Linked-List-Cycle */,
 				3FBA2B462782DCF900DB3A1F /* 0050.★Powx-n */,
 				3FB9E9B9277BFE5000117749 /* 0341.★Flatten-Nested-List-Iterator */,
 				3FBF051627784D0B007D8A39 /* 0236.★Lowest-Common-Ancestor-of-a-Binary-Tree */,
@@ -960,6 +965,15 @@
 				3FD8A93B27731E4800B221F7 /* README.md */,
 			);
 			path = "08.06. 汉诺塔问题";
+			sourceTree = "<group>";
+		};
+		3FD8B372278A9C3F0025E8CA /* 0141.Linked-List-Cycle */ = {
+			isa = PBXGroup;
+			children = (
+				3FD8B377278A9E530025E8CA /* LinkedListCycle.swift */,
+				3FD8B375278A9D9E0025E8CA /* README.md */,
+			);
+			path = "0141.Linked-List-Cycle";
 			sourceTree = "<group>";
 		};
 		3FDCF4CC274CE87F004FCFB6 /* 0105.↓Construct-Binary-Tree-from-Preorder-and-Inorder-Traversal */ = {
@@ -1188,6 +1202,7 @@
 				3F0B07D9277995270030F216 /* README.md in Resources */,
 				3FB5268A277AAF0B00B8BFAA /* README.md in Resources */,
 				3F17126027587CF200295C29 /* README.md in Resources */,
+				3FD8B376278A9D9E0025E8CA /* README.md in Resources */,
 				3F9D5D6D275D05D7009F4D0C /* README.md in Resources */,
 				3F1E1BE427526D6000E0A7A9 /* README.md in Resources */,
 				3FE9A0B1275BBB0D0069668D /* README.md in Resources */,
@@ -1287,6 +1302,7 @@
 				3FBBD1672769D1B7005AC22C /* HouseRobber.swift in Sources */,
 				3F3BE4B826E8B31800632503 /* ReverseLinkedList.swift in Sources */,
 				3FB5D42A272EF812007EDB71 /* MaximumSubarray.swift in Sources */,
+				3FD8B378278A9E530025E8CA /* LinkedListCycle.swift in Sources */,
 				3F3BD1DB275A0FAF00FBE743 /* MoveZeroes.swift in Sources */,
 				3F413996269DEEAE0094800A /* FindDuplicates.swift in Sources */,
 				3FB5268C277AAF3600B8BFAA /* ValidateBST.swift in Sources */,
