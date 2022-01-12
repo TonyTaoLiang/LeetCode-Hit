@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		3F086EAD278EC4ED00C8AB8E /* MissingNumber.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3F086EAC278EC4ED00C8AB8E /* MissingNumber.swift */; };
+		3F086EAF278EC7B400C8AB8E /* README.md in Resources */ = {isa = PBXBuildFile; fileRef = 3F086EAE278EC7B400C8AB8E /* README.md */; };
 		3F099D252775A8090070B0CD /* README.md in Resources */ = {isa = PBXBuildFile; fileRef = 3F099D242775A8090070B0CD /* README.md */; };
 		3F099D272775C65B0070B0CD /* MaxPathBinaryTree.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3F099D262775C65B0070B0CD /* MaxPathBinaryTree.swift */; };
 		3F0B07D72779924A0030F216 /* DiameterofBinaryTree.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3F0B07D62779924A0030F216 /* DiameterofBinaryTree.swift */; };
@@ -176,6 +178,8 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		3F086EAC278EC4ED00C8AB8E /* MissingNumber.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MissingNumber.swift; sourceTree = "<group>"; };
+		3F086EAE278EC7B400C8AB8E /* README.md */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
 		3F099D242775A8090070B0CD /* README.md */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
 		3F099D262775C65B0070B0CD /* MaxPathBinaryTree.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MaxPathBinaryTree.swift; sourceTree = "<group>"; };
 		3F0B07D62779924A0030F216 /* DiameterofBinaryTree.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DiameterofBinaryTree.swift; sourceTree = "<group>"; };
@@ -359,6 +363,15 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		3F086EAB278EC4DF00C8AB8E /* 0268.Missing-Number */ = {
+			isa = PBXGroup;
+			children = (
+				3F086EAC278EC4ED00C8AB8E /* MissingNumber.swift */,
+				3F086EAE278EC7B400C8AB8E /* README.md */,
+			);
+			path = "0268.Missing-Number";
+			sourceTree = "<group>";
+		};
 		3F099D232775A7F10070B0CD /* 0124.★BinaryTreeMaximumPathSum */ = {
 			isa = PBXGroup;
 			children = (
@@ -798,6 +811,7 @@
 				3FB380EA276C315100E066C3 /* 0121.BestTimetoBuyandSellStock */,
 				3FDDA75A2764B8D7008246E0 /* 0116.★PopulatingNextRightPointersinEachNode */,
 				3FBB5CFB278D3A15009EB9AF /* 0137.★Single-Number-II */,
+				3F086EAB278EC4DF00C8AB8E /* 0268.Missing-Number */,
 				3FD8B372278A9C3F0025E8CA /* 0141.Linked-List-Cycle */,
 				3F1E1BE5275346AD00E0A7A9 /* 0148.SortList */,
 				3FBA369A269C270D0082BED9 /* 0160.Intersection-of-Two-Linked-Lists */,
@@ -1222,6 +1236,7 @@
 				3F1712632758A56200295C29 /* README.md in Resources */,
 				3F38264F277D50B600F7F1E9 /* README.md in Resources */,
 				3FDDA7602764F0EE008246E0 /* 回文串扩展中心优化.jpg in Resources */,
+				3F086EAF278EC7B400C8AB8E /* README.md in Resources */,
 				3FD29C712763453900C7AAC7 /* README.md in Resources */,
 				3F3BE4B626E8B2F000632503 /* README.md in Resources */,
 				3F39CC2C276DD67900C9C071 /* README.md in Resources */,
@@ -1337,6 +1352,7 @@
 				3F413996269DEEAE0094800A /* FindDuplicates.swift in Sources */,
 				3FB5268C277AAF3600B8BFAA /* ValidateBST.swift in Sources */,
 				3FB9056E272AF26C002B9A13 /* NQueens.swift in Sources */,
+				3F086EAD278EC4ED00C8AB8E /* MissingNumber.swift in Sources */,
 				3FB9E9BD277BFF5000117749 /* FlattenList.swift in Sources */,
 				3FBA2B482782DD1600DB3A1F /* Powxn.swift in Sources */,
 				3FB9E9BF277CA44E00117749 /* Stack.swift in Sources */,
