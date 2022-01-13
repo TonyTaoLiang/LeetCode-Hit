@@ -24,6 +24,8 @@
 		3F1712632758A56200295C29 /* README.md in Resources */ = {isa = PBXBuildFile; fileRef = 3F1712622758A56200295C29 /* README.md */; };
 		3F1712652758A57400295C29 /* SquaresofaSortedArray.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3F1712642758A57400295C29 /* SquaresofaSortedArray.swift */; };
 		3F1712682758F4CD00295C29 /* README.md in Resources */ = {isa = PBXBuildFile; fileRef = 3F1712672758F4CD00295C29 /* README.md */; };
+		3F1731AE278FD37D005C2B27 /* README.md in Resources */ = {isa = PBXBuildFile; fileRef = 3F1731AD278FD37D005C2B27 /* README.md */; };
+		3F1731B0278FD7C2005C2B27 /* RemoveDuplicatesSortedArray.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3F1731AF278FD7C2005C2B27 /* RemoveDuplicatesSortedArray.swift */; };
 		3F1E1BB9274F826D00E0A7A9 /* README.md in Resources */ = {isa = PBXBuildFile; fileRef = 3F1E1BB8274F826D00E0A7A9 /* README.md */; };
 		3F1E1BBB274F82AC00E0A7A9 /* MergeTwoSortedLists.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3F1E1BBA274F82AC00E0A7A9 /* MergeTwoSortedLists.swift */; };
 		3F1E1BBD2750840D00E0A7A9 /* MergeTwoLists.gif in Resources */ = {isa = PBXBuildFile; fileRef = 3F1E1BBC2750840D00E0A7A9 /* MergeTwoLists.gif */; };
@@ -195,6 +197,8 @@
 		3F1712622758A56200295C29 /* README.md */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
 		3F1712642758A57400295C29 /* SquaresofaSortedArray.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SquaresofaSortedArray.swift; sourceTree = "<group>"; };
 		3F1712672758F4CD00295C29 /* README.md */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
+		3F1731AD278FD37D005C2B27 /* README.md */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
+		3F1731AF278FD7C2005C2B27 /* RemoveDuplicatesSortedArray.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RemoveDuplicatesSortedArray.swift; sourceTree = "<group>"; };
 		3F1E1BB8274F826D00E0A7A9 /* README.md */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
 		3F1E1BBA274F82AC00E0A7A9 /* MergeTwoSortedLists.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MergeTwoSortedLists.swift; sourceTree = "<group>"; };
 		3F1E1BBC2750840D00E0A7A9 /* MergeTwoLists.gif */ = {isa = PBXFileReference; lastKnownFileType = image.gif; path = MergeTwoLists.gif; sourceTree = "<group>"; };
@@ -434,6 +438,15 @@
 				3F1712672758F4CD00295C29 /* README.md */,
 			);
 			path = "0189.★Rotate-Array";
+			sourceTree = "<group>";
+		};
+		3F1731AC278FD374005C2B27 /* 0026.Remove-Duplicates-from-Sorted-Array */ = {
+			isa = PBXGroup;
+			children = (
+				3F1731AF278FD7C2005C2B27 /* RemoveDuplicatesSortedArray.swift */,
+				3F1731AD278FD37D005C2B27 /* README.md */,
+			);
+			path = "0026.Remove-Duplicates-from-Sorted-Array";
 			sourceTree = "<group>";
 		};
 		3F1E1BB7274F825000E0A7A9 /* 0021.MergeTwoSortedLists */ = {
@@ -785,6 +798,7 @@
 				3FEF9D1D27883E710015BBAA /* 0020.Valid-Parentheses */,
 				3F1E1BB7274F825000E0A7A9 /* 0021.MergeTwoSortedLists */,
 				3F1E1BE027526D2A00E0A7A9 /* 0024.SwapNodesinPairs */,
+				3F1731AC278FD374005C2B27 /* 0026.Remove-Duplicates-from-Sorted-Array */,
 				3FB715A72757C64C005A4176 /* 0035.SearchInsertPosition */,
 				3FB9056C272AF237002B9A13 /* 0051.N-Queens */,
 				3FB5D426272EF556007EDB71 /* 0053.MaximumSubarray */,
@@ -1283,6 +1297,7 @@
 				3FB9E9BB277BFE5A00117749 /* README.md in Resources */,
 				3FB5D428272EF5E9007EDB71 /* README.md in Resources */,
 				3F1E1BBD2750840D00E0A7A9 /* MergeTwoLists.gif in Resources */,
+				3F1731AE278FD37D005C2B27 /* README.md in Resources */,
 				3F0D31432770B49100DCF718 /* README.md in Resources */,
 				3F099D252775A8090070B0CD /* README.md in Resources */,
 				3F411FAF2786D80300B72F8E /* README.md in Resources */,
@@ -1386,6 +1401,7 @@
 				3FD4CF0D27660F97004766C0 /* RottingOranges.swift in Sources */,
 				3FEF9D1F27883E980015BBAA /* ValidParentheses.swift in Sources */,
 				3F0B07DE27799AA10030F216 /* BTLevelOrderTraversal.swift in Sources */,
+				3F1731B0278FD7C2005C2B27 /* RemoveDuplicatesSortedArray.swift in Sources */,
 				3F3C8E2326EE4CAC00E419C2 /* ThreeSum.swift in Sources */,
 				3F0B07D72779924A0030F216 /* DiameterofBinaryTree.swift in Sources */,
 				3FBA3684269C1E270082BED9 /* SceneDelegate.swift in Sources */,
