@@ -161,6 +161,8 @@
 		3FE9A0AC275BB39B0069668D /* README.md in Resources */ = {isa = PBXBuildFile; fileRef = 3FE9A0AB275BB39B0069668D /* README.md */; };
 		3FE9A0AF275BB4BC0069668D /* ReverseWordsinStringIII.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3FE9A0AE275BB4BC0069668D /* ReverseWordsinStringIII.swift */; };
 		3FE9A0B1275BBB0D0069668D /* README.md in Resources */ = {isa = PBXBuildFile; fileRef = 3FE9A0B0275BBB0C0069668D /* README.md */; };
+		3FEACF70279125920000EDAE /* README.md in Resources */ = {isa = PBXBuildFile; fileRef = 3FEACF6F279125920000EDAE /* README.md */; };
+		3FEACF72279125C50000EDAE /* NumberofOneBits.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3FEACF71279125C50000EDAE /* NumberofOneBits.swift */; };
 		3FEC954C2755043E00CCD88E /* MergeSortedArray.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3FEC954B2755043E00CCD88E /* MergeSortedArray.swift */; };
 		3FEC954E2755046500CCD88E /* README.md in Resources */ = {isa = PBXBuildFile; fileRef = 3FEC954D2755046500CCD88E /* README.md */; };
 		3FEF9D1F27883E980015BBAA /* ValidParentheses.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3FEF9D1E27883E980015BBAA /* ValidParentheses.swift */; };
@@ -341,6 +343,8 @@
 		3FE9A0AB275BB39B0069668D /* README.md */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
 		3FE9A0AE275BB4BC0069668D /* ReverseWordsinStringIII.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ReverseWordsinStringIII.swift; sourceTree = "<group>"; };
 		3FE9A0B0275BBB0C0069668D /* README.md */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
+		3FEACF6F279125920000EDAE /* README.md */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
+		3FEACF71279125C50000EDAE /* NumberofOneBits.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NumberofOneBits.swift; sourceTree = "<group>"; };
 		3FEC954B2755043E00CCD88E /* MergeSortedArray.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MergeSortedArray.swift; sourceTree = "<group>"; };
 		3FEC954D2755046500CCD88E /* README.md */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
 		3FEF9D1E27883E980015BBAA /* ValidParentheses.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ValidParentheses.swift; sourceTree = "<group>"; };
@@ -830,6 +834,7 @@
 				3F1E1BE5275346AD00E0A7A9 /* 0148.SortList */,
 				3FBA369A269C270D0082BED9 /* 0160.Intersection-of-Two-Linked-Lists */,
 				3F1712662758F4AF00295C29 /* 0189.★Rotate-Array */,
+				3FEACF6E279125870000EDAE /* 0191.Number-of-1-Bits */,
 				3FBBD1652769D1A8005AC22C /* 0198.House-Robber */,
 				3F3BE4B426E8B2CB00632503 /* 0206. Reverse Linked List */,
 				3FE5834B27804BFE004FC016 /* 0234.Palindrome-Linked-List */,
@@ -1113,6 +1118,15 @@
 			path = "0557.Reverse-Words-in-a-String-III";
 			sourceTree = "<group>";
 		};
+		3FEACF6E279125870000EDAE /* 0191.Number-of-1-Bits */ = {
+			isa = PBXGroup;
+			children = (
+				3FEACF71279125C50000EDAE /* NumberofOneBits.swift */,
+				3FEACF6F279125920000EDAE /* README.md */,
+			);
+			path = "0191.Number-of-1-Bits";
+			sourceTree = "<group>";
+		};
 		3FEC954A2755041C00CCD88E /* 0088.MergeSortedArray */ = {
 			isa = PBXGroup;
 			children = (
@@ -1308,6 +1322,7 @@
 				3FBBD1642769C904005AC22C /* README.md in Resources */,
 				3FE5834F278056F1004FC016 /* README.md in Resources */,
 				3FBBD15F27684F77005AC22C /* README.md in Resources */,
+				3FEACF70279125920000EDAE /* README.md in Resources */,
 				3FBA3689269C1E270082BED9 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -1380,6 +1395,7 @@
 				3F382651277D5BD900F7F1E9 /* ZigzagBT.swift in Sources */,
 				3F0D314127707F0400DCF718 /* MaxDepthofBinaryTree.swift in Sources */,
 				3F1E76CC27673611008B63A4 /* Combination.swift in Sources */,
+				3FEACF72279125C50000EDAE /* NumberofOneBits.swift in Sources */,
 				3F1E1C00275378F100E0A7A9 /* ListNode.swift in Sources */,
 				3FBA7680278BE4F800D6BDC5 /* DeleteNodeLinkedList.swift in Sources */,
 				3FEF9D2627889FD90015BBAA /* ValidPalindrome.swift in Sources */,
