@@ -273,4 +273,10 @@ class leetcodeTests: XCTestCase {
         v.isPalindrome("A man, a plan, a canal: Panama")
 
     }
+
+    func testImplementstrStr() {
+
+        let str = ImplementstrStr()
+        str.strStr("hello", "ll")
+    }
 }

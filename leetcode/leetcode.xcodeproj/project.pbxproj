@@ -91,6 +91,8 @@
 		3FB715A427576ED9005A4176 /* README.md in Resources */ = {isa = PBXBuildFile; fileRef = 3FB715A327576ED9005A4176 /* README.md */; };
 		3FB715A62757BFA4005A4176 /* FirstBadVersion.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3FB715A52757BFA4005A4176 /* FirstBadVersion.swift */; };
 		3FB715A92757C665005A4176 /* SearchInsertPosition.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3FB715A82757C665005A4176 /* SearchInsertPosition.swift */; };
+		3FB7332027927B370065ADF0 /* ImplementstrStr.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3FB7331F27927B370065ADF0 /* ImplementstrStr.swift */; };
+		3FB7332227928E000065ADF0 /* README.md in Resources */ = {isa = PBXBuildFile; fileRef = 3FB7332127928E000065ADF0 /* README.md */; };
 		3FB9056E272AF26C002B9A13 /* NQueens.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3FB9056D272AF26B002B9A13 /* NQueens.swift */; };
 		3FB90570272AF284002B9A13 /* README.md in Resources */ = {isa = PBXBuildFile; fileRef = 3FB9056F272AF284002B9A13 /* README.md */; };
 		3FB9E9BB277BFE5A00117749 /* README.md in Resources */ = {isa = PBXBuildFile; fileRef = 3FB9E9BA277BFE5A00117749 /* README.md */; };
@@ -271,6 +273,8 @@
 		3FB715A327576ED9005A4176 /* README.md */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
 		3FB715A52757BFA4005A4176 /* FirstBadVersion.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FirstBadVersion.swift; sourceTree = "<group>"; };
 		3FB715A82757C665005A4176 /* SearchInsertPosition.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SearchInsertPosition.swift; sourceTree = "<group>"; };
+		3FB7331F27927B370065ADF0 /* ImplementstrStr.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ImplementstrStr.swift; sourceTree = "<group>"; };
+		3FB7332127928E000065ADF0 /* README.md */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
 		3FB9056D272AF26B002B9A13 /* NQueens.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NQueens.swift; sourceTree = "<group>"; };
 		3FB9056F272AF284002B9A13 /* README.md */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
 		3FB9E9BA277BFE5A00117749 /* README.md */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
@@ -738,6 +742,15 @@
 			path = 0035.SearchInsertPosition;
 			sourceTree = "<group>";
 		};
+		3FB7331E27927B150065ADF0 /* 0028.Implement-strStr */ = {
+			isa = PBXGroup;
+			children = (
+				3FB7331F27927B370065ADF0 /* ImplementstrStr.swift */,
+				3FB7332127928E000065ADF0 /* README.md */,
+			);
+			path = "0028.Implement-strStr";
+			sourceTree = "<group>";
+		};
 		3FB9056C272AF237002B9A13 /* 0051.N-Queens */ = {
 			isa = PBXGroup;
 			children = (
@@ -787,6 +800,7 @@
 		3FBA3680269C1E270082BED9 /* leetcode */ = {
 			isa = PBXGroup;
 			children = (
+				3FB7331E27927B150065ADF0 /* 0028.Implement-strStr */,
 				3FBA2B462782DCF900DB3A1F /* 0050.★Powx-n */,
 				3FB9E9B9277BFE5000117749 /* 0341.★Flatten-Nested-List-Iterator */,
 				3FBF051627784D0B007D8A39 /* 0236.★Lowest-Common-Ancestor-of-a-Binary-Tree */,
@@ -1295,6 +1309,7 @@
 				3F9DCAC927745F9D00198943 /* README.md in Resources */,
 				3F1E1BE9275346D500E0A7A9 /* README.md in Resources */,
 				3FEC954E2755046500CCD88E /* README.md in Resources */,
+				3FB7332227928E000065ADF0 /* README.md in Resources */,
 				3F33E4E92785E950005183A8 /* DP硬币兑换.jpg in Resources */,
 				3F1E1BB9274F826D00E0A7A9 /* README.md in Resources */,
 				3FBF051C27788B97007D8A39 /* README.md in Resources */,
@@ -1419,6 +1434,7 @@
 				3F0B07DE27799AA10030F216 /* BTLevelOrderTraversal.swift in Sources */,
 				3F1731B0278FD7C2005C2B27 /* RemoveDuplicatesSortedArray.swift in Sources */,
 				3F3C8E2326EE4CAC00E419C2 /* ThreeSum.swift in Sources */,
+				3FB7332027927B370065ADF0 /* ImplementstrStr.swift in Sources */,
 				3F0B07D72779924A0030F216 /* DiameterofBinaryTree.swift in Sources */,
 				3FBA3684269C1E270082BED9 /* SceneDelegate.swift in Sources */,
 			);
