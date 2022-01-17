@@ -279,4 +279,10 @@ class leetcodeTests: XCTestCase {
         let str = ImplementstrStr()
         str.strStr("hello", "ll")
     }
+
+    func testHappy() {
+
+        let happy = HappyNumber()
+        happy.isHappy(19)
+    }
 }

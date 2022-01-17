@@ -80,6 +80,10 @@
 		3F9DCAC7277455A400198943 /* KthSmallestBST.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3F9DCAC6277455A300198943 /* KthSmallestBST.swift */; };
 		3F9DCAC927745F9D00198943 /* README.md in Resources */ = {isa = PBXBuildFile; fileRef = 3F9DCAC827745F9D00198943 /* README.md */; };
 		3F9E1DEF2758FB23000B88CC /* RotateArray.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3F9E1DEE2758FB22000B88CC /* RotateArray.swift */; };
+		3FABFE9027951BCB00431076 /* README.md in Resources */ = {isa = PBXBuildFile; fileRef = 3FABFE8F27951BCB00431076 /* README.md */; };
+		3FABFE922795203E00431076 /* happy1.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 3FABFE912795203E00431076 /* happy1.jpg */; };
+		3FABFE942795204500431076 /* happy2.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 3FABFE932795204500431076 /* happy2.jpg */; };
+		3FABFE962795215E00431076 /* HappyNumber.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3FABFE952795215E00431076 /* HappyNumber.swift */; };
 		3FB380EC276C317E00E066C3 /* SellStock.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3FB380EB276C317E00E066C3 /* SellStock.swift */; };
 		3FB380EE276C318400E066C3 /* README.md in Resources */ = {isa = PBXBuildFile; fileRef = 3FB380ED276C318400E066C3 /* README.md */; };
 		3FB5268A277AAF0B00B8BFAA /* README.md in Resources */ = {isa = PBXBuildFile; fileRef = 3FB52689277AAF0B00B8BFAA /* README.md */; };
@@ -264,6 +268,10 @@
 		3F9DCAC6277455A300198943 /* KthSmallestBST.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = KthSmallestBST.swift; sourceTree = "<group>"; };
 		3F9DCAC827745F9D00198943 /* README.md */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
 		3F9E1DEE2758FB22000B88CC /* RotateArray.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RotateArray.swift; sourceTree = "<group>"; };
+		3FABFE8F27951BCB00431076 /* README.md */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
+		3FABFE912795203E00431076 /* happy1.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = happy1.jpg; sourceTree = "<group>"; };
+		3FABFE932795204500431076 /* happy2.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = happy2.jpg; sourceTree = "<group>"; };
+		3FABFE952795215E00431076 /* HappyNumber.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HappyNumber.swift; sourceTree = "<group>"; };
 		3FB380EB276C317E00E066C3 /* SellStock.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SellStock.swift; sourceTree = "<group>"; };
 		3FB380ED276C318400E066C3 /* README.md */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
 		3FB52689277AAF0B00B8BFAA /* README.md */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
@@ -692,6 +700,17 @@
 			path = 0230.KthSmallestElementinBST;
 			sourceTree = "<group>";
 		};
+		3FABFE8E27951BBF00431076 /* 0202.Happy-Number */ = {
+			isa = PBXGroup;
+			children = (
+				3FABFE952795215E00431076 /* HappyNumber.swift */,
+				3FABFE8F27951BCB00431076 /* README.md */,
+				3FABFE912795203E00431076 /* happy1.jpg */,
+				3FABFE932795204500431076 /* happy2.jpg */,
+			);
+			path = "0202.Happy-Number";
+			sourceTree = "<group>";
+		};
 		3FB380EA276C315100E066C3 /* 0121.BestTimetoBuyandSellStock */ = {
 			isa = PBXGroup;
 			children = (
@@ -855,6 +874,7 @@
 				3F1712662758F4AF00295C29 /* 0189.★Rotate-Array */,
 				3FEACF6E279125870000EDAE /* 0191.Number-of-1-Bits */,
 				3FBBD1652769D1A8005AC22C /* 0198.House-Robber */,
+				3FABFE8E27951BBF00431076 /* 0202.Happy-Number */,
 				3F3BE4B426E8B2CB00632503 /* 0206. Reverse Linked List */,
 				3FE5834B27804BFE004FC016 /* 0234.Palindrome-Linked-List */,
 				3F413997269DF4150094800A /* 0226.翻转二叉树 */,
@@ -1276,6 +1296,7 @@
 				3FB90570272AF284002B9A13 /* README.md in Resources */,
 				3F0B07DC277997FC0030F216 /* README.md in Resources */,
 				3FB7159F27574FFD005A4176 /* README.md in Resources */,
+				3FABFE922795203E00431076 /* happy1.jpg in Resources */,
 				3F33E4E52785472C005183A8 /* README.md in Resources */,
 				3F948B6A275DF30E00DE9132 /* README.md in Resources */,
 				3FB380EE276C318400E066C3 /* README.md in Resources */,
@@ -1305,6 +1326,7 @@
 				3FBA767E278BE4B400D6BDC5 /* README.md in Resources */,
 				3FD8B376278A9D9E0025E8CA /* README.md in Resources */,
 				3F9D5D6D275D05D7009F4D0C /* README.md in Resources */,
+				3FABFE942795204500431076 /* happy2.jpg in Resources */,
 				3F1E1BE427526D6000E0A7A9 /* README.md in Resources */,
 				3FE9A0B1275BBB0D0069668D /* README.md in Resources */,
 				3FDDA7572764A614008246E0 /* README.md in Resources */,
@@ -1332,6 +1354,7 @@
 				3FD8A93C27731E4800B221F7 /* README.md in Resources */,
 				3FBA2B4C2782F61D00DB3A1F /* README.md in Resources */,
 				3F2242ED277184CE00AB9C50 /* README.md in Resources */,
+				3FABFE9027951BCB00431076 /* README.md in Resources */,
 				3FCE284527848E6000E2DEA6 /* README.md in Resources */,
 				3F3C8E1C26EA08A100E419C2 /* README.md in Resources */,
 				3FDDA7522764969D008246E0 /* README.md in Resources */,
@@ -1395,6 +1418,7 @@
 				3F948B6C275DF3D400DE9132 /* LongestSubstringWithoutRepeatingCharacters.swift in Sources */,
 				3FD1A59727773D07002F5CE2 /* ConvertSortedArrayToBST.swift in Sources */,
 				3FBF051827784D69007D8A39 /* CommonAncestorBT.swift in Sources */,
+				3FABFE962795215E00431076 /* HappyNumber.swift in Sources */,
 				3FBA3682269C1E270082BED9 /* AppDelegate.swift in Sources */,
 				3FE934BB277EB0D700A4693E /* SurroundedRegions.swift in Sources */,
 				3FCE284327848E5400E2DEA6 /* PowerThree.swift in Sources */,
