@@ -90,6 +90,8 @@
 		3FB5268C277AAF3600B8BFAA /* ValidateBST.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3FB5268B277AAF3600B8BFAA /* ValidateBST.swift */; };
 		3FB5D428272EF5E9007EDB71 /* README.md in Resources */ = {isa = PBXBuildFile; fileRef = 3FB5D427272EF5E9007EDB71 /* README.md */; };
 		3FB5D42A272EF812007EDB71 /* MaximumSubarray.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3FB5D429272EF812007EDB71 /* MaximumSubarray.swift */; };
+		3FB6559327965D8200BABD91 /* README.md in Resources */ = {isa = PBXBuildFile; fileRef = 3FB6559227965D8200BABD91 /* README.md */; };
+		3FB6559527965D9100BABD91 /* FizzBuzz.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3FB6559427965D9100BABD91 /* FizzBuzz.swift */; };
 		3FB7159F27574FFD005A4176 /* README.md in Resources */ = {isa = PBXBuildFile; fileRef = 3FB7159E27574FFD005A4176 /* README.md */; };
 		3FB715A127575046005A4176 /* BinarySearch.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3FB715A027575046005A4176 /* BinarySearch.swift */; };
 		3FB715A427576ED9005A4176 /* README.md in Resources */ = {isa = PBXBuildFile; fileRef = 3FB715A327576ED9005A4176 /* README.md */; };
@@ -278,6 +280,8 @@
 		3FB5268B277AAF3600B8BFAA /* ValidateBST.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ValidateBST.swift; sourceTree = "<group>"; };
 		3FB5D427272EF5E9007EDB71 /* README.md */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
 		3FB5D429272EF812007EDB71 /* MaximumSubarray.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MaximumSubarray.swift; sourceTree = "<group>"; };
+		3FB6559227965D8200BABD91 /* README.md */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
+		3FB6559427965D9100BABD91 /* FizzBuzz.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FizzBuzz.swift; sourceTree = "<group>"; };
 		3FB7159E27574FFD005A4176 /* README.md */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
 		3FB715A027575046005A4176 /* BinarySearch.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BinarySearch.swift; sourceTree = "<group>"; };
 		3FB715A327576ED9005A4176 /* README.md */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
@@ -738,6 +742,15 @@
 			path = 0053.MaximumSubarray;
 			sourceTree = "<group>";
 		};
+		3FB6559127965D7600BABD91 /* 0412.Fizz-Buzz */ = {
+			isa = PBXGroup;
+			children = (
+				3FB6559427965D9100BABD91 /* FizzBuzz.swift */,
+				3FB6559227965D8200BABD91 /* README.md */,
+			);
+			path = "0412.Fizz-Buzz";
+			sourceTree = "<group>";
+		};
 		3FB7159D27574FC3005A4176 /* 0704.BinarySearch */ = {
 			isa = PBXGroup;
 			children = (
@@ -884,6 +897,7 @@
 				3F3BD1D6275A07E800FBE743 /* 0283.Move-Zeroes */,
 				3FCE284127848E3600E2DEA6 /* 0326.Power-of-Three */,
 				3FE9A0AA275BB2B30069668D /* 0344.Reverse-String */,
+				3FB6559127965D7600BABD91 /* 0412.Fizz-Buzz */,
 				3F413993269DECC90094800A /* 0442.FindDuplicates */,
 				3FD4CF062765F0A2004766C0 /* 0542.★01-Matrix */,
 				3FE9A0AD275BB49E0069668D /* 0557.Reverse-Words-in-a-String-III */,
@@ -1376,6 +1390,7 @@
 				3FE5834F278056F1004FC016 /* README.md in Resources */,
 				3FBBD15F27684F77005AC22C /* README.md in Resources */,
 				3FEACF70279125920000EDAE /* README.md in Resources */,
+				3FB6559327965D8200BABD91 /* README.md in Resources */,
 				3FBA3689269C1E270082BED9 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -1399,6 +1414,7 @@
 				3FB715A92757C665005A4176 /* SearchInsertPosition.swift in Sources */,
 				3FBBD1622769C8FD005AC22C /* ClimbingStairs.swift in Sources */,
 				3F81B53C269E97A4007C996F /* LongestPalindromicSubstring.swift in Sources */,
+				3FB6559527965D9100BABD91 /* FizzBuzz.swift in Sources */,
 				3FEC954C2755043E00CCD88E /* MergeSortedArray.swift in Sources */,
 				3FE9A0A9275BB2A40069668D /* ReverseString.swift in Sources */,
 				3F9DCAC7277455A400198943 /* KthSmallestBST.swift in Sources */,
