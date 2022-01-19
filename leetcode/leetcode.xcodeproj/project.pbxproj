@@ -92,6 +92,9 @@
 		3FB5D42A272EF812007EDB71 /* MaximumSubarray.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3FB5D429272EF812007EDB71 /* MaximumSubarray.swift */; };
 		3FB6559327965D8200BABD91 /* README.md in Resources */ = {isa = PBXBuildFile; fileRef = 3FB6559227965D8200BABD91 /* README.md */; };
 		3FB6559527965D9100BABD91 /* FizzBuzz.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3FB6559427965D9100BABD91 /* FizzBuzz.swift */; };
+		3FB655BD2797EA8300BABD91 /* README.md in Resources */ = {isa = PBXBuildFile; fileRef = 3FB655BC2797EA8300BABD91 /* README.md */; };
+		3FB655BF2797EAAF00BABD91 /* ReverseBits.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3FB655BE2797EAAF00BABD91 /* ReverseBits.swift */; };
+		3FB655C12798023500BABD91 /* 二分.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 3FB655C02798023500BABD91 /* 二分.jpg */; };
 		3FB7159F27574FFD005A4176 /* README.md in Resources */ = {isa = PBXBuildFile; fileRef = 3FB7159E27574FFD005A4176 /* README.md */; };
 		3FB715A127575046005A4176 /* BinarySearch.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3FB715A027575046005A4176 /* BinarySearch.swift */; };
 		3FB715A427576ED9005A4176 /* README.md in Resources */ = {isa = PBXBuildFile; fileRef = 3FB715A327576ED9005A4176 /* README.md */; };
@@ -282,6 +285,9 @@
 		3FB5D429272EF812007EDB71 /* MaximumSubarray.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MaximumSubarray.swift; sourceTree = "<group>"; };
 		3FB6559227965D8200BABD91 /* README.md */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
 		3FB6559427965D9100BABD91 /* FizzBuzz.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FizzBuzz.swift; sourceTree = "<group>"; };
+		3FB655BC2797EA8300BABD91 /* README.md */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
+		3FB655BE2797EAAF00BABD91 /* ReverseBits.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ReverseBits.swift; sourceTree = "<group>"; };
+		3FB655C02798023500BABD91 /* 二分.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "二分.jpg"; sourceTree = "<group>"; };
 		3FB7159E27574FFD005A4176 /* README.md */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
 		3FB715A027575046005A4176 /* BinarySearch.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BinarySearch.swift; sourceTree = "<group>"; };
 		3FB715A327576ED9005A4176 /* README.md */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
@@ -751,6 +757,16 @@
 			path = "0412.Fizz-Buzz";
 			sourceTree = "<group>";
 		};
+		3FB655BB2797EA7B00BABD91 /* 0190.Reverse-Bits */ = {
+			isa = PBXGroup;
+			children = (
+				3FB655BE2797EAAF00BABD91 /* ReverseBits.swift */,
+				3FB655BC2797EA8300BABD91 /* README.md */,
+				3FB655C02798023500BABD91 /* 二分.jpg */,
+			);
+			path = "0190.Reverse-Bits";
+			sourceTree = "<group>";
+		};
 		3FB7159D27574FC3005A4176 /* 0704.BinarySearch */ = {
 			isa = PBXGroup;
 			children = (
@@ -885,6 +901,7 @@
 				3FDE54892793FAF900BC968C /* 0155.★Min-Stack */,
 				3FBA369A269C270D0082BED9 /* 0160.Intersection-of-Two-Linked-Lists */,
 				3F1712662758F4AF00295C29 /* 0189.★Rotate-Array */,
+				3FB655BB2797EA7B00BABD91 /* 0190.Reverse-Bits */,
 				3FEACF6E279125870000EDAE /* 0191.Number-of-1-Bits */,
 				3FBBD1652769D1A8005AC22C /* 0198.House-Robber */,
 				3FABFE8E27951BBF00431076 /* 0202.Happy-Number */,
@@ -1369,6 +1386,7 @@
 				3FBA2B4C2782F61D00DB3A1F /* README.md in Resources */,
 				3F2242ED277184CE00AB9C50 /* README.md in Resources */,
 				3FABFE9027951BCB00431076 /* README.md in Resources */,
+				3FB655C12798023500BABD91 /* 二分.jpg in Resources */,
 				3FCE284527848E6000E2DEA6 /* README.md in Resources */,
 				3F3C8E1C26EA08A100E419C2 /* README.md in Resources */,
 				3FDDA7522764969D008246E0 /* README.md in Resources */,
@@ -1388,6 +1406,7 @@
 				3FB715A427576ED9005A4176 /* README.md in Resources */,
 				3FBBD1642769C904005AC22C /* README.md in Resources */,
 				3FE5834F278056F1004FC016 /* README.md in Resources */,
+				3FB655BD2797EA8300BABD91 /* README.md in Resources */,
 				3FBBD15F27684F77005AC22C /* README.md in Resources */,
 				3FEACF70279125920000EDAE /* README.md in Resources */,
 				3FB6559327965D8200BABD91 /* README.md in Resources */,
@@ -1424,6 +1443,7 @@
 				3F39CC2A276DD66C00C9C071 /* PascalsTriangle.swift in Sources */,
 				3FD8A93A2773147600B221F7 /* Hanota.swift in Sources */,
 				3FBA3686269C1E270082BED9 /* ViewController.swift in Sources */,
+				3FB655BF2797EAAF00BABD91 /* ReverseBits.swift in Sources */,
 				3FBB399C276AD81F00C579B2 /* Triangle.swift in Sources */,
 				3FBA369C269C27B40082BED9 /* IntersectionofTwoLinkedLists.swift in Sources */,
 				3FBBD15D27684F5B005AC22C /* LetterPermutation.swift in Sources */,
