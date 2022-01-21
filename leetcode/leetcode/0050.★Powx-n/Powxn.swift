@@ -67,11 +67,11 @@ class Powxn {
 
         if n > 0 {
 
-            return x * myPow(x, n - 1)
+            return x * myPow3(x, n - 1)
 
         } else {
 
-            return 1/x * myPow(x, n + 1)
+            return 1/x * myPow3(x, n + 1)
         }
 
     }

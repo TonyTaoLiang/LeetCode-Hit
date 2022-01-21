@@ -144,6 +144,8 @@
 		3FD1A599277752B2002F5CE2 /* README.md in Resources */ = {isa = PBXBuildFile; fileRef = 3FD1A598277752B2002F5CE2 /* README.md */; };
 		3FD222D127990635003BB59A /* README.md in Resources */ = {isa = PBXBuildFile; fileRef = 3FD222D027990635003BB59A /* README.md */; };
 		3FD222D32799064B003BB59A /* ExcelColumnNumber.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3FD222D22799064B003BB59A /* ExcelColumnNumber.swift */; };
+		3FD222D6279A65B8003BB59A /* README.md in Resources */ = {isa = PBXBuildFile; fileRef = 3FD222D5279A65B8003BB59A /* README.md */; };
+		3FD222D8279A65C8003BB59A /* MajorityElement.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3FD222D7279A65C8003BB59A /* MajorityElement.swift */; };
 		3FD29C6F2763452E00C7AAC7 /* FloodFill.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3FD29C6E2763452E00C7AAC7 /* FloodFill.swift */; };
 		3FD29C712763453900C7AAC7 /* README.md in Resources */ = {isa = PBXBuildFile; fileRef = 3FD29C702763453800C7AAC7 /* README.md */; };
 		3FD4CF082765F0AE004766C0 /* README.md in Resources */ = {isa = PBXBuildFile; fileRef = 3FD4CF072765F0AE004766C0 /* README.md */; };
@@ -341,6 +343,8 @@
 		3FD1A598277752B2002F5CE2 /* README.md */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
 		3FD222D027990635003BB59A /* README.md */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
 		3FD222D22799064B003BB59A /* ExcelColumnNumber.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ExcelColumnNumber.swift; sourceTree = "<group>"; };
+		3FD222D5279A65B8003BB59A /* README.md */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
+		3FD222D7279A65C8003BB59A /* MajorityElement.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MajorityElement.swift; sourceTree = "<group>"; };
 		3FD29C6E2763452E00C7AAC7 /* FloodFill.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FloodFill.swift; sourceTree = "<group>"; };
 		3FD29C702763453800C7AAC7 /* README.md */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
 		3FD4CF072765F0AE004766C0 /* README.md */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
@@ -856,6 +860,7 @@
 		3FBA3680269C1E270082BED9 /* leetcode */ = {
 			isa = PBXGroup;
 			children = (
+				3FD222D4279A65AA003BB59A /* 0169.Majority-Element */,
 				3FB7331E27927B150065ADF0 /* 0028.Implement-strStr */,
 				3FBA2B462782DCF900DB3A1F /* 0050.★Powx-n */,
 				3FB9E9B9277BFE5000117749 /* 0341.★Flatten-Nested-List-Iterator */,
@@ -1074,6 +1079,15 @@
 				3FD222D027990635003BB59A /* README.md */,
 			);
 			path = "0171.Excel-Sheet-Column-Number";
+			sourceTree = "<group>";
+		};
+		3FD222D4279A65AA003BB59A /* 0169.Majority-Element */ = {
+			isa = PBXGroup;
+			children = (
+				3FD222D7279A65C8003BB59A /* MajorityElement.swift */,
+				3FD222D5279A65B8003BB59A /* README.md */,
+			);
+			path = "0169.Majority-Element";
 			sourceTree = "<group>";
 		};
 		3FD29C6D2763451800C7AAC7 /* 0733.★Flood-Fill */ = {
@@ -1389,6 +1403,7 @@
 				3F948B6F275E521300DE9132 /* README.md in Resources */,
 				3FE934B9277EA36500A4693E /* README.md in Resources */,
 				3F9DCAC927745F9D00198943 /* README.md in Resources */,
+				3FD222D6279A65B8003BB59A /* README.md in Resources */,
 				3F1E1BE9275346D500E0A7A9 /* README.md in Resources */,
 				3FEC954E2755046500CCD88E /* README.md in Resources */,
 				3FB7332227928E000065ADF0 /* README.md in Resources */,
@@ -1445,6 +1460,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				3FD29C6F2763452E00C7AAC7 /* FloodFill.swift in Sources */,
+				3FD222D8279A65C8003BB59A /* MajorityElement.swift in Sources */,
 				3FB715A92757C665005A4176 /* SearchInsertPosition.swift in Sources */,
 				3FBBD1622769C8FD005AC22C /* ClimbingStairs.swift in Sources */,
 				3F81B53C269E97A4007C996F /* LongestPalindromicSubstring.swift in Sources */,
