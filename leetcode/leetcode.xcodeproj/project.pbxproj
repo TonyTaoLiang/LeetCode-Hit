@@ -146,6 +146,8 @@
 		3FD222D32799064B003BB59A /* ExcelColumnNumber.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3FD222D22799064B003BB59A /* ExcelColumnNumber.swift */; };
 		3FD222D6279A65B8003BB59A /* README.md in Resources */ = {isa = PBXBuildFile; fileRef = 3FD222D5279A65B8003BB59A /* README.md */; };
 		3FD222D8279A65C8003BB59A /* MajorityElement.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3FD222D7279A65C8003BB59A /* MajorityElement.swift */; };
+		3FD222DD279BB05F003BB59A /* README.md in Resources */ = {isa = PBXBuildFile; fileRef = 3FD222DC279BB05F003BB59A /* README.md */; };
+		3FD222DF279BB0A8003BB59A /* ValidAnagram.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3FD222DE279BB0A8003BB59A /* ValidAnagram.swift */; };
 		3FD29C6F2763452E00C7AAC7 /* FloodFill.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3FD29C6E2763452E00C7AAC7 /* FloodFill.swift */; };
 		3FD29C712763453900C7AAC7 /* README.md in Resources */ = {isa = PBXBuildFile; fileRef = 3FD29C702763453800C7AAC7 /* README.md */; };
 		3FD4CF082765F0AE004766C0 /* README.md in Resources */ = {isa = PBXBuildFile; fileRef = 3FD4CF072765F0AE004766C0 /* README.md */; };
@@ -345,6 +347,8 @@
 		3FD222D22799064B003BB59A /* ExcelColumnNumber.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ExcelColumnNumber.swift; sourceTree = "<group>"; };
 		3FD222D5279A65B8003BB59A /* README.md */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
 		3FD222D7279A65C8003BB59A /* MajorityElement.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MajorityElement.swift; sourceTree = "<group>"; };
+		3FD222DC279BB05F003BB59A /* README.md */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
+		3FD222DE279BB0A8003BB59A /* ValidAnagram.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ValidAnagram.swift; sourceTree = "<group>"; };
 		3FD29C6E2763452E00C7AAC7 /* FloodFill.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FloodFill.swift; sourceTree = "<group>"; };
 		3FD29C702763453800C7AAC7 /* README.md */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
 		3FD4CF072765F0AE004766C0 /* README.md */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
@@ -920,6 +924,7 @@
 				3F413997269DF4150094800A /* 0226.翻转二叉树 */,
 				3F9DCAC52774555900198943 /* 0230.KthSmallestElementinBST */,
 				3FBA767C278BE3C300D6BDC5 /* 0237.Delete-Node-in-a-Linked-List */,
+				3FD222DB279BB057003BB59A /* 0242.Valid-Anagram */,
 				3FB715A227576ECB005A4176 /* 0278.FirstBadVersion */,
 				3F3BD1D6275A07E800FBE743 /* 0283.Move-Zeroes */,
 				3FCE284127848E3600E2DEA6 /* 0326.Power-of-Three */,
@@ -1088,6 +1093,15 @@
 				3FD222D5279A65B8003BB59A /* README.md */,
 			);
 			path = "0169.Majority-Element";
+			sourceTree = "<group>";
+		};
+		3FD222DB279BB057003BB59A /* 0242.Valid-Anagram */ = {
+			isa = PBXGroup;
+			children = (
+				3FD222DE279BB0A8003BB59A /* ValidAnagram.swift */,
+				3FD222DC279BB05F003BB59A /* README.md */,
+			);
+			path = "0242.Valid-Anagram";
 			sourceTree = "<group>";
 		};
 		3FD29C6D2763451800C7AAC7 /* 0733.★Flood-Fill */ = {
@@ -1415,6 +1429,7 @@
 				3FD8A93C27731E4800B221F7 /* README.md in Resources */,
 				3FBA2B4C2782F61D00DB3A1F /* README.md in Resources */,
 				3F2242ED277184CE00AB9C50 /* README.md in Resources */,
+				3FD222DD279BB05F003BB59A /* README.md in Resources */,
 				3FABFE9027951BCB00431076 /* README.md in Resources */,
 				3FB655C12798023500BABD91 /* 二分.jpg in Resources */,
 				3FCE284527848E6000E2DEA6 /* README.md in Resources */,
@@ -1467,6 +1482,7 @@
 				3FB6559527965D9100BABD91 /* FizzBuzz.swift in Sources */,
 				3FEC954C2755043E00CCD88E /* MergeSortedArray.swift in Sources */,
 				3FD222D32799064B003BB59A /* ExcelColumnNumber.swift in Sources */,
+				3FD222DF279BB0A8003BB59A /* ValidAnagram.swift in Sources */,
 				3FE9A0A9275BB2A40069668D /* ReverseString.swift in Sources */,
 				3F9DCAC7277455A400198943 /* KthSmallestBST.swift in Sources */,
 				3F1E1BE227526D4F00E0A7A9 /* SwapNodesinPairs.swift in Sources */,
