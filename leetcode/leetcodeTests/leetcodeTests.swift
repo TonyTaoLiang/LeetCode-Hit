@@ -285,4 +285,10 @@ class leetcodeTests: XCTestCase {
         let happy = HappyNumber()
         happy.isHappy(19)
     }
+
+    func testContainsDuplicate() {
+
+        let du = ContainsDuplicate()
+        du.containsDuplicate([1,2,2,4])
+    }
 }

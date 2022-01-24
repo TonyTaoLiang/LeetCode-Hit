@@ -84,6 +84,8 @@
 		3FABFE922795203E00431076 /* happy1.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 3FABFE912795203E00431076 /* happy1.jpg */; };
 		3FABFE942795204500431076 /* happy2.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 3FABFE932795204500431076 /* happy2.jpg */; };
 		3FABFE962795215E00431076 /* HappyNumber.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3FABFE952795215E00431076 /* HappyNumber.swift */; };
+		3FB35818279E9BC2009F9AC8 /* ContainsDuplicate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3FB35817279E9BC2009F9AC8 /* ContainsDuplicate.swift */; };
+		3FB3581A279EA28D009F9AC8 /* README.md in Resources */ = {isa = PBXBuildFile; fileRef = 3FB35819279EA28D009F9AC8 /* README.md */; };
 		3FB380EC276C317E00E066C3 /* SellStock.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3FB380EB276C317E00E066C3 /* SellStock.swift */; };
 		3FB380EE276C318400E066C3 /* README.md in Resources */ = {isa = PBXBuildFile; fileRef = 3FB380ED276C318400E066C3 /* README.md */; };
 		3FB5268A277AAF0B00B8BFAA /* README.md in Resources */ = {isa = PBXBuildFile; fileRef = 3FB52689277AAF0B00B8BFAA /* README.md */; };
@@ -285,6 +287,8 @@
 		3FABFE912795203E00431076 /* happy1.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = happy1.jpg; sourceTree = "<group>"; };
 		3FABFE932795204500431076 /* happy2.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = happy2.jpg; sourceTree = "<group>"; };
 		3FABFE952795215E00431076 /* HappyNumber.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HappyNumber.swift; sourceTree = "<group>"; };
+		3FB35817279E9BC2009F9AC8 /* ContainsDuplicate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContainsDuplicate.swift; sourceTree = "<group>"; };
+		3FB35819279EA28D009F9AC8 /* README.md */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
 		3FB380EB276C317E00E066C3 /* SellStock.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SellStock.swift; sourceTree = "<group>"; };
 		3FB380ED276C318400E066C3 /* README.md */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
 		3FB52689277AAF0B00B8BFAA /* README.md */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
@@ -737,6 +741,15 @@
 			path = "0202.Happy-Number";
 			sourceTree = "<group>";
 		};
+		3FB35816279E9BB2009F9AC8 /* 0217.Contains-Duplicate */ = {
+			isa = PBXGroup;
+			children = (
+				3FB35817279E9BC2009F9AC8 /* ContainsDuplicate.swift */,
+				3FB35819279EA28D009F9AC8 /* README.md */,
+			);
+			path = "0217.Contains-Duplicate";
+			sourceTree = "<group>";
+		};
 		3FB380EA276C315100E066C3 /* 0121.BestTimetoBuyandSellStock */ = {
 			isa = PBXGroup;
 			children = (
@@ -925,6 +938,7 @@
 				3FBBD1652769D1A8005AC22C /* 0198.House-Robber */,
 				3FABFE8E27951BBF00431076 /* 0202.Happy-Number */,
 				3F3BE4B426E8B2CB00632503 /* 0206. Reverse Linked List */,
+				3FB35816279E9BB2009F9AC8 /* 0217.Contains-Duplicate */,
 				3FE5834B27804BFE004FC016 /* 0234.Palindrome-Linked-List */,
 				3F413997269DF4150094800A /* 0226.翻转二叉树 */,
 				3F9DCAC52774555900198943 /* 0230.KthSmallestElementinBST */,
@@ -1409,6 +1423,7 @@
 				3FE9A0AC275BB39B0069668D /* README.md in Resources */,
 				3F0B07D9277995270030F216 /* README.md in Resources */,
 				3FB5268A277AAF0B00B8BFAA /* README.md in Resources */,
+				3FB3581A279EA28D009F9AC8 /* README.md in Resources */,
 				3FBB5CFF278D3A34009EB9AF /* README.md in Resources */,
 				3F17126027587CF200295C29 /* README.md in Resources */,
 				3FBA767E278BE4B400D6BDC5 /* README.md in Resources */,
@@ -1501,6 +1516,7 @@
 				3FE9A0A9275BB2A40069668D /* ReverseString.swift in Sources */,
 				3F9DCAC7277455A400198943 /* KthSmallestBST.swift in Sources */,
 				3F1E1BE227526D4F00E0A7A9 /* SwapNodesinPairs.swift in Sources */,
+				3FB35818279E9BC2009F9AC8 /* ContainsDuplicate.swift in Sources */,
 				3F3BD1E0275A1A0300FBE743 /* 0167.TwoSumInputArray.swift in Sources */,
 				3F9D5D6F275D0623009F4D0C /* RemoveNthNodeEndList.swift in Sources */,
 				3F39CC2A276DD66C00C9C071 /* PascalsTriangle.swift in Sources */,
