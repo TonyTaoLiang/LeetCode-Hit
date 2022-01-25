@@ -86,6 +86,8 @@
 		3FABFE962795215E00431076 /* HappyNumber.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3FABFE952795215E00431076 /* HappyNumber.swift */; };
 		3FB35818279E9BC2009F9AC8 /* ContainsDuplicate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3FB35817279E9BC2009F9AC8 /* ContainsDuplicate.swift */; };
 		3FB3581A279EA28D009F9AC8 /* README.md in Resources */ = {isa = PBXBuildFile; fileRef = 3FB35819279EA28D009F9AC8 /* README.md */; };
+		3FB3581D279FC897009F9AC8 /* README.md in Resources */ = {isa = PBXBuildFile; fileRef = 3FB3581C279FC897009F9AC8 /* README.md */; };
+		3FB3581F279FC909009F9AC8 /* IntersectionTwoArraysII.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3FB3581E279FC909009F9AC8 /* IntersectionTwoArraysII.swift */; };
 		3FB380EC276C317E00E066C3 /* SellStock.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3FB380EB276C317E00E066C3 /* SellStock.swift */; };
 		3FB380EE276C318400E066C3 /* README.md in Resources */ = {isa = PBXBuildFile; fileRef = 3FB380ED276C318400E066C3 /* README.md */; };
 		3FB5268A277AAF0B00B8BFAA /* README.md in Resources */ = {isa = PBXBuildFile; fileRef = 3FB52689277AAF0B00B8BFAA /* README.md */; };
@@ -289,6 +291,8 @@
 		3FABFE952795215E00431076 /* HappyNumber.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HappyNumber.swift; sourceTree = "<group>"; };
 		3FB35817279E9BC2009F9AC8 /* ContainsDuplicate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContainsDuplicate.swift; sourceTree = "<group>"; };
 		3FB35819279EA28D009F9AC8 /* README.md */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
+		3FB3581C279FC897009F9AC8 /* README.md */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
+		3FB3581E279FC909009F9AC8 /* IntersectionTwoArraysII.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = IntersectionTwoArraysII.swift; sourceTree = "<group>"; };
 		3FB380EB276C317E00E066C3 /* SellStock.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SellStock.swift; sourceTree = "<group>"; };
 		3FB380ED276C318400E066C3 /* README.md */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
 		3FB52689277AAF0B00B8BFAA /* README.md */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
@@ -750,6 +754,15 @@
 			path = "0217.Contains-Duplicate";
 			sourceTree = "<group>";
 		};
+		3FB3581B279FC888009F9AC8 /* 0350.Intersection-of-Two-Arrays-II */ = {
+			isa = PBXGroup;
+			children = (
+				3FB3581E279FC909009F9AC8 /* IntersectionTwoArraysII.swift */,
+				3FB3581C279FC897009F9AC8 /* README.md */,
+			);
+			path = "0350.Intersection-of-Two-Arrays-II";
+			sourceTree = "<group>";
+		};
 		3FB380EA276C315100E066C3 /* 0121.BestTimetoBuyandSellStock */ = {
 			isa = PBXGroup;
 			children = (
@@ -948,6 +961,7 @@
 				3F3BD1D6275A07E800FBE743 /* 0283.Move-Zeroes */,
 				3FCE284127848E3600E2DEA6 /* 0326.Power-of-Three */,
 				3FE9A0AA275BB2B30069668D /* 0344.Reverse-String */,
+				3FB3581B279FC888009F9AC8 /* 0350.Intersection-of-Two-Arrays-II */,
 				3FB6559127965D7600BABD91 /* 0412.Fizz-Buzz */,
 				3F413993269DECC90094800A /* 0442.FindDuplicates */,
 				3FD4CF062765F0A2004766C0 /* 0542.★01-Matrix */,
@@ -1445,6 +1459,7 @@
 				3F3C8E2126EE4B9600E419C2 /* README.md in Resources */,
 				3F948B6F275E521300DE9132 /* README.md in Resources */,
 				3FE934B9277EA36500A4693E /* README.md in Resources */,
+				3FB3581D279FC897009F9AC8 /* README.md in Resources */,
 				3F9DCAC927745F9D00198943 /* README.md in Resources */,
 				3FD222D6279A65B8003BB59A /* README.md in Resources */,
 				3F1E1BE9275346D500E0A7A9 /* README.md in Resources */,
@@ -1587,6 +1602,7 @@
 				3F0D3A852781C55E00DFB87E /* AddTwoNumbers.swift in Sources */,
 				3FD4CF0D27660F97004766C0 /* RottingOranges.swift in Sources */,
 				3FEF9D1F27883E980015BBAA /* ValidParentheses.swift in Sources */,
+				3FB3581F279FC909009F9AC8 /* IntersectionTwoArraysII.swift in Sources */,
 				3F0B07DE27799AA10030F216 /* BTLevelOrderTraversal.swift in Sources */,
 				3F1731B0278FD7C2005C2B27 /* RemoveDuplicatesSortedArray.swift in Sources */,
 				3F3C8E2326EE4CAC00E419C2 /* ThreeSum.swift in Sources */,
