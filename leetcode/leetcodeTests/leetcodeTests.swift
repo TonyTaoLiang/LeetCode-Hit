@@ -291,4 +291,10 @@ class leetcodeTests: XCTestCase {
         let du = ContainsDuplicate()
         du.containsDuplicate([1,2,2,4])
     }
+
+    func testFirstUniqueString() {
+
+        let s = FirstUniqueString()
+        s.firstUniqChar("leetcode")
+    }
 }
