@@ -84,6 +84,8 @@
 		3FABFE922795203E00431076 /* happy1.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 3FABFE912795203E00431076 /* happy1.jpg */; };
 		3FABFE942795204500431076 /* happy2.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 3FABFE932795204500431076 /* happy2.jpg */; };
 		3FABFE962795215E00431076 /* HappyNumber.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3FABFE952795215E00431076 /* HappyNumber.swift */; };
+		3FB01F4E27A4351E00704B3C /* README.md in Resources */ = {isa = PBXBuildFile; fileRef = 3FB01F4D27A4351E00704B3C /* README.md */; };
+		3FB01F5027A4360A00704B3C /* LongestCommonPrefix.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3FB01F4F27A4360A00704B3C /* LongestCommonPrefix.swift */; };
 		3FB35818279E9BC2009F9AC8 /* ContainsDuplicate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3FB35817279E9BC2009F9AC8 /* ContainsDuplicate.swift */; };
 		3FB3581A279EA28D009F9AC8 /* README.md in Resources */ = {isa = PBXBuildFile; fileRef = 3FB35819279EA28D009F9AC8 /* README.md */; };
 		3FB3581D279FC897009F9AC8 /* README.md in Resources */ = {isa = PBXBuildFile; fileRef = 3FB3581C279FC897009F9AC8 /* README.md */; };
@@ -293,6 +295,8 @@
 		3FABFE912795203E00431076 /* happy1.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = happy1.jpg; sourceTree = "<group>"; };
 		3FABFE932795204500431076 /* happy2.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = happy2.jpg; sourceTree = "<group>"; };
 		3FABFE952795215E00431076 /* HappyNumber.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HappyNumber.swift; sourceTree = "<group>"; };
+		3FB01F4D27A4351E00704B3C /* README.md */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
+		3FB01F4F27A4360A00704B3C /* LongestCommonPrefix.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LongestCommonPrefix.swift; sourceTree = "<group>"; };
 		3FB35817279E9BC2009F9AC8 /* ContainsDuplicate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContainsDuplicate.swift; sourceTree = "<group>"; };
 		3FB35819279EA28D009F9AC8 /* README.md */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
 		3FB3581C279FC897009F9AC8 /* README.md */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
@@ -753,6 +757,15 @@
 			path = "0202.Happy-Number";
 			sourceTree = "<group>";
 		};
+		3FB01F4C27A4350400704B3C /* 0014.LongestCommonPrefix */ = {
+			isa = PBXGroup;
+			children = (
+				3FB01F4F27A4360A00704B3C /* LongestCommonPrefix.swift */,
+				3FB01F4D27A4351E00704B3C /* README.md */,
+			);
+			path = 0014.LongestCommonPrefix;
+			sourceTree = "<group>";
+		};
 		3FB35816279E9BB2009F9AC8 /* 0217.Contains-Duplicate */ = {
 			isa = PBXGroup;
 			children = (
@@ -902,7 +915,7 @@
 		3FBA3680269C1E270082BED9 /* leetcode */ = {
 			isa = PBXGroup;
 			children = (
-				3FD1086B27A2ECBF00D2C283 /* 0066.Plus-One */,
+				3FB01F4C27A4350400704B3C /* 0014.LongestCommonPrefix */,
 				3FD222D4279A65AA003BB59A /* 0169.Majority-Element */,
 				3FB7331E27927B150065ADF0 /* 0028.Implement-strStr */,
 				3FBA2B462782DCF900DB3A1F /* 0050.★Powx-n */,
@@ -925,6 +938,7 @@
 				3FB715A72757C64C005A4176 /* 0035.SearchInsertPosition */,
 				3FB9056C272AF237002B9A13 /* 0051.N-Queens */,
 				3FB5D426272EF556007EDB71 /* 0053.MaximumSubarray */,
+				3FD1086B27A2ECBF00D2C283 /* 0066.Plus-One */,
 				3FBBD1602769C8D8005AC22C /* 0070.Climbing-Stairs */,
 				3F1E76CD27679158008B63A4 /* 0046.↓Permutations */,
 				3FC0D291276F3F2B00407ABB /* 0022.↓GenerateParentheses */,
@@ -1475,6 +1489,7 @@
 				3FABFE942795204500431076 /* happy2.jpg in Resources */,
 				3F1E1BE427526D6000E0A7A9 /* README.md in Resources */,
 				3FE9A0B1275BBB0D0069668D /* README.md in Resources */,
+				3FB01F4E27A4351E00704B3C /* README.md in Resources */,
 				3FDDA7572764A614008246E0 /* README.md in Resources */,
 				3F1E76CA276735E9008B63A4 /* 组合树状图.png in Resources */,
 				3F0D31452770B66E00DCF718 /* 二叉树的最大深度.jpg in Resources */,
@@ -1568,6 +1583,7 @@
 				3F39CC2A276DD66C00C9C071 /* PascalsTriangle.swift in Sources */,
 				3FD8A93A2773147600B221F7 /* Hanota.swift in Sources */,
 				3FBA3686269C1E270082BED9 /* ViewController.swift in Sources */,
+				3FB01F5027A4360A00704B3C /* LongestCommonPrefix.swift in Sources */,
 				3FB655BF2797EAAF00BABD91 /* ReverseBits.swift in Sources */,
 				3FBB399C276AD81F00C579B2 /* Triangle.swift in Sources */,
 				3FBA369C269C27B40082BED9 /* IntersectionofTwoLinkedLists.swift in Sources */,
