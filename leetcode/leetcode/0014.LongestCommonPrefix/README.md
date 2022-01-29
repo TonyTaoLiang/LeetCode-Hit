@@ -32,5 +32,3 @@ Explanation: There is no common prefix among the input strings.
 
 ## 解题思路
 
-- 。
-

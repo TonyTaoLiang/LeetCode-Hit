@@ -101,6 +101,8 @@
 		3FB655BD2797EA8300BABD91 /* README.md in Resources */ = {isa = PBXBuildFile; fileRef = 3FB655BC2797EA8300BABD91 /* README.md */; };
 		3FB655BF2797EAAF00BABD91 /* ReverseBits.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3FB655BE2797EAAF00BABD91 /* ReverseBits.swift */; };
 		3FB655C12798023500BABD91 /* 二分.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 3FB655C02798023500BABD91 /* 二分.jpg */; };
+		3FB6AB5E27A5230F007BD466 /* README.md in Resources */ = {isa = PBXBuildFile; fileRef = 3FB6AB5D27A5230F007BD466 /* README.md */; };
+		3FB6AB6027A524B3007BD466 /* Sqrt.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3FB6AB5F27A524B3007BD466 /* Sqrt.swift */; };
 		3FB7159F27574FFD005A4176 /* README.md in Resources */ = {isa = PBXBuildFile; fileRef = 3FB7159E27574FFD005A4176 /* README.md */; };
 		3FB715A127575046005A4176 /* BinarySearch.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3FB715A027575046005A4176 /* BinarySearch.swift */; };
 		3FB715A427576ED9005A4176 /* README.md in Resources */ = {isa = PBXBuildFile; fileRef = 3FB715A327576ED9005A4176 /* README.md */; };
@@ -312,6 +314,8 @@
 		3FB655BC2797EA8300BABD91 /* README.md */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
 		3FB655BE2797EAAF00BABD91 /* ReverseBits.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ReverseBits.swift; sourceTree = "<group>"; };
 		3FB655C02798023500BABD91 /* 二分.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "二分.jpg"; sourceTree = "<group>"; };
+		3FB6AB5D27A5230F007BD466 /* README.md */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
+		3FB6AB5F27A524B3007BD466 /* Sqrt.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Sqrt.swift; sourceTree = "<group>"; };
 		3FB7159E27574FFD005A4176 /* README.md */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
 		3FB715A027575046005A4176 /* BinarySearch.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BinarySearch.swift; sourceTree = "<group>"; };
 		3FB715A327576ED9005A4176 /* README.md */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
@@ -830,6 +834,15 @@
 			path = "0190.Reverse-Bits";
 			sourceTree = "<group>";
 		};
+		3FB6AB5C27A522FC007BD466 /* 0069.★Sqrtx */ = {
+			isa = PBXGroup;
+			children = (
+				3FB6AB5F27A524B3007BD466 /* Sqrt.swift */,
+				3FB6AB5D27A5230F007BD466 /* README.md */,
+			);
+			path = "0069.★Sqrtx";
+			sourceTree = "<group>";
+		};
 		3FB7159D27574FC3005A4176 /* 0704.BinarySearch */ = {
 			isa = PBXGroup;
 			children = (
@@ -915,7 +928,7 @@
 		3FBA3680269C1E270082BED9 /* leetcode */ = {
 			isa = PBXGroup;
 			children = (
-				3FB01F4C27A4350400704B3C /* 0014.LongestCommonPrefix */,
+				3FB6AB5C27A522FC007BD466 /* 0069.★Sqrtx */,
 				3FD222D4279A65AA003BB59A /* 0169.Majority-Element */,
 				3FB7331E27927B150065ADF0 /* 0028.Implement-strStr */,
 				3FBA2B462782DCF900DB3A1F /* 0050.★Powx-n */,
@@ -929,6 +942,7 @@
 				3F411FAD2786D7F900B72F8E /* 0279.Perfect-Squares */,
 				3F33E4E327854723005183A8 /* 0322.★Coin-Change */,
 				3FD222E2279CF1E0003BB59A /* 0013.Roman-to-Integer */,
+				3FB01F4C27A4350400704B3C /* 0014.LongestCommonPrefix */,
 				3F3C8E1F26EE4B4B00E419C2 /* 0015.3Sum */,
 				3F9D5D6B275D0501009F4D0C /* 0019.Remove-Nth-Node-From-End-of-List */,
 				3FEF9D1D27883E710015BBAA /* 0020.Valid-Parentheses */,
@@ -1509,6 +1523,7 @@
 				3F1E1BE9275346D500E0A7A9 /* README.md in Resources */,
 				3FEC954E2755046500CCD88E /* README.md in Resources */,
 				3FB7332227928E000065ADF0 /* README.md in Resources */,
+				3FB6AB5E27A5230F007BD466 /* README.md in Resources */,
 				3FD222E6279CF973003BB59A /* README.md in Resources */,
 				3F33E4E92785E950005183A8 /* DP硬币兑换.jpg in Resources */,
 				3F1E1BB9274F826D00E0A7A9 /* README.md in Resources */,
@@ -1657,6 +1672,7 @@
 				3FB7332027927B370065ADF0 /* ImplementstrStr.swift in Sources */,
 				3F0B07D72779924A0030F216 /* DiameterofBinaryTree.swift in Sources */,
 				3FBA3684269C1E270082BED9 /* SceneDelegate.swift in Sources */,
+				3FB6AB6027A524B3007BD466 /* Sqrt.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

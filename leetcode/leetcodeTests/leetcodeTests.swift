@@ -297,4 +297,9 @@ class leetcodeTests: XCTestCase {
         let s = FirstUniqueString()
         s.firstUniqChar("leetcode")
     }
+
+    func testSqrt() {
+        let ss = Sqrt()
+        ss.mySqrt1(16)
+    }
 }

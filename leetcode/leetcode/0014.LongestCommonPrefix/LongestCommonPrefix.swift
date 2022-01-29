@@ -9,7 +9,7 @@ import Foundation
 
 class LongestCommonPrefix {
 
-    //纵向扫描
+    //纵向扫描：时间复杂度很高
     func longestCommonPrefix(_ strs: [String]) -> String {
 
         if strs.count == 0 {
@@ -35,4 +35,31 @@ class LongestCommonPrefix {
         return strs[0]
     }
 
+    //纵向二：时间复杂度较上述方法好
+    func longestCommonPrefix2(_ strs: [String]) -> String {
+
+        if strs.count == 0 {
+            return ""
+        }
+
+        var head = strs[0]
+
+        for char in strs {
+
+            while !char.hasPrefix(head) {
+
+                if head.count == 0 {
+                    return ""
+                }
+
+                //每次同一个元素比较就缩小head，下次比较head就短，时间复杂度好
+                let index = head.index(head.startIndex, offsetBy: head.count-1)
+
+                head = head.substring(to: index)
+            }
+        }
+
+        return head
+
+    }
 }
