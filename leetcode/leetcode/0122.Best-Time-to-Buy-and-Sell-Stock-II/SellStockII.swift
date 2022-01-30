@@ -43,4 +43,28 @@ class SellStockII {
         return dp[prices.count-1][0]
     }
 
+    //DP优化：将二维数组优化成2个变量，滚动覆盖取值(想象一个二维数组表)
+    /**
+        0         1
+      —————————————————
+     |  sell  |  hold  | 第一天
+     |  sell  |  hold  | 第二天
+     |  sell  |  hold  | 第三天
+     |  sell  |  hold  | 第四天
+      —————————————————
+     */
+    func maxProfit1(_ prices: [Int]) -> Int {
+
+        var sell = 0
+        var hold = -prices[0]
+
+        for i in 1..<prices.count {
+
+            sell = max(sell, hold+prices[i])
+            hold = max(hold, sell-prices[i])
+        }
+
+        return sell
+    }
+
 }
