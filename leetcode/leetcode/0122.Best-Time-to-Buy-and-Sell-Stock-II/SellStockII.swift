@@ -67,4 +67,25 @@ class SellStockII {
         return sell
     }
 
+    //解法二：贪心
+    //这道题 「贪心」 的地方在于，对于 「今天的股价 - 昨天的股价」，得到的结果有 3 种可能：① 正数，② 0，③负数。贪心算法的决策是： 只加正数 。
+    //贪心选择性质的证明见README
+
+    func maxProfit2(_ prices: [Int]) -> Int {
+
+        var res = 0
+
+        for i in 0..<prices.count - 1 {
+
+            if prices[i+1] - prices[i] > 0 {
+
+                res += prices[i+1] - prices[i]
+
+            }
+
+        }
+
+        return res
+
+    }
 }
