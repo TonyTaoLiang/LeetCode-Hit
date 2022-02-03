@@ -299,7 +299,14 @@ class leetcodeTests: XCTestCase {
     }
 
     func testSqrt() {
-        let ss = Sqrt()
+        let ss = Sqrts()
         ss.mySqrt1(16)
+    }
+
+    func testSubSet() {
+
+        let sub = Subsets()
+        sub.subsets([1,2,3])
+
     }
 }

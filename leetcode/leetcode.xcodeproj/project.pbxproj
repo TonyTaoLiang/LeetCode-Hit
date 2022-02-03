@@ -95,6 +95,8 @@
 		3FB3581F279FC909009F9AC8 /* IntersectionTwoArraysII.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3FB3581E279FC909009F9AC8 /* IntersectionTwoArraysII.swift */; };
 		3FB380EC276C317E00E066C3 /* SellStock.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3FB380EB276C317E00E066C3 /* SellStock.swift */; };
 		3FB380EE276C318400E066C3 /* README.md in Resources */ = {isa = PBXBuildFile; fileRef = 3FB380ED276C318400E066C3 /* README.md */; };
+		3FB3AD7827AC096900CBEC7C /* README.md in Resources */ = {isa = PBXBuildFile; fileRef = 3FB3AD7727AC096900CBEC7C /* README.md */; };
+		3FB3AD7A27AC09D100CBEC7C /* Subsets.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3FB3AD7927AC09D100CBEC7C /* Subsets.swift */; };
 		3FB5268A277AAF0B00B8BFAA /* README.md in Resources */ = {isa = PBXBuildFile; fileRef = 3FB52689277AAF0B00B8BFAA /* README.md */; };
 		3FB5268C277AAF3600B8BFAA /* ValidateBST.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3FB5268B277AAF3600B8BFAA /* ValidateBST.swift */; };
 		3FB5D428272EF5E9007EDB71 /* README.md in Resources */ = {isa = PBXBuildFile; fileRef = 3FB5D427272EF5E9007EDB71 /* README.md */; };
@@ -312,6 +314,8 @@
 		3FB3581E279FC909009F9AC8 /* IntersectionTwoArraysII.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = IntersectionTwoArraysII.swift; sourceTree = "<group>"; };
 		3FB380EB276C317E00E066C3 /* SellStock.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SellStock.swift; sourceTree = "<group>"; };
 		3FB380ED276C318400E066C3 /* README.md */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
+		3FB3AD7727AC096900CBEC7C /* README.md */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
+		3FB3AD7927AC09D100CBEC7C /* Subsets.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Subsets.swift; sourceTree = "<group>"; };
 		3FB52689277AAF0B00B8BFAA /* README.md */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
 		3FB5268B277AAF3600B8BFAA /* ValidateBST.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ValidateBST.swift; sourceTree = "<group>"; };
 		3FB5D427272EF5E9007EDB71 /* README.md */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
@@ -814,6 +818,15 @@
 			path = 0121.BestTimetoBuyandSellStock;
 			sourceTree = "<group>";
 		};
+		3FB3AD7627AC096000CBEC7C /* 0078.Subsets */ = {
+			isa = PBXGroup;
+			children = (
+				3FB3AD7927AC09D100CBEC7C /* Subsets.swift */,
+				3FB3AD7727AC096900CBEC7C /* README.md */,
+			);
+			path = 0078.Subsets;
+			sourceTree = "<group>";
+		};
 		3FB52688277AAEFD00B8BFAA /* 0098.Validate-Binary-Search-Tree */ = {
 			isa = PBXGroup;
 			children = (
@@ -954,7 +967,6 @@
 		3FBA3680269C1E270082BED9 /* leetcode */ = {
 			isa = PBXGroup;
 			children = (
-				3FB5FAE027A966430077D455 /* 0011.Container-With-Most-Water */,
 				3FB6AB5C27A522FC007BD466 /* 0069.Sqrtx */,
 				3FD222D4279A65AA003BB59A /* 0169.Majority-Element */,
 				3FB7331E27927B150065ADF0 /* 0028.Implement-strStr */,
@@ -968,6 +980,7 @@
 				3F81B539269E8C1C007C996F /* 0005.最长回文子串 */,
 				3F411FAD2786D7F900B72F8E /* 0279.Perfect-Squares */,
 				3F33E4E327854723005183A8 /* 0322.★Coin-Change */,
+				3FB5FAE027A966430077D455 /* 0011.Container-With-Most-Water */,
 				3FD222E2279CF1E0003BB59A /* 0013.Roman-to-Integer */,
 				3FB01F4C27A4350400704B3C /* 0014.LongestCommonPrefix */,
 				3F3C8E1F26EE4B4B00E419C2 /* 0015.3Sum */,
@@ -985,6 +998,7 @@
 				3FC0D291276F3F2B00407ABB /* 0022.↓GenerateParentheses */,
 				3FBBD15B27684F47005AC22C /* 0784.▶︎Letter-Case-Permutation */,
 				3F1E76C62766ED78008B63A4 /* 0077.↑Combinations */,
+				3FB3AD7627AC096000CBEC7C /* 0078.Subsets */,
 				3FEC954A2755041C00CCD88E /* 0088.MergeSortedArray */,
 				3F3C8E1A26EA088F00E419C2 /* 0094.Binary-Tree-Inorder-Traversal */,
 				3FB52688277AAEFD00B8BFAA /* 0098.Validate-Binary-Search-Tree */,
@@ -1529,6 +1543,7 @@
 				3FBA767E278BE4B400D6BDC5 /* README.md in Resources */,
 				3FD8B376278A9D9E0025E8CA /* README.md in Resources */,
 				3F9D5D6D275D05D7009F4D0C /* README.md in Resources */,
+				3FB3AD7827AC096900CBEC7C /* README.md in Resources */,
 				3FABFE942795204500431076 /* happy2.jpg in Resources */,
 				3F1E1BE427526D6000E0A7A9 /* README.md in Resources */,
 				3FE9A0B1275BBB0D0069668D /* README.md in Resources */,
@@ -1635,6 +1650,7 @@
 				3FBB399C276AD81F00C579B2 /* Triangle.swift in Sources */,
 				3FBA369C269C27B40082BED9 /* IntersectionofTwoLinkedLists.swift in Sources */,
 				3FBBD15D27684F5B005AC22C /* LetterPermutation.swift in Sources */,
+				3FB3AD7A27AC09D100CBEC7C /* Subsets.swift in Sources */,
 				3F33E4E72785473A005183A8 /* CoinChange.swift in Sources */,
 				3FDCF4D3274D3341004FCFB6 /* ConstructBinaryTreeInorderPostorder.swift in Sources */,
 				3F2242E827716E8600AB9C50 /* SymmetricTree.swift in Sources */,
