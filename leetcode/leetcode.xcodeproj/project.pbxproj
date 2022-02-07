@@ -103,6 +103,8 @@
 		3FB380EE276C318400E066C3 /* README.md in Resources */ = {isa = PBXBuildFile; fileRef = 3FB380ED276C318400E066C3 /* README.md */; };
 		3FB3AD7827AC096900CBEC7C /* README.md in Resources */ = {isa = PBXBuildFile; fileRef = 3FB3AD7727AC096900CBEC7C /* README.md */; };
 		3FB3AD7A27AC09D100CBEC7C /* Subsets.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3FB3AD7927AC09D100CBEC7C /* Subsets.swift */; };
+		3FB441E527B150B3001D2146 /* README.md in Resources */ = {isa = PBXBuildFile; fileRef = 3FB441E427B150B3001D2146 /* README.md */; };
+		3FB441E727B150DD001D2146 /* BinaryTreePostorderTraversal.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3FB441E627B150DD001D2146 /* BinaryTreePostorderTraversal.swift */; };
 		3FB5268A277AAF0B00B8BFAA /* README.md in Resources */ = {isa = PBXBuildFile; fileRef = 3FB52689277AAF0B00B8BFAA /* README.md */; };
 		3FB5268C277AAF3600B8BFAA /* ValidateBST.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3FB5268B277AAF3600B8BFAA /* ValidateBST.swift */; };
 		3FB5D428272EF5E9007EDB71 /* README.md in Resources */ = {isa = PBXBuildFile; fileRef = 3FB5D427272EF5E9007EDB71 /* README.md */; };
@@ -328,6 +330,8 @@
 		3FB380ED276C318400E066C3 /* README.md */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
 		3FB3AD7727AC096900CBEC7C /* README.md */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
 		3FB3AD7927AC09D100CBEC7C /* Subsets.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Subsets.swift; sourceTree = "<group>"; };
+		3FB441E427B150B3001D2146 /* README.md */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
+		3FB441E627B150DD001D2146 /* BinaryTreePostorderTraversal.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BinaryTreePostorderTraversal.swift; sourceTree = "<group>"; };
 		3FB52689277AAF0B00B8BFAA /* README.md */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
 		3FB5268B277AAF3600B8BFAA /* ValidateBST.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ValidateBST.swift; sourceTree = "<group>"; };
 		3FB5D427272EF5E9007EDB71 /* README.md */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
@@ -866,6 +870,15 @@
 			path = 0078.Subsets;
 			sourceTree = "<group>";
 		};
+		3FB441E327B1507F001D2146 /* 0145.Binary-Tree-Postorder-Traversal */ = {
+			isa = PBXGroup;
+			children = (
+				3FB441E627B150DD001D2146 /* BinaryTreePostorderTraversal.swift */,
+				3FB441E427B150B3001D2146 /* README.md */,
+			);
+			path = "0145.Binary-Tree-Postorder-Traversal";
+			sourceTree = "<group>";
+		};
 		3FB52688277AAEFD00B8BFAA /* 0098.Validate-Binary-Search-Tree */ = {
 			isa = PBXGroup;
 			children = (
@@ -1060,6 +1073,7 @@
 				3F086EAB278EC4DF00C8AB8E /* 0268.Missing-Number */,
 				3FD8B372278A9C3F0025E8CA /* 0141.Linked-List-Cycle */,
 				3F98C1A127B01FEA00B2E861 /* 0144.Binary-Tree-Preorder-Traversal */,
+				3FB441E327B1507F001D2146 /* 0145.Binary-Tree-Postorder-Traversal */,
 				3F1E1BE5275346AD00E0A7A9 /* 0148.SortList */,
 				3FDE54892793FAF900BC968C /* 0155.★Min-Stack */,
 				3FBA369A269C270D0082BED9 /* 0160.Intersection-of-Two-Linked-Lists */,
@@ -1565,6 +1579,7 @@
 				3FBA2B4A2782F60500DB3A1F /* 快速幂.jpg in Resources */,
 				3FDCF4D5274D3371004FCFB6 /* README.md in Resources */,
 				3F33FACE27A6E27300803BAA /* README.md in Resources */,
+				3FB441E527B150B3001D2146 /* README.md in Resources */,
 				3FD222D127990635003BB59A /* README.md in Resources */,
 				3F2242EA277180A800AB9C50 /* README.md in Resources */,
 				3FC0D295276F3F5000407ABB /* README.md in Resources */,
@@ -1729,6 +1744,7 @@
 				3F93D0D827AEBC0A00137C5E /* SumTwoIntegers.swift in Sources */,
 				3FBA2B482782DD1600DB3A1F /* Powxn.swift in Sources */,
 				3FB9E9BF277CA44E00117749 /* Stack.swift in Sources */,
+				3FB441E727B150DD001D2146 /* BinaryTreePostorderTraversal.swift in Sources */,
 				3FD4CF0F276645EB004766C0 /* Queue.swift in Sources */,
 				3F33FAD027A6E29000803BAA /* SellStockII.swift in Sources */,
 				3FB715A127575046005A4176 /* BinarySearch.swift in Sources */,
