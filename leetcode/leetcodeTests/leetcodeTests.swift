@@ -309,4 +309,10 @@ class leetcodeTests: XCTestCase {
         sub.subsets([1,2,3])
 
     }
+
+    func testKth() {
+
+        let k = KthinArray()
+        k.findKthLargest([3,2,1,5,6,4], 2)
+    }
 }
