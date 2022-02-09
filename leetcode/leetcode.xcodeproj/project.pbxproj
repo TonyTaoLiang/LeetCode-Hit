@@ -185,6 +185,8 @@
 		3FD4CF0D27660F97004766C0 /* RottingOranges.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3FD4CF0C27660F97004766C0 /* RottingOranges.swift */; };
 		3FD4CF0F276645EB004766C0 /* Queue.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3FD4CF0E276645EB004766C0 /* Queue.swift */; };
 		3FD4CF11276653D8004766C0 /* README.md in Resources */ = {isa = PBXBuildFile; fileRef = 3FD4CF10276653D8004766C0 /* README.md */; };
+		3FD5308A27B4053B00CB364A /* README.md in Resources */ = {isa = PBXBuildFile; fileRef = 3FD5308927B4053B00CB364A /* README.md */; };
+		3FD5308C27B4055600CB364A /* NTreePreorderTraversal.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3FD5308B27B4055600CB364A /* NTreePreorderTraversal.swift */; };
 		3FD8A93A2773147600B221F7 /* Hanota.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3FD8A9392773147600B221F7 /* Hanota.swift */; };
 		3FD8A93C27731E4800B221F7 /* README.md in Resources */ = {isa = PBXBuildFile; fileRef = 3FD8A93B27731E4800B221F7 /* README.md */; };
 		3FD8B376278A9D9E0025E8CA /* README.md in Resources */ = {isa = PBXBuildFile; fileRef = 3FD8B375278A9D9E0025E8CA /* README.md */; };
@@ -416,6 +418,8 @@
 		3FD4CF0C27660F97004766C0 /* RottingOranges.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RottingOranges.swift; sourceTree = "<group>"; };
 		3FD4CF0E276645EB004766C0 /* Queue.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Queue.swift; sourceTree = "<group>"; };
 		3FD4CF10276653D8004766C0 /* README.md */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
+		3FD5308927B4053B00CB364A /* README.md */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
+		3FD5308B27B4055600CB364A /* NTreePreorderTraversal.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NTreePreorderTraversal.swift; sourceTree = "<group>"; };
 		3FD8A9392773147600B221F7 /* Hanota.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Hanota.swift; sourceTree = "<group>"; };
 		3FD8A93B27731E4800B221F7 /* README.md */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
 		3FD8B375278A9D9E0025E8CA /* README.md */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = net.daringfireball.markdown; name = README.md; path = "../../../../LeetCode-Go-master/leetcode/0141.Linked-List-Cycle/README.md"; sourceTree = "<group>"; };
@@ -1032,6 +1036,7 @@
 		3FBA3680269C1E270082BED9 /* leetcode */ = {
 			isa = PBXGroup;
 			children = (
+				3FD5308827B4052800CB364A /* 0589.N-ary-Tree-Preorder-Traversal */,
 				3FB6AB5C27A522FC007BD466 /* 0069.Sqrtx */,
 				3FD222D4279A65AA003BB59A /* 0169.Majority-Element */,
 				3FB7331E27927B150065ADF0 /* 0028.Implement-strStr */,
@@ -1341,6 +1346,15 @@
 			path = "0994.★RottingOranges";
 			sourceTree = "<group>";
 		};
+		3FD5308827B4052800CB364A /* 0589.N-ary-Tree-Preorder-Traversal */ = {
+			isa = PBXGroup;
+			children = (
+				3FD5308B27B4055600CB364A /* NTreePreorderTraversal.swift */,
+				3FD5308927B4053B00CB364A /* README.md */,
+			);
+			path = "0589.N-ary-Tree-Preorder-Traversal";
+			sourceTree = "<group>";
+		};
 		3FD8A9382773143E00B221F7 /* 08.06. 汉诺塔问题 */ = {
 			isa = PBXGroup;
 			children = (
@@ -1625,6 +1639,7 @@
 				3FDDA7572764A614008246E0 /* README.md in Resources */,
 				3F1E76CA276735E9008B63A4 /* 组合树状图.png in Resources */,
 				3F0D31452770B66E00DCF718 /* 二叉树的最大深度.jpg in Resources */,
+				3FD5308A27B4053B00CB364A /* README.md in Resources */,
 				3FBA369E269C27BB0082BED9 /* README.md in Resources */,
 				3F1712682758F4CD00295C29 /* README.md in Resources */,
 				3F1E76C82766ED82008B63A4 /* README.md in Resources */,
@@ -1756,6 +1771,7 @@
 				3FB5268C277AAF3600B8BFAA /* ValidateBST.swift in Sources */,
 				3FB9056E272AF26C002B9A13 /* NQueens.swift in Sources */,
 				3F086EAD278EC4ED00C8AB8E /* MissingNumber.swift in Sources */,
+				3FD5308C27B4055600CB364A /* NTreePreorderTraversal.swift in Sources */,
 				3FB9E9BD277BFF5000117749 /* FlattenList.swift in Sources */,
 				3F93D0D827AEBC0A00137C5E /* SumTwoIntegers.swift in Sources */,
 				3FBA2B482782DD1600DB3A1F /* Powxn.swift in Sources */,

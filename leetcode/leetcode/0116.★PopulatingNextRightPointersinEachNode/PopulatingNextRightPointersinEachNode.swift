@@ -6,7 +6,7 @@
 //
 
 import Foundation
-public class Node {
+private class Node {
     public var val: Int
     public var left: Node?
     public var right: Node?
@@ -22,7 +22,7 @@ public class Node {
 class NextRightPoint{
 
     //100%高手的写法
-    func connect1(_ root: Node?) -> Node? {
+    fileprivate func connect1(_ root: Node?) -> Node? {
             if root == nil{
                 return nil
             }
@@ -36,7 +36,7 @@ class NextRightPoint{
             return root
     }
 
-    func connect(_ root: Node?) -> Node? {
+    fileprivate func connect(_ root: Node?) -> Node? {
 
         if root == nil {
             return nil
@@ -47,7 +47,7 @@ class NextRightPoint{
         return root
     }
 
-    func connectTwoNode(_ root1: Node? , _ root2: Node?) {
+    fileprivate func connectTwoNode(_ root1: Node? , _ root2: Node?) {
 
         if root2 == nil || root1 == nil {
             return
