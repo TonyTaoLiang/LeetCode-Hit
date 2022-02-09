@@ -36,10 +36,20 @@ class NTreePreorderTraversal {
         return res
     }
 
-    //解法二：模拟一个栈
+    //解法二：模拟一个栈 100%
     func preorder1(_ root: Node?) -> [Int] {
 
+        guard let root = root else { return [] }
+        var res = [Int]()
+        var stack = [root]
 
+        while !stack.isEmpty {
+
+            let node = stack.removeLast()
+            res.append(node.val)
+            node.children.reversed().forEach { stack.append($0) }
+
+        }
 
         return res
     }
