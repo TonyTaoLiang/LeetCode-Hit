@@ -85,6 +85,8 @@
 		3F98C1A327B01FF600B2E861 /* README.md in Resources */ = {isa = PBXBuildFile; fileRef = 3F98C1A227B01FF600B2E861 /* README.md */; };
 		3F98C1A527B0209700B2E861 /* BinaryTreePreorderTraversal.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3F98C1A427B0209600B2E861 /* BinaryTreePreorderTraversal.swift */; };
 		3F9CFA7527B4C2C50087EC12 /* NTreePostTraversal.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3F9CFA7427B4C2C50087EC12 /* NTreePostTraversal.swift */; };
+		3F9CFA7827B6675F0087EC12 /* README.md in Resources */ = {isa = PBXBuildFile; fileRef = 3F9CFA7727B6675F0087EC12 /* README.md */; };
+		3F9CFA7A27B667860087EC12 /* UniqueNumber.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3F9CFA7927B667860087EC12 /* UniqueNumber.swift */; };
 		3F9D5D6D275D05D7009F4D0C /* README.md in Resources */ = {isa = PBXBuildFile; fileRef = 3F9D5D6C275D05D7009F4D0C /* README.md */; };
 		3F9D5D6F275D0623009F4D0C /* RemoveNthNodeEndList.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3F9D5D6E275D0623009F4D0C /* RemoveNthNodeEndList.swift */; };
 		3F9DCAC7277455A400198943 /* KthSmallestBST.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3F9DCAC6277455A300198943 /* KthSmallestBST.swift */; };
@@ -317,6 +319,8 @@
 		3F98C1A227B01FF600B2E861 /* README.md */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
 		3F98C1A427B0209600B2E861 /* BinaryTreePreorderTraversal.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BinaryTreePreorderTraversal.swift; sourceTree = "<group>"; };
 		3F9CFA7427B4C2C50087EC12 /* NTreePostTraversal.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NTreePostTraversal.swift; sourceTree = "<group>"; };
+		3F9CFA7727B6675F0087EC12 /* README.md */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
+		3F9CFA7927B667860087EC12 /* UniqueNumber.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UniqueNumber.swift; sourceTree = "<group>"; };
 		3F9D5D6C275D05D7009F4D0C /* README.md */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
 		3F9D5D6E275D0623009F4D0C /* RemoveNthNodeEndList.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RemoveNthNodeEndList.swift; sourceTree = "<group>"; };
 		3F9DCAC6277455A300198943 /* KthSmallestBST.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = KthSmallestBST.swift; sourceTree = "<group>"; };
@@ -814,6 +818,15 @@
 			path = "0590.N-ary-Tree-Post-Traversal";
 			sourceTree = "<group>";
 		};
+		3F9CFA7627B667470087EC12 /* 1207.Unique-Number-of-Occurrences */ = {
+			isa = PBXGroup;
+			children = (
+				3F9CFA7927B667860087EC12 /* UniqueNumber.swift */,
+				3F9CFA7727B6675F0087EC12 /* README.md */,
+			);
+			path = "1207.Unique-Number-of-Occurrences";
+			sourceTree = "<group>";
+		};
 		3F9D5D6B275D0501009F4D0C /* 0019.Remove-Nth-Node-From-End-of-List */ = {
 			isa = PBXGroup;
 			children = (
@@ -1142,6 +1155,7 @@
 				3F2242EB277184C600AB9C50 /* 0200.↓Number-of-Islands */,
 				3FD4CF0B27660F6E004766C0 /* 0994.★RottingOranges */,
 				3FE934B7277EA35C00A4693E /* 0130.↑Surrounded-Regions */,
+				3F9CFA7627B667470087EC12 /* 1207.Unique-Number-of-Occurrences */,
 				3FBA369F269C2D740082BED9 /* 剑指offer03 */,
 				3FD8A9382773143E00B221F7 /* 08.06. 汉诺塔问题 */,
 				3FBA3681269C1E270082BED9 /* AppDelegate.swift */,
@@ -1640,6 +1654,7 @@
 				3F17126027587CF200295C29 /* README.md in Resources */,
 				3FBA767E278BE4B400D6BDC5 /* README.md in Resources */,
 				3FD8B376278A9D9E0025E8CA /* README.md in Resources */,
+				3F9CFA7827B6675F0087EC12 /* README.md in Resources */,
 				3F22D7E127B298D300E9BD46 /* README.md in Resources */,
 				3F9D5D6D275D05D7009F4D0C /* README.md in Resources */,
 				3FB3AD7827AC096900CBEC7C /* README.md in Resources */,
@@ -1777,6 +1792,7 @@
 				3F3BE4B826E8B31800632503 /* ReverseLinkedList.swift in Sources */,
 				3F98C1A527B0209700B2E861 /* BinaryTreePreorderTraversal.swift in Sources */,
 				3FB5D42A272EF812007EDB71 /* MaximumSubarray.swift in Sources */,
+				3F9CFA7A27B667860087EC12 /* UniqueNumber.swift in Sources */,
 				3FD8B378278A9E530025E8CA /* LinkedListCycle.swift in Sources */,
 				3F3BD1DB275A0FAF00FBE743 /* MoveZeroes.swift in Sources */,
 				3F413996269DEEAE0094800A /* FindDuplicates.swift in Sources */,
