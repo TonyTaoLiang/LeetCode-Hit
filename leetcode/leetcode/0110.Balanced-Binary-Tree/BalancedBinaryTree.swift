@@ -21,6 +21,9 @@ class BalancedBinaryTree {
 
         //依次递归，左右子树都得是平衡二叉树
         return isBalanced(root?.left) && isBalanced(root?.right)
+
+        //18行～23行可合并
+//        return abs(heightForNode(root?.left) - heightForNode(root?.right)) <= 1 && isBalanced(root?.left) && isBalanced(root?.right)
     }
 
     //104题计算树节点的高度
