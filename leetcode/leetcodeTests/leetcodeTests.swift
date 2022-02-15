@@ -315,4 +315,12 @@ class leetcodeTests: XCTestCase {
         let k = KthinArray()
         k.findKthLargest([3,2,1,5,6,4], 2)
     }
+
+    func testRemoveElement() {
+
+        let re = RemoveElement()
+        var nums = [3,2,2,3]
+
+        re.removeElement(&nums, 3)
+    }
 }

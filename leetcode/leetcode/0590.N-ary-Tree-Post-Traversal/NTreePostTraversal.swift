@@ -11,7 +11,7 @@ class NTreePostTraversal {
 
     var res = [Int]()
 
-    func postorder(_ root: Node?) -> [Int] {
+    func postorder(_ root: Nodes?) -> [Int] {
 
         guard let root = root else { return [] }
 
@@ -25,7 +25,7 @@ class NTreePostTraversal {
     }
 
     //100%
-    func postorder1(_ root: Node?) -> [Int] {
+    func postorder1(_ root: Nodes?) -> [Int] {
         guard let r = root else { return [] }
         return r.children.reduce([]){$0 + postorder1($1)} + [r.val]
 

@@ -7,9 +7,9 @@
 
 import Foundation
 
-public class Node {
+class Nodes {
      public var val: Int
-     public var children: [Node]
+     public var children: [Nodes]
      public init(_ val: Int) {
          self.val = val
          self.children = []
@@ -21,7 +21,7 @@ class NTreePreorderTraversal {
     //解法一：递归
     var res: [Int] = [Int]()
 
-    func preorder(_ root: Node?) -> [Int] {
+     func preorder(_ root: Nodes?) -> [Int] {
 
         if root == nil {
             return []
@@ -37,7 +37,7 @@ class NTreePreorderTraversal {
     }
 
     //解法二：模拟一个栈 100%
-    func preorder1(_ root: Node?) -> [Int] {
+    func preorder1(_ root: Nodes?) -> [Int] {
 
         guard let root = root else { return [] }
         var res = [Int]()

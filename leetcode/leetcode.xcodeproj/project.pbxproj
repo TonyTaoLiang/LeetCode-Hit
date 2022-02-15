@@ -150,6 +150,8 @@
 		3FBA369C269C27B40082BED9 /* IntersectionofTwoLinkedLists.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3FBA369B269C27B40082BED9 /* IntersectionofTwoLinkedLists.swift */; };
 		3FBA369E269C27BB0082BED9 /* README.md in Resources */ = {isa = PBXBuildFile; fileRef = 3FBA369D269C27BB0082BED9 /* README.md */; };
 		3FBA36A1269C2DB90082BED9 /* README.md in Resources */ = {isa = PBXBuildFile; fileRef = 3FBA36A0269C2DB90082BED9 /* README.md */; };
+		3FBA5D9A27BB808E00F5E548 /* README.md in Resources */ = {isa = PBXBuildFile; fileRef = 3FBA5D9927BB808E00F5E548 /* README.md */; };
+		3FBA5D9C27BB80B300F5E548 /* RemoveElement.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3FBA5D9B27BB80B300F5E548 /* RemoveElement.swift */; };
 		3FBA767E278BE4B400D6BDC5 /* README.md in Resources */ = {isa = PBXBuildFile; fileRef = 3FBA767D278BE4B400D6BDC5 /* README.md */; };
 		3FBA7680278BE4F800D6BDC5 /* DeleteNodeLinkedList.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3FBA767F278BE4F800D6BDC5 /* DeleteNodeLinkedList.swift */; };
 		3FBB399C276AD81F00C579B2 /* Triangle.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3FBB399B276AD81F00C579B2 /* Triangle.swift */; };
@@ -388,6 +390,8 @@
 		3FBA369B269C27B40082BED9 /* IntersectionofTwoLinkedLists.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = IntersectionofTwoLinkedLists.swift; sourceTree = "<group>"; };
 		3FBA369D269C27BB0082BED9 /* README.md */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
 		3FBA36A0269C2DB90082BED9 /* README.md */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
+		3FBA5D9927BB808E00F5E548 /* README.md */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
+		3FBA5D9B27BB80B300F5E548 /* RemoveElement.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RemoveElement.swift; sourceTree = "<group>"; };
 		3FBA767D278BE4B400D6BDC5 /* README.md */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
 		3FBA767F278BE4F800D6BDC5 /* DeleteNodeLinkedList.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DeleteNodeLinkedList.swift; sourceTree = "<group>"; };
 		3FBB399B276AD81F00C579B2 /* Triangle.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Triangle.swift; sourceTree = "<group>"; };
@@ -1094,6 +1098,7 @@
 				3F1E1BB7274F825000E0A7A9 /* 0021.MergeTwoSortedLists */,
 				3F1E1BE027526D2A00E0A7A9 /* 0024.SwapNodesinPairs */,
 				3F1731AC278FD374005C2B27 /* 0026.Remove-Duplicates-from-Sorted-Array */,
+				3FBA5D9827BB807D00F5E548 /* 0027.Remove-Element */,
 				3FB715A72757C64C005A4176 /* 0035.SearchInsertPosition */,
 				3FB9056C272AF237002B9A13 /* 0051.N-Queens */,
 				3FB5D426272EF556007EDB71 /* 0053.MaximumSubarray */,
@@ -1211,6 +1216,15 @@
 				3FBA36A0269C2DB90082BED9 /* README.md */,
 			);
 			path = "剑指offer03";
+			sourceTree = "<group>";
+		};
+		3FBA5D9827BB807D00F5E548 /* 0027.Remove-Element */ = {
+			isa = PBXGroup;
+			children = (
+				3FBA5D9B27BB80B300F5E548 /* RemoveElement.swift */,
+				3FBA5D9927BB808E00F5E548 /* README.md */,
+			);
+			path = "0027.Remove-Element";
 			sourceTree = "<group>";
 		};
 		3FBA767C278BE3C300D6BDC5 /* 0237.Delete-Node-in-a-Linked-List */ = {
@@ -1664,6 +1678,7 @@
 				3F0B07D9277995270030F216 /* README.md in Resources */,
 				3FB5268A277AAF0B00B8BFAA /* README.md in Resources */,
 				3FB3581A279EA28D009F9AC8 /* README.md in Resources */,
+				3FBA5D9A27BB808E00F5E548 /* README.md in Resources */,
 				3FBB5CFF278D3A34009EB9AF /* README.md in Resources */,
 				3F17126027587CF200295C29 /* README.md in Resources */,
 				3FBA767E278BE4B400D6BDC5 /* README.md in Resources */,
@@ -1773,6 +1788,7 @@
 				3F22D7E327B298EF00E9BD46 /* KthinArray.swift in Sources */,
 				3FB35818279E9BC2009F9AC8 /* ContainsDuplicate.swift in Sources */,
 				3F3BD1E0275A1A0300FBE743 /* 0167.TwoSumInputArray.swift in Sources */,
+				3FBA5D9C27BB80B300F5E548 /* RemoveElement.swift in Sources */,
 				3FB5FAE427A966950077D455 /* MostWater.swift in Sources */,
 				3F9D5D6F275D0623009F4D0C /* RemoveNthNodeEndList.swift in Sources */,
 				3F39CC2A276DD66C00C9C071 /* PascalsTriangle.swift in Sources */,
