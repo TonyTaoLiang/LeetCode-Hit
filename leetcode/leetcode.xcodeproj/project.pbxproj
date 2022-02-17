@@ -156,6 +156,9 @@
 		3FBA5DA127BC989800F5E548 /* NextGreaterElement.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3FBA5DA027BC989800F5E548 /* NextGreaterElement.swift */; };
 		3FBA5DA327BCA10600F5E548 /* 单调栈.gif in Resources */ = {isa = PBXBuildFile; fileRef = 3FBA5DA227BCA10600F5E548 /* 单调栈.gif */; };
 		3FBA5DA527BCA5EE00F5E548 /* 单调栈身高.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 3FBA5DA427BCA5EE00F5E548 /* 单调栈身高.jpg */; };
+		3FBA5DAE27BE2B1600F5E548 /* README.md in Resources */ = {isa = PBXBuildFile; fileRef = 3FBA5DAD27BE2B1600F5E548 /* README.md */; };
+		3FBA5DB027BE2B2B00F5E548 /* NextGreaterElementII.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3FBA5DAF27BE2B2B00F5E548 /* NextGreaterElementII.swift */; };
+		3FBA5DB227BE488100F5E548 /* 单调栈II.gif in Resources */ = {isa = PBXBuildFile; fileRef = 3FBA5DB127BE488100F5E548 /* 单调栈II.gif */; };
 		3FBA767E278BE4B400D6BDC5 /* README.md in Resources */ = {isa = PBXBuildFile; fileRef = 3FBA767D278BE4B400D6BDC5 /* README.md */; };
 		3FBA7680278BE4F800D6BDC5 /* DeleteNodeLinkedList.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3FBA767F278BE4F800D6BDC5 /* DeleteNodeLinkedList.swift */; };
 		3FBB399C276AD81F00C579B2 /* Triangle.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3FBB399B276AD81F00C579B2 /* Triangle.swift */; };
@@ -400,6 +403,9 @@
 		3FBA5DA027BC989800F5E548 /* NextGreaterElement.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NextGreaterElement.swift; sourceTree = "<group>"; };
 		3FBA5DA227BCA10600F5E548 /* 单调栈.gif */ = {isa = PBXFileReference; lastKnownFileType = image.gif; path = "单调栈.gif"; sourceTree = "<group>"; };
 		3FBA5DA427BCA5EE00F5E548 /* 单调栈身高.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "单调栈身高.jpg"; sourceTree = "<group>"; };
+		3FBA5DAD27BE2B1600F5E548 /* README.md */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
+		3FBA5DAF27BE2B2B00F5E548 /* NextGreaterElementII.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NextGreaterElementII.swift; sourceTree = "<group>"; };
+		3FBA5DB127BE488100F5E548 /* 单调栈II.gif */ = {isa = PBXFileReference; lastKnownFileType = image.gif; path = "单调栈II.gif"; sourceTree = "<group>"; };
 		3FBA767D278BE4B400D6BDC5 /* README.md */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
 		3FBA767F278BE4F800D6BDC5 /* DeleteNodeLinkedList.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DeleteNodeLinkedList.swift; sourceTree = "<group>"; };
 		3FBB399B276AD81F00C579B2 /* Triangle.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Triangle.swift; sourceTree = "<group>"; };
@@ -1169,6 +1175,7 @@
 				3FB6559127965D7600BABD91 /* 0412.Fizz-Buzz */,
 				3F413993269DECC90094800A /* 0442.FindDuplicates */,
 				3FBA5D9D27BC986E00F5E548 /* 0496.Next-Greater-Element-I */,
+				3FBA5DAC27BE2B0600F5E548 /* 0503.Next-Greater-Element-II */,
 				3FD4CF062765F0A2004766C0 /* 0542.★01-Matrix */,
 				3FE9A0AD275BB49E0069668D /* 0557.Reverse-Words-in-a-String-III */,
 				3F948B6D275E51DC00DE9132 /* 0567.★Permutation-in-String */,
@@ -1245,6 +1252,16 @@
 				3FBA5D9E27BC988100F5E548 /* README.md */,
 			);
 			path = "0496.Next-Greater-Element-I";
+			sourceTree = "<group>";
+		};
+		3FBA5DAC27BE2B0600F5E548 /* 0503.Next-Greater-Element-II */ = {
+			isa = PBXGroup;
+			children = (
+				3FBA5DAF27BE2B2B00F5E548 /* NextGreaterElementII.swift */,
+				3FBA5DB127BE488100F5E548 /* 单调栈II.gif */,
+				3FBA5DAD27BE2B1600F5E548 /* README.md */,
+			);
+			path = "0503.Next-Greater-Element-II";
 			sourceTree = "<group>";
 		};
 		3FBA767C278BE3C300D6BDC5 /* 0237.Delete-Node-in-a-Linked-List */ = {
@@ -1681,6 +1698,7 @@
 				3FDCF4D5274D3371004FCFB6 /* README.md in Resources */,
 				3F33FACE27A6E27300803BAA /* README.md in Resources */,
 				3FB441E527B150B3001D2146 /* README.md in Resources */,
+				3FBA5DB227BE488100F5E548 /* 单调栈II.gif in Resources */,
 				3FD222D127990635003BB59A /* README.md in Resources */,
 				3F2242EA277180A800AB9C50 /* README.md in Resources */,
 				3FC0D295276F3F5000407ABB /* README.md in Resources */,
@@ -1702,6 +1720,7 @@
 				3FBB5CFF278D3A34009EB9AF /* README.md in Resources */,
 				3F17126027587CF200295C29 /* README.md in Resources */,
 				3FBA767E278BE4B400D6BDC5 /* README.md in Resources */,
+				3FBA5DAE27BE2B1600F5E548 /* README.md in Resources */,
 				3FD8B376278A9D9E0025E8CA /* README.md in Resources */,
 				3F9CFA7827B6675F0087EC12 /* README.md in Resources */,
 				3F22D7E127B298D300E9BD46 /* README.md in Resources */,
@@ -1890,6 +1909,7 @@
 				3FDCF4CE274CE8C5004FCFB6 /* 0105.ConstructBinaryTreefromPreorderandInorderTraversal.swift in Sources */,
 				3FD1086827A126CC00D2C283 /* FirstUniqueString.swift in Sources */,
 				3F1712652758A57400295C29 /* SquaresofaSortedArray.swift in Sources */,
+				3FBA5DB027BE2B2B00F5E548 /* NextGreaterElementII.swift in Sources */,
 				3FB715A62757BFA4005A4176 /* FirstBadVersion.swift in Sources */,
 				3F0D3A852781C55E00DFB87E /* AddTwoNumbers.swift in Sources */,
 				3FD4CF0D27660F97004766C0 /* RottingOranges.swift in Sources */,
