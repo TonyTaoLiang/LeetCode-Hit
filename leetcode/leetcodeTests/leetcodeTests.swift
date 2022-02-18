@@ -323,4 +323,10 @@ class leetcodeTests: XCTestCase {
 
         re.removeElement(&nums, 3)
     }
+
+    func testFindDuplicateNumber() {
+        let du = FindDuplicateNumber()
+        du.findDuplicate([1,3,4,2,2])
+        
+    }
 }

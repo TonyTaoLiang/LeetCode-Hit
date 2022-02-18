@@ -34,7 +34,7 @@ class MostWater {
 
                 let minH = height[r]
                 res = max(res, (r-l)*minH)
-                //下一个l比之前的l更短不断跳过
+                //下一个r比之前的r更短不断跳过
                 while l < r && height[r] <= minH {
                     r -= 1
                 }
