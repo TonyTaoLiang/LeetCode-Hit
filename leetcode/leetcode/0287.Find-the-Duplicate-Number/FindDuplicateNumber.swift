@@ -48,5 +48,6 @@ class FindDuplicateNumber {
         return pre
     }
 
-    //二分法 
+    //二分法
+    
 }
