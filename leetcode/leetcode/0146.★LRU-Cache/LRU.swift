@@ -110,3 +110,82 @@ class LRU {
     }
 
 }
+
+//OnceMore
+class Dnode {
+
+    var key: Int?
+    var value: Int?
+    var prev: Dnode?
+    var next: Dnode?
+
+    init(_ key: Int?, _ value: Int?) {
+        self.key = key
+        self.value = value
+    }
+    init() {}
+}
+
+class LRUCache{
+
+    var map: [Int : Dnode]
+    var capacity: Int = 0
+    var first: Dnode = Dnode()
+    var last: Dnode = Dnode()
+
+    init(_ capacity: Int) {
+        self.capacity = capacity
+        self.map = Dictionary(minimumCapacity: capacity)
+        first.next = last
+        last.prev = first
+    }
+
+    func get(_ key: Int) -> Int {
+
+        guard let node = map[key] else { return -1 }
+        removeNode(node)
+        addAfterFirst(node)
+        return node.value!
+    }
+
+    func put(_ key: Int, _ value: Int) {
+
+        guard let node = map[key] else {
+
+            if self.capacity == map.values.count {
+
+                //注意要先移除map。如果先移除链表，last的前驱节点就变了，那么map移除的就是错误的key
+//                removeNode(last.prev!)
+//                map.removeValue(forKey: last.prev!.key!)
+                map.removeValue(forKey: last.prev!.key!)
+                removeNode(last.prev!)
+            }
+            
+            let new = Dnode(key, value)
+            map[key] = new
+            addAfterFirst(new)
+            return
+        }
+
+        node.value = value
+        removeNode(node)
+        addAfterFirst(node)
+
+    }
+
+    func removeNode(_ node: Dnode) {
+
+        node.prev?.next = node.next
+        node.next?.prev = node.prev
+
+    }
+
+    func addAfterFirst(_ node: Dnode) {
+
+        node.next = first.next
+        first.next?.prev = node
+
+        node.prev = first
+        first.next = node
+    }
+}
