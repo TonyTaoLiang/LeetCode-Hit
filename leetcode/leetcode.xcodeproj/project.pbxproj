@@ -181,6 +181,8 @@
 		3FC0D293276F3F4900407ABB /* GenerateParentheses.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3FC0D292276F3F4900407ABB /* GenerateParentheses.swift */; };
 		3FC0D295276F3F5000407ABB /* README.md in Resources */ = {isa = PBXBuildFile; fileRef = 3FC0D294276F3F5000407ABB /* README.md */; };
 		3FC5FF1E27C314FC00822C88 /* LRU.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3FC5FF1D27C314FC00822C88 /* LRU.swift */; };
+		3FC8CA6727C68103004DBD8E /* README.md in Resources */ = {isa = PBXBuildFile; fileRef = 3FC8CA6627C68103004DBD8E /* README.md */; };
+		3FC8CA6927C68115004DBD8E /* ReverseInteger.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3FC8CA6827C68115004DBD8E /* ReverseInteger.swift */; };
 		3FCE284327848E5400E2DEA6 /* PowerThree.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3FCE284227848E5400E2DEA6 /* PowerThree.swift */; };
 		3FCE284527848E6000E2DEA6 /* README.md in Resources */ = {isa = PBXBuildFile; fileRef = 3FCE284427848E6000E2DEA6 /* README.md */; };
 		3FD1086827A126CC00D2C283 /* FirstUniqueString.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3FD1086727A126CC00D2C283 /* FirstUniqueString.swift */; };
@@ -433,6 +435,8 @@
 		3FC0D292276F3F4900407ABB /* GenerateParentheses.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GenerateParentheses.swift; sourceTree = "<group>"; };
 		3FC0D294276F3F5000407ABB /* README.md */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
 		3FC5FF1D27C314FC00822C88 /* LRU.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LRU.swift; sourceTree = "<group>"; };
+		3FC8CA6627C68103004DBD8E /* README.md */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
+		3FC8CA6827C68115004DBD8E /* ReverseInteger.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ReverseInteger.swift; sourceTree = "<group>"; };
 		3FCE284227848E5400E2DEA6 /* PowerThree.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PowerThree.swift; sourceTree = "<group>"; };
 		3FCE284427848E6000E2DEA6 /* README.md */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
 		3FD1086727A126CC00D2C283 /* FirstUniqueString.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FirstUniqueString.swift; sourceTree = "<group>"; };
@@ -1120,6 +1124,7 @@
 				3F0D3A832781C3A300DFB87E /* 0002.Add-Two-Numbers */,
 				3F948B68275DF30100DE9132 /* 0003.★Longest-Substring-Without-Repeating-Characters */,
 				3F81B539269E8C1C007C996F /* 0005.最长回文子串 */,
+				3FC8CA6527C680ED004DBD8E /* 0007.Reverse-Integer */,
 				3F411FAD2786D7F900B72F8E /* 0279.Perfect-Squares */,
 				3F33E4E327854723005183A8 /* 0322.★Coin-Change */,
 				3FB5FAE027A966430077D455 /* 0011.Container-With-Most-Water */,
@@ -1366,6 +1371,15 @@
 				3FC0D294276F3F5000407ABB /* README.md */,
 			);
 			path = "0022.↓GenerateParentheses";
+			sourceTree = "<group>";
+		};
+		3FC8CA6527C680ED004DBD8E /* 0007.Reverse-Integer */ = {
+			isa = PBXGroup;
+			children = (
+				3FC8CA6827C68115004DBD8E /* ReverseInteger.swift */,
+				3FC8CA6627C68103004DBD8E /* README.md */,
+			);
+			path = "0007.Reverse-Integer";
 			sourceTree = "<group>";
 		};
 		3FCE284127848E3600E2DEA6 /* 0326.Power-of-Three */ = {
@@ -1772,6 +1786,7 @@
 				3F1E76D127679176008B63A4 /* README.md in Resources */,
 				3FDCF4D0274CE8EE004FCFB6 /* README.md in Resources */,
 				3F3BD1DE275A19DA00FBE743 /* README.md in Resources */,
+				3FC8CA6727C68103004DBD8E /* README.md in Resources */,
 				3FBA3697269C1E7D0082BED9 /* README.md in Resources */,
 				3F3C8E2126EE4B9600E419C2 /* README.md in Resources */,
 				3F948B6F275E521300DE9132 /* README.md in Resources */,
@@ -1951,6 +1966,7 @@
 				3FD4CF0D27660F97004766C0 /* RottingOranges.swift in Sources */,
 				3FEF9D1F27883E980015BBAA /* ValidParentheses.swift in Sources */,
 				3FB3581F279FC909009F9AC8 /* IntersectionTwoArraysII.swift in Sources */,
+				3FC8CA6927C68115004DBD8E /* ReverseInteger.swift in Sources */,
 				3F0B07DE27799AA10030F216 /* BTLevelOrderTraversal.swift in Sources */,
 				3F1731B0278FD7C2005C2B27 /* RemoveDuplicatesSortedArray.swift in Sources */,
 				3F3C8E2326EE4CAC00E419C2 /* ThreeSum.swift in Sources */,
