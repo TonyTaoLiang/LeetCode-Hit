@@ -52,4 +52,40 @@ class ValidParentheses {
 
         return stack.isEmpty
     }
+
+    //OneMoreTime
+    func isValid2(_ s: String) -> Bool {
+
+        if s.count % 2 == 1 {
+            return false
+        }
+
+        var stack = Stack<Character>()
+
+        let map: [Character : Character] = [
+
+            "]" : "[",
+            "}" : "{",
+            ")" : "("
+        ]
+
+        for scharacter in s {
+
+            if scharacter == "{" || scharacter == "[" || scharacter == "("{
+
+                stack.push(scharacter)
+
+            } else {
+
+                if map[scharacter] != stack.pop() {
+                    return false
+                }
+
+            }
+
+        }
+
+        return stack.isEmpty
+    }
+
 }
