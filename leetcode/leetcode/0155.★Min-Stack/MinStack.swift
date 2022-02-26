@@ -101,3 +101,73 @@ class MinStack3 {
     }
 }
 
+//OnceMore
+class MinStackII {
+
+    var array:[(Int,Int)] = Array()
+
+    init() {
+
+       }
+
+       func push(_ val: Int) {
+        if let last = array.last {
+            array.append((val,min(last.1, val)))
+        }else {
+            array.append((val,val))
+        }
+       }
+
+       func pop() {
+        array.removeLast()
+       }
+
+       func top() -> Int {
+        return array.last?.0 ?? 0
+       }
+
+       func getMin() -> Int {
+        return array.last!.1
+       }
+
+}
+
+class MinStackIII {
+
+    var array: [Int] = []
+    var minArray: [Int] = []
+
+    init() {
+
+       }
+
+       func push(_ val: Int) {
+        array.append(val)
+
+        if minArray.isEmpty || minArray.last! >= val {
+            minArray.append(val)
+        }
+
+       }
+
+       func pop() {
+
+        if let last = array.popLast() {
+
+            if let minlast = minArray.last, minlast == last {
+                minArray.removeLast()
+            }
+
+        }
+
+       }
+
+       func top() -> Int {
+        return array.last!
+       }
+
+       func getMin() -> Int {
+        return minArray.last!
+       }
+
+}
