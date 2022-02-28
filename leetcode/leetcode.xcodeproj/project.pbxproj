@@ -55,6 +55,8 @@
 		3F33E4E92785E950005183A8 /* DP硬币兑换.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 3F33E4E82785E94F005183A8 /* DP硬币兑换.jpg */; };
 		3F33FACE27A6E27300803BAA /* README.md in Resources */ = {isa = PBXBuildFile; fileRef = 3F33FACD27A6E27300803BAA /* README.md */; };
 		3F33FAD027A6E29000803BAA /* SellStockII.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3F33FACF27A6E29000803BAA /* SellStockII.swift */; };
+		3F35A4AA27CC725700D402B3 /* README.md in Resources */ = {isa = PBXBuildFile; fileRef = 3F35A4A927CC725600D402B3 /* README.md */; };
+		3F35A4AC27CC727000D402B3 /* DailyTemperatures.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3F35A4AB27CC727000D402B3 /* DailyTemperatures.swift */; };
 		3F38264F277D50B600F7F1E9 /* README.md in Resources */ = {isa = PBXBuildFile; fileRef = 3F38264E277D50B600F7F1E9 /* README.md */; };
 		3F382651277D5BD900F7F1E9 /* ZigzagBT.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3F382650277D5BD900F7F1E9 /* ZigzagBT.swift */; };
 		3F39CC2A276DD66C00C9C071 /* PascalsTriangle.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3F39CC29276DD66C00C9C071 /* PascalsTriangle.swift */; };
@@ -306,6 +308,8 @@
 		3F33E4E82785E94F005183A8 /* DP硬币兑换.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "DP硬币兑换.jpg"; sourceTree = "<group>"; };
 		3F33FACD27A6E27300803BAA /* README.md */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
 		3F33FACF27A6E29000803BAA /* SellStockII.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SellStockII.swift; sourceTree = "<group>"; };
+		3F35A4A927CC725600D402B3 /* README.md */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
+		3F35A4AB27CC727000D402B3 /* DailyTemperatures.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DailyTemperatures.swift; sourceTree = "<group>"; };
 		3F38264E277D50B600F7F1E9 /* README.md */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
 		3F382650277D5BD900F7F1E9 /* ZigzagBT.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ZigzagBT.swift; sourceTree = "<group>"; };
 		3F39CC29276DD66C00C9C071 /* PascalsTriangle.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PascalsTriangle.swift; sourceTree = "<group>"; };
@@ -711,6 +715,15 @@
 				3F33FACD27A6E27300803BAA /* README.md */,
 			);
 			path = "0122.Best-Time-to-Buy-and-Sell-Stock-II";
+			sourceTree = "<group>";
+		};
+		3F35A4A827CC723A00D402B3 /* 0739.★Daily-Temperatures */ = {
+			isa = PBXGroup;
+			children = (
+				3F35A4AB27CC727000D402B3 /* DailyTemperatures.swift */,
+				3F35A4A927CC725600D402B3 /* README.md */,
+			);
+			path = "0739.★Daily-Temperatures";
 			sourceTree = "<group>";
 		};
 		3F38264D277D509A00F7F1E9 /* 0103.Binary-Tree-Zigzag-Level-Order-Traversal */ = {
@@ -1216,6 +1229,7 @@
 				3FDDA7502764968F008246E0 /* 0695.Max-Area-of-Island */,
 				3FB7159D27574FC3005A4176 /* 0704.BinarySearch */,
 				3FD29C6D2763451800C7AAC7 /* 0733.★Flood-Fill */,
+				3F35A4A827CC723A00D402B3 /* 0739.★Daily-Temperatures */,
 				3F1E1BEA2753490200E0A7A9 /* 0876.MiddleoftheLinkedList */,
 				3F1712612758A54D00295C29 /* 0977.SquaresofaSortedArray */,
 				3F2242EB277184C600AB9C50 /* 0200.↓Number-of-Islands */,
@@ -1775,6 +1789,7 @@
 				3F1E1BEE2753496900E0A7A9 /* README.md in Resources */,
 				3FE9A0AC275BB39B0069668D /* README.md in Resources */,
 				3F0B07D9277995270030F216 /* README.md in Resources */,
+				3F35A4AA27CC725700D402B3 /* README.md in Resources */,
 				3FB5268A277AAF0B00B8BFAA /* README.md in Resources */,
 				3FB3581A279EA28D009F9AC8 /* README.md in Resources */,
 				3FBA5D9A27BB808E00F5E548 /* README.md in Resources */,
@@ -1928,6 +1943,7 @@
 				3FD222E4279CF208003BB59A /* RomantoInteger.swift in Sources */,
 				3F099D272775C65B0070B0CD /* MaxPathBinaryTree.swift in Sources */,
 				3FBBD1672769D1B7005AC22C /* HouseRobber.swift in Sources */,
+				3F35A4AC27CC727000D402B3 /* DailyTemperatures.swift in Sources */,
 				3F3BE4B826E8B31800632503 /* ReverseLinkedList.swift in Sources */,
 				3F98C1A527B0209700B2E861 /* BinaryTreePreorderTraversal.swift in Sources */,
 				3FB5D42A272EF812007EDB71 /* MaximumSubarray.swift in Sources */,
