@@ -38,4 +38,36 @@ class DailyTemperatures {
         return res
     }
 
+    enum MyError: Error {
+        case Mem
+        case SS(String)
+    }
+
+    class func divide(_ first: Int) throws -> Int {
+
+        if first == 0 {
+            throw MyError.Mem
+        }else if first == 2 {
+            throw MyError.SS("xxxx")
+        }
+
+        return first
+
+    }
+
+    func tt() {
+
+        do {
+            try DailyTemperatures.divide(1)
+        } catch MyError.Mem  {
+            print("")
+        } catch is MyError{
+            print("xx")
+        } catch let MyError.SS(some){
+            print(some)
+        } catch {
+
+        }
+
+    }
 }

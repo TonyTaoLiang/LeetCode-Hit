@@ -180,6 +180,8 @@
 		3FBF051827784D69007D8A39 /* CommonAncestorBT.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3FBF051727784D69007D8A39 /* CommonAncestorBT.swift */; };
 		3FBF051A27788B88007D8A39 /* 二叉树的最近公共祖先.gif in Resources */ = {isa = PBXBuildFile; fileRef = 3FBF051927788B88007D8A39 /* 二叉树的最近公共祖先.gif */; };
 		3FBF051C27788B97007D8A39 /* README.md in Resources */ = {isa = PBXBuildFile; fileRef = 3FBF051B27788B97007D8A39 /* README.md */; };
+		3FBFA74B27CDFB0C00EF4977 /* README.md in Resources */ = {isa = PBXBuildFile; fileRef = 3FBFA74A27CDFB0C00EF4977 /* README.md */; };
+		3FBFA74D27CDFB2B00EF4977 /* ReverseKNodes.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3FBFA74C27CDFB2B00EF4977 /* ReverseKNodes.swift */; };
 		3FC0D293276F3F4900407ABB /* GenerateParentheses.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3FC0D292276F3F4900407ABB /* GenerateParentheses.swift */; };
 		3FC0D295276F3F5000407ABB /* README.md in Resources */ = {isa = PBXBuildFile; fileRef = 3FC0D294276F3F5000407ABB /* README.md */; };
 		3FC5FF1E27C314FC00822C88 /* LRU.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3FC5FF1D27C314FC00822C88 /* LRU.swift */; };
@@ -438,6 +440,8 @@
 		3FBF051727784D69007D8A39 /* CommonAncestorBT.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CommonAncestorBT.swift; sourceTree = "<group>"; };
 		3FBF051927788B88007D8A39 /* 二叉树的最近公共祖先.gif */ = {isa = PBXFileReference; lastKnownFileType = image.gif; path = "二叉树的最近公共祖先.gif"; sourceTree = "<group>"; };
 		3FBF051B27788B97007D8A39 /* README.md */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
+		3FBFA74A27CDFB0C00EF4977 /* README.md */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
+		3FBFA74C27CDFB2B00EF4977 /* ReverseKNodes.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ReverseKNodes.swift; sourceTree = "<group>"; };
 		3FC0D292276F3F4900407ABB /* GenerateParentheses.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GenerateParentheses.swift; sourceTree = "<group>"; };
 		3FC0D294276F3F5000407ABB /* README.md */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
 		3FC5FF1D27C314FC00822C88 /* LRU.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LRU.swift; sourceTree = "<group>"; };
@@ -1152,6 +1156,7 @@
 				3FEF9D1D27883E710015BBAA /* 0020.Valid-Parentheses */,
 				3F1E1BB7274F825000E0A7A9 /* 0021.MergeTwoSortedLists */,
 				3F1E1BE027526D2A00E0A7A9 /* 0024.SwapNodesinPairs */,
+				3FBFA74927CDFAFA00EF4977 /* 0025.★Reverse-Nodes-in-k-Group */,
 				3F1731AC278FD374005C2B27 /* 0026.Remove-Duplicates-from-Sorted-Array */,
 				3FBA5D9827BB807D00F5E548 /* 0027.Remove-Element */,
 				3FB715A72757C64C005A4176 /* 0035.SearchInsertPosition */,
@@ -1381,6 +1386,15 @@
 				3FBF051B27788B97007D8A39 /* README.md */,
 			);
 			path = "0236.★Lowest-Common-Ancestor-of-a-Binary-Tree";
+			sourceTree = "<group>";
+		};
+		3FBFA74927CDFAFA00EF4977 /* 0025.★Reverse-Nodes-in-k-Group */ = {
+			isa = PBXGroup;
+			children = (
+				3FBFA74C27CDFB2B00EF4977 /* ReverseKNodes.swift */,
+				3FBFA74A27CDFB0C00EF4977 /* README.md */,
+			);
+			path = "0025.★Reverse-Nodes-in-k-Group";
 			sourceTree = "<group>";
 		};
 		3FC0D291276F3F2B00407ABB /* 0022.↓GenerateParentheses */ = {
@@ -1816,6 +1830,7 @@
 				3F1E76D127679176008B63A4 /* README.md in Resources */,
 				3FDCF4D0274CE8EE004FCFB6 /* README.md in Resources */,
 				3F3BD1DE275A19DA00FBE743 /* README.md in Resources */,
+				3FBFA74B27CDFB0C00EF4977 /* README.md in Resources */,
 				3FC8CA6727C68103004DBD8E /* README.md in Resources */,
 				3FBA3697269C1E7D0082BED9 /* README.md in Resources */,
 				3F3C8E2126EE4B9600E419C2 /* README.md in Resources */,
@@ -1986,6 +2001,7 @@
 				3F1E76CF2767916C008B63A4 /* Permutations.swift in Sources */,
 				3F413992269DE66E0094800A /* RepeatNumber.swift in Sources */,
 				3F948B71275E601D00DE9132 /* PermutationinString.swift in Sources */,
+				3FBFA74D27CDFB2B00EF4977 /* ReverseKNodes.swift in Sources */,
 				3FE9A0AF275BB4BC0069668D /* ReverseWordsinStringIII.swift in Sources */,
 				3FBA3699269C1EF80082BED9 /* TwoSum.swift in Sources */,
 				3F411FB12786D81700B72F8E /* PerfectSquares.swift in Sources */,
