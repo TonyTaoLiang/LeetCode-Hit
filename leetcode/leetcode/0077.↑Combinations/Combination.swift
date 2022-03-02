@@ -50,3 +50,35 @@ class Combination{
     }
 
 }
+
+class CombinationII {
+
+    func combine(_ n: Int, _ k: Int) -> [[Int]] {
+
+        var res: [[Int]] = [[Int]]()
+        var temp: [Int] = [Int]()
+        reverseCombine(&res, &temp, 1, k, n)
+        return res
+    }
+
+    func reverseCombine(_ res: inout [[Int]], _ temp: inout [Int], _ deep: Int, _ k: Int, _ n: Int) {
+
+        if temp.count == k {
+            res.append(temp)
+            return
+        }
+
+        //每次从集合中选取元素，可选择的范围随着选择的进行而收缩，调整可选择的范围。就靠deep来记录下一层的起始位置
+        //选择下界：每一层都从之前选的元素后面一个开始选（deep = i + 1）
+
+        //减枝：如果for循环选择的起始位置之后的元素个数 已经不足 我们需要的元素个数了，那么就没有必要搜索了。
+        //选择上界：搜索起点的上界（集合n中至多要从该起始位置） + 接下来要选择的元素个数 - 1 = n ；接下来要选择的元素个数 = k - path.size()
+        for i in deep..<n-(k-temp.count)+1 {
+
+            temp.append(i)
+            reverseCombine(&res, &temp, i+1, k, n)
+            temp.removeLast()
+        }
+    }
+
+}
