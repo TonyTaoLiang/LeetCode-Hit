@@ -73,7 +73,7 @@ class CombinationII {
 
         //减枝：如果for循环选择的起始位置之后的元素个数 已经不足 我们需要的元素个数了，那么就没有必要搜索了。
         //选择上界：搜索起点的上界（集合n中至多要从该起始位置） + 接下来要选择的元素个数 - 1 = n ；接下来要选择的元素个数 = k - path.size()
-        for i in deep..<n-(k-temp.count)+1 {
+        for i in deep...n-(k-temp.count)+1 {
 
             temp.append(i)
             reverseCombine(&res, &temp, i+1, k, n)

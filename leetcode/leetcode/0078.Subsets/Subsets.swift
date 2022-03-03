@@ -47,3 +47,38 @@ class Subsets {
 
     }
 }
+
+class SubsetsII {
+
+    //跟77题：组合可以说是一样了 使用回溯
+    func subsets(_ nums: [Int]) -> [[Int]] {
+
+        var res: [[Int]] = [[Int]]()
+        var temp = [Int]()
+
+        for i in 0...nums.count {
+
+            deepSearch(&res, &temp, 0, i, nums)
+
+        }
+        print("子集\(res)")
+        return res
+    }
+
+    func deepSearch(_ res: inout [[Int]], _ temp: inout [Int], _ start: Int, _ k: Int, _ nums: [Int]) {
+
+        if temp.count == k {
+            res.append(temp)
+            return
+        }
+
+        for i in start...nums.count-(k - temp.count) {
+
+            temp.append(nums[i])
+            deepSearch(&res, &temp, i+1, k, nums)
+            temp.removeLast()
+        }
+
+    }
+
+}

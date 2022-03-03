@@ -307,7 +307,8 @@ class leetcodeTests: XCTestCase {
 
         let sub = Subsets()
         sub.subsets([1,2,3])
-
+        let sub2 = SubsetsII()
+        sub2.subsets([1,2,3])
     }
 
     func testKth() {
