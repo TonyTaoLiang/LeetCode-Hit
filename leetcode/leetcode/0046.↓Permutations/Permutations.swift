@@ -62,3 +62,38 @@ class Permutations{
     }
 
 }
+
+class PermutationII {
+
+    func permute(_ nums: [Int]) -> [[Int]] {
+
+        var res = [[Int]]()
+        var temp = [Int]()
+        var used: [Bool] = Array(repeating: false, count: nums.count)
+        dfs(nums, &res, &temp, &used, 0)
+
+        return res
+
+    }
+
+    private func dfs(_ nums: [Int], _ res: inout [[Int]], _ temp: inout [Int], _ used: inout [Bool], _ deep: Int){
+
+        if temp.count == nums.count {
+            res.append(temp)
+            return
+        }
+
+        for i in 0..<nums.count {
+
+            if !used[i] {
+                used[i] = true
+                temp.append(nums[i])
+                dfs(nums, &res, &temp, &used, deep+1)
+                temp.removeLast()
+                used[i] = false
+            }
+
+        }
+
+    }
+}
