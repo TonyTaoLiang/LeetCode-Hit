@@ -177,6 +177,8 @@
 		3FBBD1642769C904005AC22C /* README.md in Resources */ = {isa = PBXBuildFile; fileRef = 3FBBD1632769C904005AC22C /* README.md */; };
 		3FBBD1672769D1B7005AC22C /* HouseRobber.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3FBBD1662769D1B7005AC22C /* HouseRobber.swift */; };
 		3FBBD1692769D1BE005AC22C /* README.md in Resources */ = {isa = PBXBuildFile; fileRef = 3FBBD1682769D1BD005AC22C /* README.md */; };
+		3FBD207227D3B69F0017FD66 /* README.md in Resources */ = {isa = PBXBuildFile; fileRef = 3FBD207127D3B69F0017FD66 /* README.md */; };
+		3FBD207427D3B6B50017FD66 /* SlidingWindowMaximum.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3FBD207327D3B6B50017FD66 /* SlidingWindowMaximum.swift */; };
 		3FBF051827784D69007D8A39 /* CommonAncestorBT.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3FBF051727784D69007D8A39 /* CommonAncestorBT.swift */; };
 		3FBF051A27788B88007D8A39 /* 二叉树的最近公共祖先.gif in Resources */ = {isa = PBXBuildFile; fileRef = 3FBF051927788B88007D8A39 /* 二叉树的最近公共祖先.gif */; };
 		3FBF051C27788B97007D8A39 /* README.md in Resources */ = {isa = PBXBuildFile; fileRef = 3FBF051B27788B97007D8A39 /* README.md */; };
@@ -437,6 +439,8 @@
 		3FBBD1632769C904005AC22C /* README.md */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
 		3FBBD1662769D1B7005AC22C /* HouseRobber.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HouseRobber.swift; sourceTree = "<group>"; };
 		3FBBD1682769D1BD005AC22C /* README.md */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
+		3FBD207127D3B69F0017FD66 /* README.md */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
+		3FBD207327D3B6B50017FD66 /* SlidingWindowMaximum.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SlidingWindowMaximum.swift; sourceTree = "<group>"; };
 		3FBF051727784D69007D8A39 /* CommonAncestorBT.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CommonAncestorBT.swift; sourceTree = "<group>"; };
 		3FBF051927788B88007D8A39 /* 二叉树的最近公共祖先.gif */ = {isa = PBXFileReference; lastKnownFileType = image.gif; path = "二叉树的最近公共祖先.gif"; sourceTree = "<group>"; };
 		3FBF051B27788B97007D8A39 /* README.md */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
@@ -1212,6 +1216,7 @@
 				3F413997269DF4150094800A /* 0226.翻转二叉树 */,
 				3F9DCAC52774555900198943 /* 0230.KthSmallestElementinBST */,
 				3FBA767C278BE3C300D6BDC5 /* 0237.Delete-Node-in-a-Linked-List */,
+				3FBD207027D3B6870017FD66 /* 0239.Sliding-Window-Maximum */,
 				3FD222DB279BB057003BB59A /* 0242.Valid-Anagram */,
 				3FB715A227576ECB005A4176 /* 0278.FirstBadVersion */,
 				3F3BD1D6275A07E800FBE743 /* 0283.Move-Zeroes */,
@@ -1376,6 +1381,15 @@
 				3FBBD1682769D1BD005AC22C /* README.md */,
 			);
 			path = "0198.House-Robber";
+			sourceTree = "<group>";
+		};
+		3FBD207027D3B6870017FD66 /* 0239.Sliding-Window-Maximum */ = {
+			isa = PBXGroup;
+			children = (
+				3FBD207327D3B6B50017FD66 /* SlidingWindowMaximum.swift */,
+				3FBD207127D3B69F0017FD66 /* README.md */,
+			);
+			path = "0239.Sliding-Window-Maximum";
 			sourceTree = "<group>";
 		};
 		3FBF051627784D0B007D8A39 /* 0236.★Lowest-Common-Ancestor-of-a-Binary-Tree */ = {
@@ -1801,6 +1815,7 @@
 				3F39CC2C276DD67900C9C071 /* README.md in Resources */,
 				3FB23AD927ACD955001C52AD /* README.md in Resources */,
 				3F1E1BEE2753496900E0A7A9 /* README.md in Resources */,
+				3FBD207227D3B69F0017FD66 /* README.md in Resources */,
 				3FE9A0AC275BB39B0069668D /* README.md in Resources */,
 				3F0B07D9277995270030F216 /* README.md in Resources */,
 				3F35A4AA27CC725700D402B3 /* README.md in Resources */,
@@ -1931,6 +1946,7 @@
 				3FD8A93A2773147600B221F7 /* Hanota.swift in Sources */,
 				3FBA3686269C1E270082BED9 /* ViewController.swift in Sources */,
 				3FB01F5027A4360A00704B3C /* LongestCommonPrefix.swift in Sources */,
+				3FBD207427D3B6B50017FD66 /* SlidingWindowMaximum.swift in Sources */,
 				3FB655BF2797EAAF00BABD91 /* ReverseBits.swift in Sources */,
 				3FBB399C276AD81F00C579B2 /* Triangle.swift in Sources */,
 				3FC5FF1E27C314FC00822C88 /* LRU.swift in Sources */,
