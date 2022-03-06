@@ -330,4 +330,11 @@ class leetcodeTests: XCTestCase {
         du.findDuplicate([1,3,4,2,2])
         
     }
+
+    func testSlidingWindow(){
+
+        let slider = SlidingWindowMaximum()
+        slider.tttt()
+
+    }
 }
