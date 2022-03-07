@@ -46,3 +46,31 @@ class SlidingWindowMaximum {
     }
 }
 
+class SlidingWindowMaximumII {
+
+    func maxSlidingWindow(_ nums: [Int], _ k: Int) -> [Int] {
+
+        var maxIdx = [Int]()
+        var res = [Int]()
+
+        for i in 0..<nums.count {
+
+            while maxIdx.count > 0 && nums[maxIdx.last!] <= nums[i] {
+                maxIdx.removeLast()
+            }
+
+            maxIdx.append(i)
+
+            if i >= k - 1 {
+
+                if maxIdx.first! == i - k {
+                    maxIdx.removeFirst()
+                }
+
+                res.append(nums[maxIdx.first!])
+            }
+        }
+        return res
+    }
+
+}
