@@ -189,3 +189,96 @@ class LRUCache{
         first.next = node
     }
 }
+
+//三周目
+
+class NodeThird {
+
+    var key: Int?
+    var value: Int?
+    var pre: NodeThird?
+    var next: NodeThird?
+
+    init(_ key: Int?, _ value: Int?) {
+
+        self.key = key
+        self.value = value
+
+    }
+
+    init() {}
+}
+
+
+class LRUThird {
+
+    var map: [Int : NodeThird]
+    var capacity = 0
+    var first: NodeThird = NodeThird()
+    var last: NodeThird = NodeThird()
+
+    init(_ capacity: Int) {
+
+        self.capacity = capacity
+        map = Dictionary(minimumCapacity: capacity)
+        first.next = last
+        last.pre = first
+
+    }
+
+    func get(_ key: Int) -> Int {
+
+        guard let node = map[key] else {
+            return -1
+        }
+
+        removeNode(node)
+        insertNodeAtFirst(node)
+
+        return node.value!
+    }
+
+    func put(_ key: Int, _ value: Int) {
+
+        guard let node = map[key] else {
+
+            if self.capacity == map.capacity {
+
+                if let lastNode = self.last.pre {
+
+                    map.removeValue(forKey: lastNode.key!)
+                    removeNode(lastNode)
+                }
+
+            }
+
+            let newNode = NodeThird(key, value)
+            map[key] = newNode
+            insertNodeAtFirst(newNode)
+            
+            return
+        }
+
+        node.value = value
+        removeNode(node)
+        insertNodeAtFirst(node)
+
+    }
+
+    func removeNode(_ node: NodeThird) {
+
+        node.pre?.next = node.next
+        node.next?.pre = node.pre
+
+    }
+
+    func insertNodeAtFirst(_ node: NodeThird) {
+
+        node.next = first.next
+        first.next?.pre = node
+
+        first.next = node
+        node.pre = first
+
+    }
+}
