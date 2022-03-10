@@ -203,22 +203,80 @@ class RottingOranges{
     }
 
 }
-//
-//[[2,0,1,1,1,1,1,1,1,1],
-// [1,0,1,0,0,0,0,0,0,1],
-// [1,0,1,0,1,1,1,1,0,1],
-// [1,0,1,0,1,0,0,1,0,1],
-// [1,0,1,0,1,0,0,1,0,1],
-// [1,0,1,0,1,1,0,1,0,1],
-// [1,0,1,0,0,0,0,1,0,1],
-// [1,0,1,1,1,1,1,1,0,1],
-// [1,0,0,0,0,0,0,0,0,1],
-// [1,1,1,1,1,1,1,1,1,1]]
-//
 
 //腐烂的橘子二周目
 class RottingOrangesII {
 
-    
+    func orangesRotting(_ grid: [[Int]]) -> Int {
+//0 空 1新鲜 2腐烂
+
+        var grids = grid
+
+        var fresh = 0
+
+        var queue = QueueArray<(Int,Int)>()
+
+        for i in 0..<grid.count {
+
+            for j in 0..<grid[i].count {
+
+                if grid[i][j] == 1 {
+                    fresh += 1
+                } else if grid[i][j] == 2{
+                    queue.enqueue((i,j))
+                }
+
+            }
+        }
+
+        var round = 0
+
+        while fresh > 0 && !queue.isEmpty {
+
+            round += 1
+
+            //第一层，所有橘子开始感染，算一分钟。依次类推
+            for _ in 0..<queue.size {
+
+                let location = queue.dequeue()
+                let x = location!.0
+                let y = location!.1
+                //上
+                if x - 1 >= 0 && grids[x-1][y] == 1 {
+
+                    grids[x-1][y] = 2
+                    fresh -= 1
+                    queue.enqueue((x-1,y))
+                }
+                //左
+                if y - 1 >= 0 && grids[x][y-1] == 1 {
+
+                    grids[x][y-1] = 2
+                    fresh -= 1
+                    queue.enqueue((x,y-1))
+                }
+                //下
+                if x + 1 < grids.count && grids[x+1][y] == 1 {
+
+                    grids[x+1][y] = 2
+                    fresh -= 1
+                    queue.enqueue((x+1,y))
+                }
+                //右
+                if y + 1 < grids[0].count && grids[x][y+1] == 1 {
+
+                    grids[x][y+1] = 2
+                    fresh -= 1
+                    queue.enqueue((x,y+1))
+                }
+
+
+            }
+
+
+        }
+
+        return fresh == 0 ? round : -1
+    }
 
 }
