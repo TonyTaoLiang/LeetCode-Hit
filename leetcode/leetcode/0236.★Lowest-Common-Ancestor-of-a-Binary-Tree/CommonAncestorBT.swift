@@ -186,4 +186,26 @@ class CommonAncestorBT {
 
         return root
     }
+
+    //二周目:要么向上传递null，要么传递p， 或 q。 如果左右为 p q，传递自己。
+    func lowestCommonAncestorII(_ root: TreeNode?, _ p: TreeNode?, _ q: TreeNode?) -> TreeNode? {
+
+
+        if root == nil || root?.val == p?.val || root?.val == q?.val{
+            return root
+        }
+
+        let left = lowestCommonAncestor(root?.left, p, q)
+        let right = lowestCommonAncestor(root?.right, p, q)
+
+        if left == nil {
+            return right
+        }
+
+        if right == nil {
+            return left
+        }
+
+        return root
+    }
 }
