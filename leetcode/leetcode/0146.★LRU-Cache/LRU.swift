@@ -282,3 +282,90 @@ class LRUThird {
 
     }
 }
+
+class LRUNodeFour {
+
+    var key: Int?
+    var value: Int?
+    var pre: LRUNodeFour?
+    var next: LRUNodeFour?
+
+    init(_ key: Int?, _ value: Int?) {
+        self.key = key
+        self.value = value
+    }
+
+    init() {
+    }
+}
+
+class LRUFour {
+
+    var capacity: Int = 0
+    var first: LRUNodeFour?
+    var last: LRUNodeFour?
+    var hashMap: [Int:LRUNodeFour] = [Int:LRUNodeFour]()
+
+    init(_ capacity: Int) {
+        self.capacity = capacity
+        self.first = LRUNodeFour()
+        self.last = LRUNodeFour()
+        first?.next = last
+        last?.pre = first
+    }
+
+    func get(_ key: Int) -> Int {
+
+        guard let node = hashMap[key] else { return -1 }
+
+        removeNode(node)
+        insertAtOne(node)
+
+        return node.value!
+    }
+
+
+    func put(_ key: Int, _ value: Int) {
+
+
+        guard let node = hashMap[key] else {
+
+            if hashMap.count == capacity {
+
+                let last = last!.pre!
+
+                hashMap.removeValue(forKey: last.key!)
+
+                removeNode(last)
+
+            }
+
+            let node = LRUNodeFour(key, value)
+            hashMap[key] = node
+            insertAtOne(node)
+
+            return
+
+        }
+
+        node.value = value
+        removeNode(node)
+        insertAtOne(node)
+
+    }
+
+    func removeNode(_ node: LRUNodeFour){
+
+        node.pre?.next = node.next
+        node.next?.pre = node.pre
+
+    }
+
+    func insertAtOne(_ node: LRUNodeFour) {
+        node.next = first?.next
+        first?.next?.pre = node
+
+        first?.next = node
+        node.pre = first
+    }
+}
