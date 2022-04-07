@@ -53,4 +53,40 @@ class TrappingRain {
         return water
     }
 
+
+
+    //二周目
+    func trapII(_ height: [Int]) -> Int {
+
+        if height.count == 0 || height.count == 1 {
+            return 0
+        }
+        
+        var rain = 0
+
+        var leftHeight: [Int] = [Int]()
+
+        for i in 1..<height.count-1 {
+            leftHeight[i] = max(leftHeight[i-1], height[i-1])
+        }
+
+        var rightHeight: [Int] = [Int]()
+
+        for i in (1..<height.count-1).reversed() {
+            rightHeight[i] = max(rightHeight[i+1], height[i+1])
+        }
+
+        for i in 1..<height.count-1 {
+
+            let min = min(leftHeight[i], rightHeight[i])
+
+            if min <= height[i] {
+                continue
+            }
+
+            rain += min - height[i]
+        }
+
+        return rain
+    }
 }
