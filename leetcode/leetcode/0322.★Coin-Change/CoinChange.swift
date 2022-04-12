@@ -113,4 +113,77 @@ class CoinChange {
         }
 
     }
+
+
+    //二周目
+    func coinChangeII(_ coins: [Int], _ amount: Int) -> Int {
+
+        if amount == 0 {
+            return 0
+        }
+
+        var dp = Array(repeating: Int.max, count: amount+1)
+
+        //DP是顺着amount来，递归正相反
+        for i in 1...amount {
+
+            for j in 0..<coins.count {
+
+                if i - coins[j] >= 0 {
+                    //当前这一行的状态可以由dp[i - coins[j]]这几种状态转移而来,存入这几种状态中的最小值
+                    dp[i] = min(dp[i], dp[i - coins[j]] + 1)
+                }
+
+            }
+        }
+
+        return dp[amount] == Int.max ? -1 : dp[amount]
+    }
+
+    func coinChangeIISecond(_ coins: [Int], _ amount: Int) -> Int {
+
+        if amount == 0 {
+            return 0
+        }
+        return dfsII(coins, amount)
+    }
+
+    var memos: [Int : Int] = [Int : Int]()
+
+    func dfsII(_ coins: [Int], _ amount: Int) -> Int {
+
+        if amount < 0 {
+            return -1
+        }
+
+        if amount == 0 {
+            return 0
+        }
+
+        if memos[amount] != nil {
+            return memos[amount]!
+        }
+
+        var mins = Int.max
+
+        //每次几种选择
+        for i in 0..<coins.count {
+
+            //递归是倒着amount来（f(6)->f(5)...f(4)..），DP正相反
+            //不能取min，不然如果有一种选择是-1，所有选择都是-1.
+            //                mins = min(mins,dfsII(coins, amount - coins[i]))
+            let res = dfsII(coins, amount - coins[i])
+            //取选择中较小的一个
+            if res >= 0 &&  res < mins{
+                mins = res + 1
+            }
+
+
+        }
+
+        memos[amount] = mins == Int.max ? -1 : mins
+
+        return memos[amount]!
+    }
+
 }

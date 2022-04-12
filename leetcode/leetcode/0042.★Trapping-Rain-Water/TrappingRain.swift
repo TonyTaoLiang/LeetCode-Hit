@@ -61,7 +61,7 @@ class TrappingRain {
         if height.count == 0 || height.count == 1 {
             return 0
         }
-        
+
         var rain = 0
 
         var leftHeight: [Int] = [Int]()
