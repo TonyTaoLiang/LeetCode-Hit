@@ -369,3 +369,85 @@ class LRUFour {
         node.pre = first
     }
 }
+
+class LRUNode {
+
+    var key: Int?
+    var value: Int?
+    var pre: LRUNode?
+    var next: LRUNode?
+
+    init(_ key: Int?, _ value: Int?) {
+        self.key = key
+        self.value = value
+    }
+
+    init() {
+
+    }
+}
+
+class LRUCaches {
+
+    var first: LRUNode?
+    var last: LRUNode?
+    var map: [Int:LRUNode] = [Int:LRUNode]()
+    var capacity = 0
+
+    init(_ capacity: Int) {
+        self.capacity = capacity
+        first = LRUNode()
+        last = LRUNode()
+        first?.next = last
+        last?.pre = first
+    }
+
+    func get(_ key: Int) -> Int {
+
+        guard let node = map[key] else { return -1 }
+        removeNode(node)
+        insertNode(node)
+        return node.value!
+    }
+
+    func put(_ key: Int, _ value: Int) {
+
+        guard let node = map[key] else {
+
+            if map.count == capacity {
+
+                let lastNode = last!.pre!
+
+                map.removeValue(forKey: lastNode.key!)
+
+                removeNode(lastNode)
+
+            }
+
+            let newNode = LRUNode(key, value)
+            map[key] = newNode
+            insertNode(newNode)
+
+            return
+
+        }
+
+        node.value = value
+        removeNode(node)
+        insertNode(node)
+
+    }
+
+    func removeNode(_ node: LRUNode) {
+        node.next?.pre = node.pre
+        node.pre?.next = node.next
+    }
+
+    func insertNode(_ node: LRUNode) {
+        first?.next?.pre = node
+        node.next = first?.next
+
+        first?.next = node
+        node.pre = first
+    }
+}

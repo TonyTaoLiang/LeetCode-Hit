@@ -187,3 +187,68 @@ class CoinChange {
     }
 
 }
+
+//三周目
+class CoinChangeII {
+
+    func coinChange(_ coins: [Int], _ amount: Int) -> Int {
+
+        var dp = Array(repeating: Int.max-1, count: amount+1)
+
+        dp[0] = 0
+
+        for i in 1...amount {
+
+            for j in 0..<coins.count {
+
+                if i - coins[j] >= 0 {
+
+                    dp[i] = min(dp[i], dp[i - coins[j]] + 1)
+                }
+
+            }
+        }
+
+        return dp[amount] == Int.max ? -1 : dp[amount]
+    }
+
+
+    func coinChangeII(_ coins: [Int], _ amount: Int) -> Int {
+
+
+        return dfs(coins, amount)
+    }
+
+    var memo: [Int : Int] = [Int : Int]()
+
+    func dfs(_ coins: [Int], _ amount: Int) -> Int {
+
+        if amount < 0 {
+            return -1
+        }
+
+        if amount == 0 {
+            return 0
+        }
+
+        if memo[amount] != nil {
+            return memo[amount]!
+        }
+
+        var min = Int.max
+
+        for i in 0..<coins.count {
+
+            let res = dfs(coins, amount - coins[i])
+            if res > 0 && res < min {
+                min = res + 1
+            }
+
+        }
+
+        memo[amount] = min == Int.max ? -1 : min
+
+        return memo[amount]!
+
+    }
+}
