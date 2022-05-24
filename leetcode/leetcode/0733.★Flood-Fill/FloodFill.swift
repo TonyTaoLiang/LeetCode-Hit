@@ -77,4 +77,31 @@ class FloodFill{
         recurseFill(&image, sr, sc + 1, newColor, oldColor)
 
     }
+
+
+    func floodFill3(_ image: [[Int]], _ sr: Int, _ sc: Int, _ newColor: Int) -> [[Int]] {
+
+        var res = image
+
+        dfs3(&res, sr, sc, newColor, image[sr][sc])
+
+        return res
+
+    }
+
+    func dfs3(_ image: inout [[Int]], _ sr: Int, _ sc: Int, _ newColor: Int, _ oldColor: Int) {
+
+        if sr < 0 || sr > image.count - 1 || sc < 0 || sc > image[0].count - 1 || image[sr][sc] != oldColor {
+            return;
+        }
+
+        if image[sr][sc] == oldColor {
+            image[sr][sc] = newColor
+        }
+
+        dfs3(&image, sr - 1, sc, newColor, oldColor)
+        dfs3(&image, sr + 1, sc, newColor, oldColor)
+        dfs3(&image, sr, sc - 1, newColor, oldColor)
+        dfs3(&image, sr, sc + 1, newColor, oldColor)
+    }
 }
