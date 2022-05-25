@@ -88,4 +88,36 @@ class PermutationinString {
 
         return false
     }
+
+    //OnceMore 滑动窗口 计算每个字符出现的次数个数是否一样
+    func checkInclusion3(_ s1: String, _ s2: String) -> Bool {
+
+        var array1 = Array(repeating: 0, count: 26)
+        var array2 = Array(repeating: 0, count: 26)
+
+        let num1 = Array(s1)
+        let num2 = Array(s2)
+        let a: Character = "a"
+
+        for i in 0..<num1.count {
+
+            array1[Int(num1[i].asciiValue!) - Int(a.asciiValue!)] += 1
+            array2[Int(num2[i].asciiValue!) - Int(a.asciiValue!)] += 1
+        }
+
+        if array1.elementsEqual(array2) {
+            return true
+        }
+
+        for i in num1.count..<num2.count {
+
+            array2[Int(num2[i].asciiValue!) - Int(a.asciiValue!)] += 1
+            array2[Int(num2[i-num1.count].asciiValue!) - Int(a.asciiValue!)] -= 1
+            if array1.elementsEqual(array2) {
+                return true
+            }
+        }
+
+        return false
+    }
 }
