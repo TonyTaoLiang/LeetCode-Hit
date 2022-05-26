@@ -60,4 +60,59 @@ class Matrix{
 
     }
 
+    //BFS：跟腐烂橘子一样的做法。但是时间复杂度非常高。还啊是DP好一点
+    func updateMatrix2(_ mat: [[Int]]) -> [[Int]] {
+
+        var res = mat
+        var round = 0
+        var queue = QueueArray<(Int,Int)>()
+
+        for i in 0..<mat.count {
+
+            for j in 0..<mat[i].count {
+
+                if mat[i][j] == 0 {
+                    queue.enqueue((i,j))
+                }else if (mat[i][j] == 1){
+                    //将1设置为-1，避免重复计算
+                    res[i][j] = -1
+                }
+
+            }
+        }
+
+        while !queue.isEmpty {
+
+            round += 1
+
+            for _ in 0..<queue.size {
+
+                let loc = queue.dequeue()!
+
+                if loc.0 - 1 >= 0 && res[loc.0 - 1][loc.1] == -1 {
+                    res[loc.0 - 1][loc.1] = round
+                    queue.enqueue((loc.0-1,loc.1))
+                }
+
+                if loc.0 + 1 < res.count && res[loc.0 + 1][loc.1] == -1 {
+                    res[loc.0 + 1][loc.1] = round
+                    queue.enqueue((loc.0+1,loc.1))
+                }
+
+                if loc.1 - 1 >= 0 && res[loc.0][loc.1 - 1] == -1 {
+                    res[loc.0][loc.1-1] = round
+                    queue.enqueue((loc.0,loc.1-1))
+                }
+
+                if loc.1 + 1 < res[0].count && res[loc.0][loc.1 + 1] == -1 {
+                    res[loc.0][loc.1+1] = round
+                    queue.enqueue((loc.0,loc.1+1))
+                }
+
+            }
+
+        }
+
+        return res
+    }
 }
