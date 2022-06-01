@@ -36,4 +36,32 @@ class RotateArray{
         }
 
     }
+
+
+    func rotate2(_ nums: inout [Int], _ k: Int) {
+
+        let move = k % nums.count
+        _rotate(&nums, 0, nums.count - 1)
+        _rotate(&nums, 0, move - 1)
+        _rotate(&nums, move, nums.count - 1)
+    }
+
+    func _rotate(_ nums: inout [Int], _ start: Int, _ end: Int) {
+
+        var start = start
+        var end = end
+
+        while start < end {
+
+            let temp = nums[start]
+            nums[start] = nums[end]
+            nums[end] = temp
+            start += 1
+            end -= 1
+
+        }
+
+    }
+
+
 }
