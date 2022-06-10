@@ -27,4 +27,25 @@ class TwoSum {
 
         fatalError("No match num")
     }
+
+
+    func twoSum2(_ nums: [Int], _ target: Int) -> [Int] {
+
+        var dict: [Int : Int] = [Int : Int]()
+
+
+        for i in 0..<nums.count {
+
+            if (dict[target - nums[i]] != nil) {
+
+                return [i,dict[target - nums[i]]!]
+
+            }
+
+            dict[nums[i]] = i
+        }
+
+        fatalError("No match num")
+
+    }
 }

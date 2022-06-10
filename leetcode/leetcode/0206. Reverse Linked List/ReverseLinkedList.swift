@@ -25,4 +25,24 @@ class Solution {
 
         return behind
     }
+
+    func reverseList2(_ head: ListNode?) -> ListNode? {
+
+
+        var behind: ListNode?
+        var head = head
+        var fast = head
+
+        while fast != nil {
+
+            fast = fast?.next
+            head?.next = behind
+            behind = head
+            head = fast
+
+        }
+
+        return head
+    }
+
 }
